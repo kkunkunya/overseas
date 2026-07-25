@@ -1,0 +1,1175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>出海 MVP 路线图｜从选方向到第一笔美元</title>
+  <style>
+    :root {
+      --ink: #17211b;
+      --muted: #66736b;
+      --paper: #f4f0e7;
+      --card: #fffdf8;
+      --line: #d9d3c6;
+      --green: #1f6b4f;
+      --green-soft: #dceadf;
+      --yellow: #d99616;
+      --yellow-soft: #fff0c7;
+      --red: #a84836;
+      --red-soft: #f6ddd7;
+      --blue: #315f78;
+      --blue-soft: #dfeaf0;
+      --shadow: 0 18px 50px rgba(39, 47, 41, .10);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 7% 4%, rgba(255,255,255,.9), transparent 25rem),
+        linear-gradient(180deg, #eee8dc 0, var(--paper) 35rem);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+
+    .shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(100, 105, 96, .15);
+      background: rgba(244, 240, 231, .88);
+      backdrop-filter: blur(14px);
+    }
+    .topbar-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 850;
+      letter-spacing: -.02em;
+    }
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      background: var(--green);
+      box-shadow: 0 0 0 6px rgba(31,107,79,.10);
+    }
+    nav { display: flex; gap: 18px; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    nav a:hover { color: var(--ink); }
+
+    .hero {
+      padding: 64px 0 32px;
+      display: grid;
+      grid-template-columns: 1.3fr .7fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+    .hero-main, .hero-side, .panel {
+      border: 1px solid rgba(106, 104, 93, .17);
+      background: rgba(255, 253, 248, .84);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+    }
+    .hero-main { padding: clamp(28px, 5vw, 56px); }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: var(--green);
+      background: var(--green-soft);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .03em;
+    }
+    h1 {
+      margin: 20px 0 16px;
+      max-width: 780px;
+      font-family: ui-serif, "Songti SC", "STSong", serif;
+      font-size: clamp(40px, 7vw, 76px);
+      line-height: 1.03;
+      letter-spacing: -.055em;
+    }
+    .hero-lead {
+      max-width: 760px;
+      color: #455149;
+      font-size: clamp(17px, 2vw, 21px);
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+    .btn {
+      min-height: 46px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-decoration: none;
+      font-weight: 800;
+      background: var(--card);
+      color: var(--ink);
+    }
+    .btn.primary { color: white; background: var(--green); border-color: var(--green); }
+    .btn:hover { transform: translateY(-1px); }
+
+    .hero-side {
+      padding: 28px;
+      background: var(--ink);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hero-side small { color: #b9c7bf; font-weight: 800; letter-spacing: .08em; }
+    .hero-side h2 {
+      margin: 10px 0 8px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    .now-path {
+      margin: 24px 0;
+      display: grid;
+      gap: 11px;
+    }
+    .now-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
+      color: #cbd7d0;
+      font-size: 14px;
+    }
+    .now-step .dot {
+      flex: 0 0 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--ink);
+      background: #8eb8a1;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .now-step.current { color: white; font-weight: 800; }
+    .now-step.current .dot {
+      background: #ffd169;
+      box-shadow: 0 0 0 5px rgba(255,209,105,.12);
+    }
+    .snapshot {
+      border-top: 1px solid rgba(255,255,255,.15);
+      padding-top: 18px;
+      font-size: 13px;
+      color: #b9c7bf;
+    }
+
+    .section { padding: 34px 0; }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 20px;
+    }
+    .section-head h2 {
+      margin: 0;
+      font-family: ui-serif, "Songti SC", serif;
+      font-size: clamp(29px, 4vw, 44px);
+      line-height: 1.1;
+      letter-spacing: -.035em;
+    }
+    .section-head p { margin: 7px 0 0; color: var(--muted); }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px; justify-content: end; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 12px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+    .tag.done { background: var(--green-soft); color: var(--green); }
+    .tag.now { background: var(--yellow-soft); color: #855600; }
+    .tag.later { background: var(--blue-soft); color: var(--blue); }
+    .tag.stop { background: var(--red-soft); color: var(--red); }
+
+    .macro-map {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+    }
+    .macro-step {
+      position: relative;
+      min-height: 210px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+    }
+    .macro-step::after {
+      content: "→";
+      position: absolute;
+      right: -15px;
+      top: 44%;
+      z-index: 2;
+      width: 20px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      color: #9a978d;
+      background: var(--paper);
+      font-weight: 900;
+    }
+    .macro-step:last-child::after { display: none; }
+    .macro-step.active {
+      border: 2px solid var(--yellow);
+      background: #fff9e9;
+      box-shadow: 0 10px 28px rgba(217,150,22,.13);
+    }
+    .macro-no {
+      font-family: ui-serif, Georgia, serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: #a9aaa3;
+      line-height: 1;
+    }
+    .macro-step.active .macro-no { color: var(--yellow); }
+    .macro-step h3 { margin: 13px 0 8px; font-size: 19px; }
+    .macro-step p { margin: 0; color: var(--muted); font-size: 13px; }
+    .macro-gate {
+      display: block;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--line);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .current-callout {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 18px;
+    }
+    .panel { padding: 26px; }
+    .panel h3 { margin: 0 0 10px; font-size: 23px; }
+    .panel p { color: var(--muted); }
+    .candidate {
+      border-left: 5px solid var(--yellow);
+      background: linear-gradient(135deg, #fffdf8, #fff4d6);
+    }
+    .candidate-name {
+      margin: 16px 0 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-weight: 900;
+      font-size: clamp(21px, 3vw, 31px);
+      color: #5f430b;
+      word-break: break-word;
+    }
+    .candidate-sub { color: #6f6246; }
+    .next-action {
+      color: white;
+      background: var(--green);
+      border-color: var(--green);
+    }
+    .next-action p { color: #d7e4dc; }
+    .next-action ol { margin: 14px 0 0; padding-left: 20px; }
+
+    .route {
+      position: relative;
+      margin-top: 26px;
+    }
+    .route::before {
+      content: "";
+      position: absolute;
+      left: 31px;
+      top: 20px;
+      bottom: 20px;
+      width: 2px;
+      background: linear-gradient(var(--green), var(--yellow), var(--blue));
+    }
+    .route-card {
+      position: relative;
+      margin: 0 0 18px 76px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+      overflow: hidden;
+    }
+    .route-card::before {
+      content: attr(data-step);
+      position: absolute;
+      left: -60px;
+      top: 22px;
+      width: 34px;
+      height: 34px;
+      border: 5px solid var(--paper);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      background: var(--green);
+      font-weight: 900;
+    }
+    .route-card.current { border: 2px solid var(--yellow); }
+    .route-card.current::before { color: #543b00; background: #ffd169; }
+    .route-card summary {
+      list-style: none;
+      padding: 22px 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+      cursor: pointer;
+    }
+    .route-card summary::-webkit-details-marker { display: none; }
+    .route-title { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+    .route-title h3 { margin: 0; font-size: 22px; }
+    .summary-copy { margin-top: 5px; color: var(--muted); font-size: 14px; }
+    .chevron {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #f0ede5;
+      font-weight: 900;
+      transition: transform .2s ease;
+    }
+    details[open] .chevron { transform: rotate(45deg); }
+    .route-body {
+      padding: 0 24px 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .subcard {
+      padding: 18px;
+      border: 1px solid #e3ded3;
+      border-radius: 14px;
+      background: #fbf9f3;
+    }
+    .subcard h4 { margin: 0 0 9px; font-size: 15px; }
+    .subcard ul { margin: 0; padding-left: 20px; color: #48534c; }
+    .gate {
+      border-color: #b7cfbe;
+      background: #edf5ef;
+    }
+    .gate h4 { color: var(--green); }
+    .failure {
+      border-color: #e5c2b9;
+      background: #fbefec;
+    }
+    .failure h4 { color: var(--red); }
+    .source-links {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .source-links a {
+      padding: 6px 9px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: #4d5a52;
+      background: white;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .source-links a:hover { border-color: var(--green); color: var(--green); }
+
+    .checklist-wrap {
+      display: grid;
+      grid-template-columns: .72fr 1.28fr;
+      gap: 18px;
+    }
+    .progress-panel {
+      position: sticky;
+      top: 86px;
+      height: fit-content;
+    }
+    .progress-ring {
+      --progress: 0deg;
+      width: 150px;
+      height: 150px;
+      margin: 18px auto;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: conic-gradient(var(--green) var(--progress), #e3dfd5 0);
+    }
+    .progress-ring::before {
+      content: "";
+      width: 116px;
+      height: 116px;
+      border-radius: 50%;
+      background: var(--card);
+    }
+    .progress-number {
+      position: absolute;
+      text-align: center;
+      font-weight: 900;
+      font-size: 29px;
+    }
+    .progress-number small {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .08em;
+    }
+    .checklist {
+      display: grid;
+      gap: 10px;
+    }
+    .task {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: start;
+      gap: 12px;
+      padding: 15px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: var(--card);
+    }
+    .task input {
+      width: 20px;
+      height: 20px;
+      margin-top: 2px;
+      accent-color: var(--green);
+    }
+    .task label { cursor: pointer; }
+    .task strong { display: block; line-height: 1.35; }
+    .task span { color: var(--muted); font-size: 13px; }
+    .task:has(input:checked) { opacity: .62; background: #eef3ee; }
+    .task:has(input:checked) strong { text-decoration: line-through; }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .decision {
+      min-height: 230px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+    }
+    .decision.go { border-top: 6px solid var(--green); }
+    .decision.iterate { border-top: 6px solid var(--yellow); }
+    .decision.stop { border-top: 6px solid var(--red); }
+    .decision h3 { margin: 0 0 10px; }
+    .decision ul { margin: 0; padding-left: 20px; color: var(--muted); }
+
+    .warning-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .warning {
+      padding: 20px;
+      border: 1px solid #e5c2b9;
+      border-radius: 16px;
+      background: var(--red-soft);
+    }
+    .warning strong { color: var(--red); }
+
+    .sources {
+      columns: 2;
+      column-gap: 28px;
+    }
+    .source-group {
+      break-inside: avoid;
+      margin-bottom: 20px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--card);
+    }
+    .source-group h3 { margin: 0 0 9px; }
+    .source-group a {
+      display: block;
+      margin: 7px 0;
+      color: var(--blue);
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .source-group a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 46px;
+      padding: 34px 0 50px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    @media (max-width: 960px) {
+      .hero, .current-callout, .checklist-wrap { grid-template-columns: 1fr; }
+      .macro-map { grid-template-columns: repeat(3, 1fr); }
+      .macro-step:nth-child(3)::after { display: none; }
+      .progress-panel { position: static; }
+    }
+    @media (max-width: 700px) {
+      nav { display: none; }
+      .hero { padding-top: 30px; }
+      .macro-map, .decision-grid, .warning-grid { grid-template-columns: 1fr; }
+      .macro-step::after { display: none; }
+      .route::before { left: 20px; }
+      .route-card { margin-left: 52px; }
+      .route-card::before { left: -49px; width: 30px; height: 30px; }
+      .route-body { grid-template-columns: 1fr; }
+      .sources { columns: 1; }
+      .footer-inner { display: block; }
+      .section-head { display: block; }
+      .legend { margin-top: 12px; justify-content: start; }
+      .task { grid-template-columns: auto 1fr; }
+      .task .tag { grid-column: 2; width: fit-content; }
+    }
+    @media print {
+      .topbar, .hero-actions, #reset-progress { display: none; }
+      body { background: white; }
+      .hero { padding-top: 16px; }
+      .hero-main, .hero-side, .panel, .route-card { box-shadow: none; }
+      details:not([open]) > *:not(summary) { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand"><span class="brand-mark">↗</span> 出海 MVP 路线图</div>
+      <nav aria-label="页面导航">
+        <a href="#map">总地图</a>
+        <a href="#current">你现在</a>
+        <a href="#route">执行路线</a>
+        <a href="#checklist">行动清单</a>
+        <a href="#sources">原文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="shell hero">
+      <div class="hero-main">
+        <span class="eyebrow">赫兹主源 · 从需求到第一笔美元</span>
+        <h1>别急着做产品。<br>先证明有人要。</h1>
+        <p class="hero-lead">
+          这张地图只回答四件事：<strong>你在哪、下一步做什么、做到什么算完成、失败后退回哪里</strong>。
+          核心路径不是“想法 → 堆功能”，而是“人群与痛点 → 搜索与竞品证据 → 卖空气 → 最小 MVP → 合格流量 → 付款 → 数据迭代”。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#current">直接看我现在该做什么</a>
+          <a class="btn" href="#checklist">打开本轮清单</a>
+          <button class="btn" onclick="window.print()">打印 / 存 PDF</button>
+        </div>
+      </div>
+
+      <aside class="hero-side" aria-label="当前位置">
+        <div>
+          <small>CURRENT FRONTIER</small>
+          <h2>方向已初选，正在做最小销售验证</h2>
+          <div class="now-path">
+            <div class="now-step"><span class="dot">✓</span><span>已从词群中收窄一个具体人群与任务</span></div>
+            <div class="now-step"><span class="dot">✓</span><span>已拍板：不再横向继续找更多方向</span></div>
+            <div class="now-step current"><span class="dot">→</span><span>现在：做一页可丢弃 Landing Page，测试真实输入与购买动作</span></div>
+            <div class="now-step"><span class="dot">4</span><span>之后：证据通过才做最小可用计算器</span></div>
+          </div>
+        </div>
+        <div class="snapshot">
+          进度快照：2026-07-22<br>
+          当前不是“完整产品开发”，而是“go to validation”。
+        </div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="map">
+      <div class="section-head">
+        <div>
+          <h2>全局 6 步地图</h2>
+          <p>每一步必须通过自己的闸门，后面的热度不能抵消前面的失败。</p>
+        </div>
+        <div class="legend">
+          <span class="tag done">已完成一部分</span>
+          <span class="tag now">当前</span>
+          <span class="tag later">以后</span>
+        </div>
+      </div>
+
+      <div class="macro-map">
+        <article class="macro-step active">
+          <div class="macro-no">01</div>
+          <h3>选方向 + 验证</h3>
+          <p>找到具体人群、具体场景、具体痛点，并拿到搜索、行为和商业证据。</p>
+          <span class="macro-gate">闸门：有人愿意行动，而不只是说“不错”</span>
+        </article>
+        <article class="macro-step">
+          <div class="macro-no">02</div>
+          <h3>最小建站</h3>
+          <p>只实现缺口命题的最短链路，尽早部署、埋点、可收款。</p>
+          <span class="macro-gate">闸门：用户能完成首次价值体验</span>
+        </article>
+        <article class="macro-step">
+          <div class="macro-no">03</div>
+          <h3>SEO 获客</h3>
+          <p>匹配搜索意图，先做主工具页，再按真实词扩高价值内页。</p>
+          <span class="macro-gate">闸门：有展示、点击与合格访问</span>
+        </article>
+        <article class="macro-step">
+          <div class="macro-no">04</div>
+          <h3>流量放大</h3>
+          <p>找到可复现渠道：社区、外链、内容、广告或产品自传播。</p>
+          <span class="macro-gate">闸门：渠道可重复，不靠偶然爆帖</span>
+        </article>
+        <article class="macro-step">
+          <div class="macro-no">05</div>
+          <h3>变现支付</h3>
+          <p>把“有用”变成“愿付”，优化 CTA、价格、checkout 与交付。</p>
+          <span class="macro-gate">闸门：真实询价、预付或付款</span>
+        </article>
+        <article class="macro-step">
+          <div class="macro-no">06</div>
+          <h3>复盘增长</h3>
+          <p>看漏斗找最窄瓶颈，提高留存、转化、客单价与复购。</p>
+          <span class="macro-gate">闸门：单位经济可持续，再放大</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="current">
+      <div class="section-head">
+        <div>
+          <h2>你现在的准确位置</h2>
+          <p>不是从零找方向，也不是直接造完整 SaaS，而是跨过“纸面研究”进入真实行为验证。</p>
+        </div>
+      </div>
+      <div class="current-callout">
+        <article class="panel candidate">
+          <span class="tag now">当前主候选</span>
+          <div class="candidate-name">crochet pricing calculator</div>
+          <div class="candidate-sub">首个窄页：<strong>amigurumi pricing calculator</strong></div>
+          <p>
+            核心承接不是泛泛地“帮手工艺人定价”，而是：输入材料、工时、目标时薪和销售渠道费用后，
+            同时看到现金成本、完整成本、建议售价、真实时薪与预计利润。
+          </p>
+          <p><strong>已通过：</strong>人群偏好、搜索意图、初步商业证据、低工程复杂度。</p>
+          <p><strong>仍未知：</strong>合资格卖家是否愿意输入真实项目、点击购买、预付或付款。</p>
+        </article>
+        <article class="panel next-action">
+          <span class="tag done">唯一下一步</span>
+          <h3>先做销售验证页，不做完整计算器</h3>
+          <ol>
+            <li>一句话问题 + 3 个卖点 + 一个真实价格；</li>
+            <li>展示具体输入与结果卡，不做账号和后台；</li>
+            <li>放置真实的购买 / 预订动作并埋点；</li>
+            <li>引入一小股合资格 crochet / amigurumi 卖家；</li>
+            <li>依据行为决定 build / revise / reject。</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="route">
+      <div class="section-head">
+        <div>
+          <h2>从现在到第一笔美元</h2>
+          <p>展开每一关查看：动作、交付物、通过标准和失败回边。</p>
+        </div>
+      </div>
+
+      <div class="route">
+        <details class="route-card" data-step="1">
+          <summary>
+            <div>
+              <div class="route-title"><h3>确定人群、场景和痛点</h3><span class="tag done">本候选已过</span></div>
+              <div class="summary-copy">先定“谁在什么时刻为什么难受”，再谈功能。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>要做什么</h4>
+              <ul>
+                <li>写清：什么人 × 什么场景 × 愿花多少钱 × 解决什么问题。</li>
+                <li>确认痛点等级：娱乐、兴趣、效率、赚钱或强刚需。</li>
+                <li>找到用户实际出现的社区、关键词或工作流入口。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>通过标准</h4>
+              <ul>
+                <li>不是“所有人”，而是一小撮可识别、可触达的人。</li>
+                <li>痛点能描述为具体未完成任务，而非“体验可以更好”。</li>
+                <li>你愿意至少服务这个人群完成第一轮验证。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>失败后退回</h4>
+              <ul><li>回到人群拆分或痛点采集，不用技术能力反推需求。</li></ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/1-选方向/028-基于人群找细分需求.md">赫兹 028：基于人群找细分需求</a>
+              <a href="原文/1-选方向/029-需求的痛点决定了转化率.md">赫兹 029：痛点决定转化率</a>
+            </div>
+          </div>
+        </details>
+
+        <details class="route-card" data-step="2">
+          <summary>
+            <div>
+              <div class="route-title"><h3>用搜索和竞品证据筛方向</h3><span class="tag done">本候选已过</span></div>
+              <div class="summary-copy">固定顺序：需求 → 竞争 → 竞品实现与赚钱 → ROI。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>要做什么</h4>
+              <ul>
+                <li>看真实查询簇、趋势和搜索意图，而非孤立热词。</li>
+                <li>查前 10 结果、页面类型、强站占比和可切入长尾。</li>
+                <li>做“抄 / 超 / 钞”：怎么实现、凭什么切换、怎么赚钱。</li>
+                <li>确认至少一条可复现流量路径与一个付费时刻。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>通过标准</h4>
+              <ul>
+                <li>搜索结果确实需要你计划做的页面类型。</li>
+                <li>能写出输入 → 处理 → 结果的具体差异。</li>
+                <li>竞品或替代方案显示真实商业行为。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>失败后退回</h4>
+              <ul>
+                <li>意图不符：换站型或修饰词。</li>
+                <li>竞争太强：更垂直、更长尾，仍不行就淘汰。</li>
+                <li>无付费时刻：回到商业证据，不拿流量当收入。</li>
+              </ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/1-选方向/018-用搜索数据评估一个词是否值得做.md">赫兹 018：评估一个词</a>
+              <a href="原文/1-选方向/024-Similarweb 需求分析.md">赫兹 024：需求分析</a>
+              <a href="原文/1-选方向/027-如何看对标网站.md">赫兹 027：如何看对标站</a>
+            </div>
+          </div>
+        </details>
+
+        <details class="route-card current" data-step="3" open>
+          <summary>
+            <div>
+              <div class="route-title"><h3>卖空气：验证真实行动</h3><span class="tag now">你现在在这里</span></div>
+              <div class="summary-copy">用真实问题、真实价格和真实 CTA，测试用户是否愿意行动。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>本轮只做</h4>
+              <ul>
+                <li>一页英文 Landing Page：问题、3 个卖点、示例输入和结果卡。</li>
+                <li>一个真实报价：免费即时计算 + $7 一次性 Pro 假设。</li>
+                <li>一个主要 CTA：购买 / 预订；一个次要 CTA：提交真实项目或留邮箱。</li>
+                <li>事件：到达、开始输入、完成输入、查看结果、点击购买、checkout、付款。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>本项目实验闸门</h4>
+              <ul>
+                <li>最多 7 天或 100 个合资格访问后做决定。</li>
+                <li>若至少 3 人提交真实项目参数，且至少 1 人点击购买或愿意预付：进入 MVP。</li>
+                <li>付款 / 订金属于更强证据，应优先于点赞和口头好评。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>不要误判</h4>
+              <ul>
+                <li>没人看到 ≠ 需求失败；先判断流量是否合格。</li>
+                <li>有人看但不输入：问题表达、信任或承接可能失败。</li>
+                <li>有人输入但不购买：价值、价格或付费时刻可能失败。</li>
+              </ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/1-选方向/015-卖空气验证需求.md">赫兹 015：卖空气验证需求</a>
+              <a href="1-选方向/方向验证-第3轮-定价计算器词群.md">本项目：第 3 轮方向验证</a>
+            </div>
+          </div>
+        </details>
+
+        <details class="route-card" data-step="4">
+          <summary>
+            <div>
+              <div class="route-title"><h3>只做最小可用 MVP</h3><span class="tag later">验证通过后</span></div>
+              <div class="summary-copy">MVP 不是半成品，而是能完整交付一次核心价值的最小版本。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>第一版应包含</h4>
+              <ul>
+                <li>材料、工时、目标时薪、销售渠道与平台费输入。</li>
+                <li>现金成本、完整成本、建议售价、真实时薪、预计利润结果。</li>
+                <li>移动端可用、结果可复制或简单导出。</li>
+                <li>基础 SEO、GSC、GA 事件、Clarity、支付/预订闭环。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>完成标准</h4>
+              <ul>
+                <li>陌生用户无需指导也能走完一次输入 → 结果。</li>
+                <li>部署环境、域名、统计和核心事件真实可用。</li>
+                <li>支付测试成功，隐私、条款、联系方式齐全。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>第一版明确不做</h4>
+              <ul>
+                <li>账号系统、社区、pattern marketplace。</li>
+                <li>库存、订单管理、复杂后台、移动 App。</li>
+                <li>未经行为证据支持的“顺手再加一个功能”。</li>
+              </ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/2-建站开发/001-基于模板的上站SOP.md">赫兹：模板上站 SOP</a>
+              <a href="原文/2-建站开发/004-前期上线网站成本有多低.md">赫兹：前期上线成本</a>
+              <a href="原文/2-建站开发/015-Google Analysis 事件上报.md">赫兹：GA 事件上报</a>
+            </div>
+          </div>
+        </details>
+
+        <details class="route-card" data-step="5">
+          <summary>
+            <div>
+              <div class="route-title"><h3>获取第一批合格流量</h3><span class="tag later">MVP 同步开始</span></div>
+              <div class="summary-copy">SEO 早布局，但验证期不等自然排名；用一个可控入口拿反馈。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>0 → 1 流量组合</h4>
+              <ul>
+                <li>SEO：主词页 + 窄切口页，Title/H1/描述与搜索意图一致。</li>
+                <li>社区：只在版规允许的入口，透明说明研究或工具身份。</li>
+                <li>小额广告：仅用于快速获得合格访问，不用于“制造好看流量”。</li>
+                <li>外链：优先垂直资源页、真实回答和产品相关页面。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>通过标准</h4>
+              <ul>
+                <li>能说明访问者为何是目标用户、从哪来、成本多少。</li>
+                <li>至少有一个渠道能重复带来开始输入或购买点击。</li>
+                <li>搜索曝光与点击开始出现后，按 GSC 真实词扩页。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>不要过早做</h4>
+              <ul>
+                <li>不要批量生成无独特价值的薄页。</li>
+                <li>不要同时运营所有社媒。</li>
+                <li>核心承接没跑通前，不扩大广告预算。</li>
+              </ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/3-SEO获客/009-搜索引擎思维做网站.md">赫兹：搜索引擎思维</a>
+              <a href="原文/3-SEO获客/036-理解用户搜索意图.md">赫兹：理解搜索意图</a>
+              <a href="原文/4-流量放大/013-投流的作用.md">赫兹：投流的作用</a>
+              <a href="原文/4-流量放大/018-和用户沟通的渠道.md">赫兹：用户沟通渠道</a>
+            </div>
+          </div>
+        </details>
+
+        <details class="route-card" data-step="6">
+          <summary>
+            <div>
+              <div class="route-title"><h3>拿到付款并按漏斗复盘</h3><span class="tag later">持续循环</span></div>
+              <div class="summary-copy">访问 → CTA → 首次价值 → 付费 → 持续使用；每次只修最窄瓶颈。</div>
+            </div>
+            <span class="chevron">＋</span>
+          </summary>
+          <div class="route-body">
+            <div class="subcard">
+              <h4>每周看什么</h4>
+              <ul>
+                <li>流量：展示、点击、来源、合格访问成本。</li>
+                <li>激活：开始输入率、完成率、结果有用率。</li>
+                <li>变现：购买点击率、checkout 率、付款率、客单价。</li>
+                <li>留存：7/30 日回访、重复计算、导出或保存行为。</li>
+              </ul>
+            </div>
+            <div class="subcard gate">
+              <h4>决策原则</h4>
+              <ul>
+                <li>无流量：先修分发或 SEO，不先改产品功能。</li>
+                <li>有流量无激活：修意图、文案、输入摩擦和结果可信度。</li>
+                <li>有激活无付费：修价值边界、价格、套餐和付费时刻。</li>
+                <li>有付款有复用：才进入留存、自动化和放大。</li>
+              </ul>
+            </div>
+            <div class="subcard failure">
+              <h4>停止或缩窄</h4>
+              <ul>
+                <li>连续实验只有礼貌反馈，没有真实行为。</li>
+                <li>获客成本长期高于合理用户价值。</li>
+                <li>必须堆成重产品才能解决，而证据强度仍弱。</li>
+              </ul>
+            </div>
+            <div class="source-links">
+              <a href="原文/5-变现支付/002-核心链路转化.md">赫兹：核心链路转化</a>
+              <a href="原文/5-变现支付/001-定价策略.md">赫兹：定价策略</a>
+              <a href="原文/6-复盘增长/004-你的用户到底值不值钱.md">赫兹：用户价值</a>
+              <a href="原文/6-复盘增长/014-计算网站的获客成本.md">赫兹：获客成本</a>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section shell" id="checklist">
+      <div class="section-head">
+        <div>
+          <h2>你这一轮只做这 10 件事</h2>
+          <p>勾选会自动保存在当前浏览器。不要跨过未完成的验证去堆产品。</p>
+        </div>
+      </div>
+      <div class="checklist-wrap">
+        <aside class="panel progress-panel">
+          <h3>本轮进度</h3>
+          <p>目标是完成一次可做决定的实验，而不是把页面做得很完整。</p>
+          <div class="progress-ring" id="progress-ring">
+            <div class="progress-number"><span id="progress-number">0%</span><small>VALIDATION</small></div>
+          </div>
+          <button class="btn" id="reset-progress" type="button">重置勾选</button>
+        </aside>
+
+        <div class="checklist">
+          <div class="task">
+            <input id="t1" type="checkbox" data-task />
+            <label for="t1"><strong>冻结方向，不再横向找新词</strong><span>本轮只验证 amigurumi pricing calculator。</span></label>
+            <span class="tag done">已拍板</span>
+          </div>
+          <div class="task">
+            <input id="t2" type="checkbox" data-task />
+            <label for="t2"><strong>锁定一句话问题</strong><span>谁在什么场景下，因为定价不清损失什么。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t3" type="checkbox" data-task />
+            <label for="t3"><strong>写 3 个具体卖点</strong><span>每个卖点都对应输入、结果或决策，不写“更智能”。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t4" type="checkbox" data-task />
+            <label for="t4"><strong>确定真实价格与交付边界</strong><span>免费得到什么，$7 Pro 得到什么，暂时不承诺什么。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t5" type="checkbox" data-task />
+            <label for="t5"><strong>完成英文 Landing Page</strong><span>问题、示例、结果卡、价格、CTA、FAQ 与信任说明。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t6" type="checkbox" data-task />
+            <label for="t6"><strong>配置最小事件埋点</strong><span>到达、开始、完成、结果、购买点击、checkout、付款。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t7" type="checkbox" data-task />
+            <label for="t7"><strong>打通真实 CTA</strong><span>至少购买/预订动作真实可用，不用“敬请期待”冒充验证。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t8" type="checkbox" data-task />
+            <label for="t8"><strong>选择一个合规的合格流量入口</strong><span>获准社区、定向招募或经批准的小额广告，三选一即可。</span></label>
+            <span class="tag now">现在</span>
+          </div>
+          <div class="task">
+            <input id="t9" type="checkbox" data-task />
+            <label for="t9"><strong>运行至停止线</strong><span>最多 7 天或 100 个合资格访问，不无限延长实验。</span></label>
+            <span class="tag later">实验期</span>
+          </div>
+          <div class="task">
+            <input id="t10" type="checkbox" data-task />
+            <label for="t10"><strong>写下唯一结论：build / revise / reject</strong><span>依据行为和付款，不依据投入感情与沉没成本。</span></label>
+            <span class="tag later">实验后</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head">
+        <div>
+          <h2>实验结束后怎么决定</h2>
+          <p>数字阈值是本项目的投入控制线，不是赫兹给所有项目的通用及格线。</p>
+        </div>
+      </div>
+      <div class="decision-grid">
+        <article class="decision go">
+          <span class="tag done">BUILD</span>
+          <h3>做最小计算器</h3>
+          <ul>
+            <li>出现真实项目输入；</li>
+            <li>有人点击购买、愿意预付或已付款；</li>
+            <li>能说清最核心的付费价值；</li>
+            <li>第一版仍可保持轻量。</li>
+          </ul>
+        </article>
+        <article class="decision iterate">
+          <span class="tag now">REVISE</span>
+          <h3>只改一个瓶颈</h3>
+          <ul>
+            <li>流量不够：换更合格入口；</li>
+            <li>不输入：修问题、信任与摩擦；</li>
+            <li>输入不买：修价值、价格或 CTA；</li>
+            <li>改完只再跑一轮受控实验。</li>
+          </ul>
+        </article>
+        <article class="decision stop">
+          <span class="tag stop">REJECT</span>
+          <h3>停止并记录反例</h3>
+          <ul>
+            <li>合格用户看见后仍无真实行动；</li>
+            <li>切换成本大于用户获得的价值；</li>
+            <li>只能靠重开发才可能成立；</li>
+            <li>记录失败闸门，回候选池而非硬撑。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head">
+        <div>
+          <h2>现在明确不要做</h2>
+          <p>这些事看起来像进展，实际上最容易让验证变成开发拖延。</p>
+        </div>
+      </div>
+      <div class="warning-grid">
+        <div class="warning"><strong>不要做账号和复杂后台。</strong><br>没有复用证据前，本地计算与简单导出足够。</div>
+        <div class="warning"><strong>不要同时验证多个产品方向。</strong><br>方向已经冻结，本轮只验证一个缺口命题。</div>
+        <div class="warning"><strong>不要把点赞和“我会用”当需求成功。</strong><br>优先看真实输入、购买点击、预付和付款。</div>
+        <div class="warning"><strong>不要先做大量 SEO 内页。</strong><br>先让一个页面交付价值，再按真实 GSC 词扩展。</div>
+        <div class="warning"><strong>不要因页面没流量就说需求不存在。</strong><br>先核对流量来源、用户资格与曝光是否足够。</div>
+        <div class="warning"><strong>不要因为已经投入时间就继续。</strong><br>失败闸门一旦清楚，记录反例并止损。</div>
+      </div>
+    </section>
+
+    <section class="section shell" id="sources">
+      <div class="section-head">
+        <div>
+          <h2>原文与项目入口</h2>
+          <p>点击可回到仓库里的 Markdown 原文；方法论以赫兹主源为准。</p>
+        </div>
+      </div>
+      <div class="sources">
+        <div class="source-group">
+          <h3>当前进度</h3>
+          <a href="1-选方向/方向验证-第3轮-定价计算器词群.md">方向验证第 3 轮：定价计算器词群</a>
+          <a href="1-选方向/赫兹选方向-实践清单.md">赫兹选方向实践清单</a>
+          <a href="1-选方向/_本步导航.md">第 1 步导航</a>
+        </div>
+        <div class="source-group">
+          <h3>选方向与验证</h3>
+          <a href="原文/1-选方向/015-卖空气验证需求.md">015 卖空气验证需求</a>
+          <a href="原文/1-选方向/018-用搜索数据评估一个词是否值得做.md">018 用搜索数据评估一个词</a>
+          <a href="原文/1-选方向/028-基于人群找细分需求.md">028 基于人群找细分需求</a>
+          <a href="原文/1-选方向/029-需求的痛点决定了转化率.md">029 痛点决定转化率</a>
+        </div>
+        <div class="source-group">
+          <h3>MVP 与上线</h3>
+          <a href="原文/2-建站开发/001-基于模板的上站SOP.md">基于模板的上站 SOP</a>
+          <a href="原文/2-建站开发/004-前期上线网站成本有多低.md">前期上线成本有多低</a>
+          <a href="原文/2-建站开发/015-Google Analysis 事件上报.md">GA 事件上报</a>
+          <a href="原文/6-复盘增长/013-第一次赚美元！纯新手深度复盘网站出海，一文掌握全流程.md">新手全流程复盘</a>
+        </div>
+        <div class="source-group">
+          <h3>获客、变现与增长</h3>
+          <a href="原文/3-SEO获客/009-搜索引擎思维做网站.md">搜索引擎思维做网站</a>
+          <a href="原文/3-SEO获客/036-理解用户搜索意图.md">理解用户搜索意图</a>
+          <a href="原文/5-变现支付/002-核心链路转化.md">核心链路转化</a>
+          <a href="原文/5-变现支付/001-定价策略.md">定价策略</a>
+          <a href="原文/6-复盘增长/014-计算网站的获客成本.md">计算网站获客成本</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div>赫兹主源路线图 · 项目归纳不冒充作者通用阈值</div>
+      <div>最后整理：2026-07-23 · 文件可离线直接打开</div>
+    </div>
+  </footer>
+
+  <script>
+    const storageKey = "overseas-mvp-map-v1";
+    const tasks = [...document.querySelectorAll("[data-task]")];
+    const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+
+    tasks.forEach((task) => {
+      task.checked = Boolean(saved[task.id]);
+      task.addEventListener("change", () => {
+        saved[task.id] = task.checked;
+        localStorage.setItem(storageKey, JSON.stringify(saved));
+        renderProgress();
+      });
+    });
+
+    function renderProgress() {
+      const complete = tasks.filter((task) => task.checked).length;
+      const percent = Math.round((complete / tasks.length) * 100);
+      document.getElementById("progress-number").textContent = percent + "%";
+      document.getElementById("progress-ring").style.setProperty("--progress", (percent * 3.6) + "deg");
+    }
+
+    document.getElementById("reset-progress").addEventListener("click", () => {
+      tasks.forEach((task) => task.checked = false);
+      localStorage.removeItem(storageKey);
+      Object.keys(saved).forEach((key) => delete saved[key]);
+      renderProgress();
+    });
+
+    renderProgress();
+  </script>
+</body>
+</html>
