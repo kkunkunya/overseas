@@ -52,7 +52,7 @@ overseas/
 - `/research`——调研方向 / 竞品 / 赛道
 - `/project-prompt`——项目阶段、约定或 Agent 路由发生稳定变化时，刷新 `AGENTS.md` / `CLAUDE.md` 的短地图
 - `direction-validator`（项目 skill）——从增长人群与词到方向，Query-first / Community-first 两入口汇合到赫兹 018 闸门；选方向阶段用
-- `mvp-validation`（项目 skill）——方向拍板后「卖空气验证」：做一页可丢弃 Landing Page + 真实价格 + Reddit 为主/X 为备的合资格触达，观察真实行动信号才进 MVP；赫兹 015/028/029 主源
+- `mvp-validation`（项目 skill）——方向拍板后「卖空气验证」：用 AI 快速做一页可丢弃 Landing Page + 真实价格 + 赫兹推荐渠道的合资格触达，观察真实行动信号才进 MVP；赫兹 015/028/029 主源
 
 不知道下一步怎么走 → 先读 `README.md` + 对应步骤的 `_本步导航.md`。做产品时**另开项目**（带 `frontend` 领域，走 `/project-design-prompt` → `/layout-priority-design` → `/design-recon` → `/to-tickets`），本库只作资料背景。
 
