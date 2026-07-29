@@ -142,6 +142,10 @@ Greg Isenberg 在 *How I use Reddit and AI to find winning startup ideas* 中从
 2. 对每个候选人群的高频痛点词**先跑一轮 SERP 查工具市场是否已被占**——若 5+ 专用产品或巨头功能位已占满，直接降优先级或换社区，不浪费评论层采样；
 3. 工具市场有未占窄切口时，才进 pain/advice/solution 采样与人群机会卡。
 
+**重要 caveat（2026-07-29 第 4 轮 MCP 预查得出）**：「新需求 + 快速爆发」不等于「incumbents 未占」。当一个话题是 hype gold rush（如 MCP：2024-11 发布、2026-07 仍高速增长、11.5 万成员），builder 会蜂拥而至，几个月内 broad 工具槽（目录/安全/测试/hosting/评测）全被占——官方 registry、Snyk/Cisco、Railway/Render、pulsemcp/mcpmarket 都进场了。此时「需求新」反而是危险信号：你看到热，别人也看到热。
+
+真正的目标不是「最热的新需求」，而是「**新需求 + 增长 + 还没被 builder 蜂拥**」的 under-the-radar 社群——即时间差窗口还在、但热度还没高到引发 gold rush 的那种。这比「找最爆发的」更难但更有效。判断信号：SERP 预查时 broad 工具词**还查不到专用产品**、只有 GitHub README 和社区帖，说明窗口还在；一旦出现 3+ 专用产品或大公司进场，窗口正在关闭。这呼应赫兹《信息溯源》「看到已大量被二手转载的热词时，要判断是否还来得及」。
+
 **接入本 skill 的规则**：
 
 - 社区增长回答“哪群人在加速聚集”，Google Trends 回答“哪些查询在增长”，二者不可互相冒充；
