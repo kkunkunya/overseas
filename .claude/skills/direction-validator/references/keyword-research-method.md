@@ -135,6 +135,13 @@ Greg Isenberg 在 *How I use Reddit and AI to find winning startup ideas* 中从
 
 视频中的“1 万～10 万成员”是作者在 GummySearch 中使用的筛选启发，不是本项目硬阈值。AI 聚类也只是方向性摘要，作者明确要求回原帖核查互动与上下文。
 
+**本项目强化的首要判据（2026-07-29 第 4 轮验证得出）**：Community-first 的核心是**增长速度 + 需求新**，不是规模大或活跃老。要找的是**正处于时间差窗口的中等爆发社区**——成员 1 万–10 万、近期增长迅猛、对应刚形成的新需求、incumbents 还没占住工具槽。**成熟大社区（几十万成员、存在多年）是危险信号**：它们通常意味着工具市场已被填满，是“已存在且已被服务”的需求。第 4 轮在 r/lawfirm（成熟大社区）的 reject 是直接教训：获客痛点真实、钱在流，但 intake/answering/referral/practice management 每个工具切口都被 Clio/MyCase/Smith.ai/Lead Docket/Casestatus 等占满，竞争闸门硬 fail。
+
+执行顺序因此调整为：
+1. 先按**增长斜率**筛社区（不是按成员数）；
+2. 对每个候选人群的高频痛点词**先跑一轮 SERP 查工具市场是否已被占**——若 5+ 专用产品或巨头功能位已占满，直接降优先级或换社区，不浪费评论层采样；
+3. 工具市场有未占窄切口时，才进 pain/advice/solution 采样与人群机会卡。
+
 **接入本 skill 的规则**：
 
 - 社区增长回答“哪群人在加速聚集”，Google Trends 回答“哪些查询在增长”，二者不可互相冒充；
