@@ -50,6 +50,15 @@ _Avoid_: 把 topical authority 当成只写一篇全集指南就够；它是全 
 **money page**: 直接转化的页（产品页 / 服务页 / 定价页 / 功能页），transactional / commercial 词落地处。SEO 优先级第一步：money page 先建，否则流量来了无处转。见 Surfer 课辅源。
 _Avoid_: 先写 10 篇信息文章再奇怪没人买——因为没 money page 可转
 
+**搜索意图 (search intent)**: 搜某个词的人到底想要什么，决定内容形态与转化潜力。四类：informational（想学）/ commercial（比较中）/ transactional（要买）/ navigational（当导航用）。判断法 = Google 该词看 top10 排的是什么类型（文章/视频/工具/产品页），照那个形态做。辅源 Surfer 课给四类分法（`3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`），与赫兹 `036-理解用户搜索意图` 互证。
+_Avoid_: 闭眼写文章，结果 SERP 要的是视频或工具；用词的搜索量代替意图——泛词量大但意图乱、转化差
+
+**长尾词 (long-tail)**: 长、具体、搜索量小但意图清、竞争小的词。新站从长尾起步，建权威后再往头部走。与赫兹「低竞争小词 + 多内页」打法**等价**。例：`coffee`（头部、乱）vs `best dark roast coffee beans for espresso`（长尾、意图清）。
+_Avoid_: 一上来就打头部泛词；为低竞争选太偏、没搜索量的词
+
+**GEO (Generative Engine Optimization)**: 让站出现在 AI 搜索（ChatGPT / Perplexity / Gemini / Google AI Overview）里的优化。关键事实：AI 搜索建在传统搜索索引之上（ChatGPT 用 Bing 索引、Perplexity 重 Bing），不在 Google/Bing 排得上基本对 AI 不可见。做好 SEO 即基本做好 GEO，不是两个独立学科。与赫兹 `018-布局AI搜索`、`035-如何查看AI流量做好GEO` 一致。GSC 看不到 AI 来源流量，只能监控「被不被引用」。
+_Avoid_: 把 GEO 当成和 SEO 并列的第二套功夫；以为能像 Google 一样精确追踪 AI 转化
+
 
 ## 标准工具（选方向 / SEO 早中期）
 
@@ -113,6 +122,21 @@ _Avoid_: 把「做 Landing Page」当成做产品；等页面漂亮了再验证�
 
 **先卖再做 (sell before build)**: 与「卖空气验证」同构的辅源表述——产品未做出来前先去验证有人愿付，再动手写代码。Marc Lou 用一封个性化冷邮件 + 一通 ROI 框架的电话，在没写软件前就拿到密室逃脱商家第一个 $4k MRR 客户（`1-选方向/Marc-Lou-冷邮件验证第一客户.md`）。它不是赫兹独有的词，但落点是同一条规则：先验证付费意愿，再投入生产。本地 B2B / 商家型行业用冷邮件前置销售最典型；纯 C2C 工具站用 Landing Page 预售更合适。
 _Avoid_: 「先卖再做」≠ 骗钱（承诺要能兜住、最坏退款）；也别把它当冷邮件获客急救手段——它是验证动作，不是规模获客
+
+**ICP (ideal customer profile)**: 最可能需要、想要、会买你产品的人群定义。可以是行业（建筑公司老板 / 健身房），也可以是某公司某 title（HR Director / 开发总监）。ICP =「所有人」= 死路。辅源 Rob Walling（`1-选方向/Rob-Walling-找前10客户.md`）给「title @ company」的细颗粒，补赫兹 `028-基于人群找细分需求`。
+_Avoid_: 「我的产品谁都能用」当 ICP；把行业大类当 ICP 却不落到具体角色与场景
+
+**outbound / inbound**: outbound = 你主动找人（冷邮件 / 冷电话 / 泡论坛 / DM）；inbound = 人来找你（SEO / 内容 / 广告 / 口碑）。前 10 客户阶段要 outbound（几周见效），内容/SEO 是 inbound（5–8 个月见效）属增长期。见 Rob Walling 两篇辅源。
+_Avoid_: 早期全押 inbound 等运气；把 outbound 和垃圾群发混淆——许可式一对一才叫触达
+
+**build network not audience**: 先建本行业人脉，不是先涨粉。Rob Walling 投的 191 家 B2B SaaS <5% 有任何受众（社媒/播客/YouTube）——「建受众」对拿前 10 客户几乎无关，「学营销技能 + 建行业网络」才相关。X/Twitter 当主策略 = 彩票心态。
+_Avoid_: 把 build in public / 涨粉当成前 10 客户的主路径；在同行圈里说话却没在潜在客户圈里说话
+
+**build in public**: 公开构建过程发到社媒。是获客渠道之一，不是前 10 客户主路径——它主要对**其他 indie hacker / SaaS 创业者**说话，不是对潜在客户。赫兹 `003-build in public` 是主源；Rob Walling 警告别把它当核心策略。
+_Avoid_: 把 build in public 等同于营销；只对同行发不进入客户圈
+
+**cargo cult**: 抄成功者的**表象**不抄**因果**。例：把 Tally 成功归结为「免费计划」而忽略「大空间 + 低服务成本 + 免费计划 + 死磕冷触达」的组合，只抄免费计划那一条。出海学习里常见：抄跑通者的形式而跳过其验证与苦活。
+_Avoid_: 把单一可观察特征当成成功因果；不问「为什么对 TA 有效」就复制
 
 **扫一下得到什么（示例结果展示）**: Landing Page 上让用户一眼看到「把我的项目信息放进去会得到什么」的展示结构——放一组真实参数和对应结果卡，用户无需注册即可预判自己的项目会得到什么结果。具体放哪些参数由当前方向决定；当前无图像识别链路时用「填参数看结果」的静态示例，只有当「拍照即识别」被反复要求且能人工跑通准确度时才升级为图像识别 Demo。
 _Avoid_: 因为技术可做就先做拍照识别；把示例藏到注册或付费墙之后
