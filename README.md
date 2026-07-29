@@ -89,3 +89,8 @@ overseas/
   - How I made $2,000,000 with my side projects → `4-流量放大/Marc-Lou-10个获客渠道.md`
   - Why your side project makes $0 → `5-变现支付/Marc-Lou-定价5误区.md`
   - How I grew my SaaS to $4,000 MRR with cold emails → `1-选方向/Marc-Lou-冷邮件验证第一客户.md`
+- Rob Walling 辅源二视频：
+  - This Is the SMARTEST SaaS Marketing Strategy → `4-流量放大/Rob-Walling-五层意识内容营销.md`
+  - How to Find Your FIRST 10 SaaS Customers → `1-选方向/Rob-Walling-找前10客户.md`
+- Surfer Academy 辅源视频：The Complete SEO & AI SEO Course for 2026 → `3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`
+- Greg Isenberg × Voss：FDE The $1M/Year AI Job Explained → `1-选方向/Greg-Isenberg-FDE-AI职业-英文底稿.md`（**未归步**：讲 AI 职业培训，与出海 6 步不直接对应，仅存底稿供查阅）

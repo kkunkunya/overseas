@@ -41,6 +41,15 @@ _Avoid_: 贬义的"抄官方换皮糊弄"；套壳是合法产品形态，关键
 **暗影复刻**: 对标一个已在赚钱的产品，复刻其约 20% 核心能力，用更好体验 / 更低价格 / 更窄人群切走一部分需求。先有对标与收入线索，再做；不是从零空想。
 _Avoid_: 100% 抄全站、或没有任何对标的"创新"
 
+**五层意识 (levels of awareness)**: Eugene Schwartz《Breakthrough Advertising》的买家意识分层——unaware / problem aware / solution aware / product aware / most aware。用于给内容营销选题排序：早期 SaaS 从 solution + product aware 深漏斗切入（转化快），unaware 流量大但转化慢、可能永不买。辅源 Rob Walling 提出（`4-流量放大/Rob-Walling-五层意识内容营销.md`），补赫兹偏少的「内容分层切入」洞；与赫兹渠道执行互补，不压主源。
+_Avoid_: 把「从深漏斗开始」当成永远只做这两层；unaware 不是没用，是早期 ROI 差
+
+**topical authority**: SEO 标准英文词——一个主题 cluster 被全面覆盖后，Google 信任该站在该主题的权威，整个 cluster 的词都更好排。与赫兹「整个站围绕一个目标关键词、topical relevance 极度聚焦」**等价**。辅源 Surfer 课给可执行拆法：money page 先行 → 一个 cluster 建满 → 重复（`3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`）。
+_Avoid_: 把 topical authority 当成只写一篇全集指南就够；它是全 cluster 覆盖度的累积效果
+
+**money page**: 直接转化的页（产品页 / 服务页 / 定价页 / 功能页），transactional / commercial 词落地处。SEO 优先级第一步：money page 先建，否则流量来了无处转。见 Surfer 课辅源。
+_Avoid_: 先写 10 篇信息文章再奇怪没人买——因为没 money page 可转
+
 
 ## 标准工具（选方向 / SEO 早中期）
 
