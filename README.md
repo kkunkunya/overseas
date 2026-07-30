@@ -92,4 +92,5 @@ overseas/
 - Rob Walling 辅源二视频：
   - This Is the SMARTEST SaaS Marketing Strategy → `4-流量放大/Rob-Walling-五层意识内容营销.md`
   - How to Find Your FIRST 10 SaaS Customers → `1-选方向/Rob-Walling-找前10客户.md`
+- MRR Unlocked 辅源文章：[How to validate your idea before building your product, wasting money and time](https://www.mrrunlocked.com/p/how-to-validate-your-idea-before) → `1-选方向/MRR-Unlocked-验证想法.md`
 - Surfer Academy 辅源视频：The Complete SEO & AI SEO Course for 2026 → `3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`
