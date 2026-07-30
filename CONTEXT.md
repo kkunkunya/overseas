@@ -68,6 +68,9 @@ _Avoid_: 把 AITDK 的 AI 生成词当成已验证需求；生成词必须再过
 **标准免费三件套**: 选方向与 SEO 早期默认工具组合 = **AITDK**（看词/看页）+ **Google SERP / 搜索语法**（前 10 与 allintitle）+ **Google Trends**（相对趋势）。Similarweb 免费页为可选补强；Ahrefs/Semrush 为 🔑 精确档。
 _Avoid_: 没跑三件套就用感觉定方向；也避免只有 AI 扩词没有 SERP 实查
 
+**Trends Radar**: Google Trends 的可选 Chrome 扩词插件。它可将某词的 `rising queries`（飙升查询）递归作为下一轮种子词，帮助发现新词；必须记录词根→飙升词的来源链、日期和本轮上限，去重并归成词群后，仍回 Google Trends、真实 SERP、竞争与变现验证。它只是**候选发现器**，插件内搜索量和 Breakout 不能单独证明稳定需求或付费意愿。赫兹 X 原帖《Trends Radar 实现Google trends 自动词找词》（2026-07-29）。
+_Avoid_: 因递归找到了陌生飙升词就建站；无限扩词触发 Google Trends 限制；把插件估算冒充官方月搜索量。
+
 ## 产品论点与关键词角色
 
 **SEO 资产**:
