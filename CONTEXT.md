@@ -59,6 +59,9 @@ _Avoid_: 一上来就打头部泛词；为低竞争选太偏、没搜索量的�
 **GEO (Generative Engine Optimization)**: 让站出现在 AI 搜索（ChatGPT / Perplexity / Gemini / Google AI Overview）里的优化。关键事实：AI 搜索建在传统搜索索引之上（ChatGPT 用 Bing 索引、Perplexity 重 Bing），不在 Google/Bing 排得上基本对 AI 不可见。做好 SEO 即基本做好 GEO，不是两个独立学科。与赫兹 `018-布局AI搜索`、`035-如何查看AI流量做好GEO` 一致。GSC 看不到 AI 来源流量，只能监控「被不被引用」。
 _Avoid_: 把 GEO 当成和 SEO 并列的第二套功夫；以为能像 Google 一样精确追踪 AI 转化
 
+**AEO (Answer Engine Optimization)**: 让产品或内容在直接回答用户问题的 AI / 答案引擎中被理解、引用或推荐的优化说法。实践中与 GEO 高度重叠：先有可抓取、可信、满足真实任务的 SEO 内容与产品事实，再观察 AI 引用；不把它当成绕开 SEO、需求验证或品牌建设的独立捷径。辅源 `4-流量放大/EdoStra-创始人营销资源地图.md` 将其作为外部资源分类；执行仍以赫兹 AI 搜索篇目为准。
+_Avoid_: 认为堆 FAQ、加几个 schema 或反复问模型就能稳定“排名”；把 AI 一次提及当成持续流量或付费证明
+
 
 ## 标准工具（选方向 / SEO 早中期）
 
