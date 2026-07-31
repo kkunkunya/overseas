@@ -94,4 +94,5 @@ overseas/
   - How to Find Your FIRST 10 SaaS Customers → `1-选方向/Rob-Walling-找前10客户.md`
 - MRR Unlocked 辅源文章：[How to validate your idea before building your product, wasting money and time](https://www.mrrunlocked.com/p/how-to-validate-your-idea-before) → `1-选方向/MRR-Unlocked-验证想法.md`
 - Deploy Empathy 辅源文章：[Customer Interview Script: Discovery Phase](https://deployempathy.substack.com/p/customer-interview-script-discovery-phase-i-e-before-you-ve-built-anything-415336) → `1-选方向/Michele-Hansen-用户发现访谈.md`
+- DemandMaven 辅源文章：[How to not do product discovery](https://demandmaven.substack.com/p/how-to-not-do-product-discovery) → `1-选方向/Asia-Orangio-避免错误产品发现.md`
 - Surfer Academy 辅源视频：The Complete SEO & AI SEO Course for 2026 → `3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`
