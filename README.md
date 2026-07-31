@@ -95,4 +95,5 @@ overseas/
 - MRR Unlocked 辅源文章：[How to validate your idea before building your product, wasting money and time](https://www.mrrunlocked.com/p/how-to-validate-your-idea-before) → `1-选方向/MRR-Unlocked-验证想法.md`
 - Deploy Empathy 辅源文章：[Customer Interview Script: Discovery Phase](https://deployempathy.substack.com/p/customer-interview-script-discovery-phase-i-e-before-you-ve-built-anything-415336) → `1-选方向/Michele-Hansen-用户发现访谈.md`
 - DemandMaven 辅源文章：[How to not do product discovery](https://demandmaven.substack.com/p/how-to-not-do-product-discovery) → `1-选方向/Asia-Orangio-避免错误产品发现.md`
+- GTM Strategist 辅源文章：[My 7-Day Business Idea Validation Framework](https://knowledge.gtmstrategist.com/p/7-day-business-idea-validation-framework) → `1-选方向/Maja-Voje-七日轻量验证框架.md`
 - Surfer Academy 辅源视频：The Complete SEO & AI SEO Course for 2026 → `3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`
