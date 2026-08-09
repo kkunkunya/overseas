@@ -1,6 +1,6 @@
 # ADR-0001: 方法论以赫兹原文为主源
 
-- status: accepted
+- status: superseded by ADR-0005
 - date: 2026-07-21
 
 ## 背景
