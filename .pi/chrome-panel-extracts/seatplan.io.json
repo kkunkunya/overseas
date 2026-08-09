@@ -1,0 +1,117 @@
+{
+  "panel": {
+    "panelId": "1AB849F516CE9DC1BCFFDD15A1CC3D2A"
+  },
+  "startedAt": "2026-08-09T11:56:14.621Z",
+  "completedAt": "2026-08-09T11:56:35.793Z",
+  "options": {
+    "navigationSelector": "button,[role=\"tab\"],[role=\"button\"],a",
+    "textSelector": "body",
+    "maxTextChars": 500000,
+    "minWaitMs": 4000,
+    "pageTimeoutMs": 20000,
+    "pollIntervalMs": 1000
+  },
+  "pages": [
+    {
+      "label": "Overview",
+      "status": "changed",
+      "clicked": true,
+      "elapsedMs": 4250,
+      "attempts": 4,
+      "text": "AITDK\nmessage.bilibili.com\nOverview\nTraffic\nBacklinks\nAdsense\nIssues\nGEO\nSERP\nDensity\nHeadings\nImages\nLinks\nSocial\nHreflangs\nStructured\nWhois\nSettings\nArchive\nSimilarweb\nSemrush\nAhrefs\nPageSpeed\nTwitter\nDIT.ai\nThe AI Cost Router - Save up to 70%\nTitle\n43/60\n消息中心 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili\nDescription\n65/160\nbilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。\nKeywords\n79/100\nB站,弹幕,字幕,AMV,MAD,MTV,ANIME,动漫,动漫音乐,游戏,游戏解说,ACG,galgame,动画,番组,新番,初音,洛天依,vocaloid\nUrl\nhttps://message.bilibili.com/#/whisper\nCanonical\nMissing\nDomain Creation\n2004-10-21 11:37:37 UTC\nDomain Expiration\n2031-10-21 11:37:37 UTC\nFavicon\nSSR Check\nRobots Tag\nX-Robots-Tag\nN/A\nN/A\nrobots.txt\nsitemap.xml\nMissing\nMissing\nGoogle Analytics\nGoogle AdSense\nMissing\nMissing\nWord Count\nLang\n120\nzh-CN\n0\n0\n0\n0\n0\n0\nImages\nUnique\nWithout Alt\nWithout Title\n29\n27\n28\n29\nLinks\nUnique\nInternal\nExternal\nDofollow\nNofollow\n24\n23\n6\n18\n24\n0\n0",
+      "textLength": 919,
+      "truncated": false,
+      "title": "AITDK SEO Extension",
+      "url": "https://extension.aitdk.com/"
+    },
+    {
+      "label": "Traffic",
+      "status": "changed",
+      "clicked": true,
+      "elapsedMs": 4289,
+      "attempts": 4,
+      "text": "AITDK\nmessage.bilibili.com\nOverview\nTraffic\nBacklinks\nAdsense\nIssues\nGEO\nSERP\nDensity\nHeadings\nImages\nLinks\nSocial\nHreflangs\nStructured\nWhois\nSettings\nArchive\nSimilarweb\nSemrush\nAhrefs\nPageSpeed\nTwitter\nShipAny.ai\nShip Any AI Startups in hours, not days\nTraffic Overview\nJune 2026\n80.18M\nMonthly Visits\n38.84%\nBounce Rate\n3.02\nPages Per Visit\n00:02:55\nVisit Duration\n--\nGlobal Rank\n--\nCountry Rank\n2004-10-21\nDomain Creation\n2031-10-21\nDomain Expiration\n21.81 years\nDomain Age\nVisits Over Time\n3M\n6M\n12M\n2026/04\n2026/05\n2026/06\n0\n25M\n50M\n75M\n100M\nTotal Visits\nDirect\nSearch\nSocial\nReferrals\nDisplay Ads\nMail\nOther\nTraffic Sources\nSocial: 95.17%\nDirect: 2.93%\nReferrals: 1.58%\nSearch: 0.24%\nMail: 0.05%\nDisplay Ads: 0.01%\nOther: 0.02%\nTop Keywords\nKeyword\nTraffic\nVolume\nCPC\nb站\n450\n228K\n$1.45\nb\n340\n1M\n$0.67\n紫霞仙子之绝版肛交内射\n230\n0\n$0\nbilibili\n120\n4M\n$0.75\n这位妈妈一边给小宝宝哺乳，一边毫不犹豫地自慰\n70\n0\n$0\nTop Regions\nRegion\nPercentage\nChina\n90.59%\nHong Kong\n2.78%\nUnited States\n2.32%\nTaiwan\n2.2%\nSingapore\n0.43%\n0",
+      "textLength": 989,
+      "truncated": false,
+      "title": "AITDK SEO Extension",
+      "url": "https://extension.aitdk.com/"
+    },
+    {
+      "label": "Backlinks",
+      "status": "duplicate",
+      "duplicateOf": "baseline",
+      "clicked": true,
+      "elapsedMs": 4201,
+      "attempts": 4,
+      "text": "AITDK\nmessage.bilibili.com\nOverview\nTraffic\nBacklinks\nAdsense\nIssues\nGEO\nSERP\nDensity\nHeadings\nImages\nLinks\nSocial\nHreflangs\nStructured\nWhois\nSettings\nArchive\nSimilarweb\nSemrush\nAhrefs\nPageSpeed\nTwitter\nDIT.ai\nThe AI Cost Router - Save up to 70%\nEach lookup uses 1 credit. Failed lookups are free.\nDomain Rating\n92\nBacklinks\n20.75K\n\n81% dofollow\n\nRef. Domains\n234\n\n76% dofollow\n\nTop Backlinks\nwiki.biligame.com\nDR 75\n\n雅 - 绝区零WIKI_BWIKI_哔哩哔哩\n\n希之萱\nhttps://message.bilibili.com/\nglthai.com\nDR —\n\n《和諧密語 Harmony Secret》泰百劇集介紹：女強人秘戀競爭對手～泰百首部商戰劇 – 瘋泰百\n\nhttps://message.bilibili.com/?spm_id_from=333.788.upinfo.detail.click\ncnblogs.com\nDR 88\n\n探秘Transformer系列之（28）--- DeepSeek MLA - 罗西的思考 - 博客园\n\nhttps://message.bilibili.com/\narcraiders.top\nDR 2\n\nARCRaiders互动交互式地图太空港大坝蓝门星辰山/指南/百科/地图/任务/武器/地图标记/攻略WIKI中文网站\n\n【UP主互推合作 点击申请】 游戏所有物品分解合成图\nhttps://message.bilibili.com/?spm_id_from=333.1387.0.0\nprettywordpress.com\nDR 19\n\n吃饭用大碗的程序猿-专注wordpress建站|前端技术|后端技术|高质量文章|系统教程|免费教程|生活点滴|开发常见问题\n\n发消息\nhttps://message.bilibili.com/\nhanabi-live.com\nDR —\n\n烟花绽放 浴火新生 - Hanabi_Live\n\nBiliBili: @Hanabi_Live\nhttps://message.bilibili.com/\nsubspace.institute\nDR 26\n\nLAPLACE Chat Changelog | Subspace Institute\n\n哔哩哔哩开放平台\nhttps://message.bilibili.com/\ngithub.com\nDR 97\n\n公共解析服务器 · yujincheng08/BiliRoaming Wiki · GitHub\n\n@cxw620\nhttps://message.bilibili.com/\nbilitools.top\nDR 21\n\n关于本站 - 碧梨工具箱 | bilitools.top\n\n联系站长\nhttps://message.bilibili.com/\ncati.me\nDR 10\n\nCatime - Timer & Pomodoro\n\nFeedback\nhttps://message.bilibili.com/\nnav.laoda.de\nDR 48\n\n咕咕鸽的导航网站 | Let's Break The Wall\n\nB站 B站\nhttps://message.bilibili.com/\nyuushya.com\nDR 5\n\n反馈与常见问题 - Yuushya Minecraft 建筑系列\n\nBilibili PM 发送Bilibili私信\nhttps://message.bilibili.com/?spm_id_from=\nvladelaina.github.io\nDR 94\n\nCatime - Support the Project\n\nFeedback\nhttps://message.bilibili.com/\nzerolite.cn\nDR 2\n\nblog - ZEROLITE Blog\n\n发私信\nhttps://message.bilibili.com/\nshejihu.top\nDR 1\n\n射击虎互动地图：穹顶突击队arcraiders 黑域撤离 失落星船：马拉松 纳克园: 最后的乐园 逃离鸭科夫 灰区战争 互动交互式地图 指南/百科/地图/任务/武器/地图标记/攻略WIKI中文网站\n\n💬意见反馈\nhttps://message.bilibili.com/\ntaholab.com\nDR 17\n\n3DGS：从B站博主“木木爱画”那里学到的一些3DGS的知识 – TAHOLAB\n\nhttps://message.bilibili.com/?spm_id_from=333.788.upinfo.detail.click\nithome.com\nDR 80\n\n《街头霸王 6》游戏试玩版已上线 PS 主机，4 月 26 日登陆 PC 和 Xbox 平台 - IT之家\n\nhttps://message.bilibili.com/\nvrcoast.cn\nDR 30\n\nQuest Games Optimizer自动开启adb教程-VRcoast带你玩转VR,国内VR虚拟现实新闻门户网站,为您提供VR虚拟现实等新闻咨询。\n\nhttps://message.bilibili.com/\nmodenc.renegadeprojects.com\nDR 21\n\nUser:桂月August on ModEnc, the Command & Conquer Modding Encyclopedia\n\nMessage Center\nhttps://message.bilibili.com/\nwlgooo.com\nDR 9\n\nSFC重装机兵瓦尔肯[Soldat汉化版]|附CIA-2023.11.25更新 - 围炉Go\n\nhttps://message.bilibili.com/\n0",
+      "textLength": 2627,
+      "truncated": false,
+      "title": "AITDK SEO Extension",
+      "url": "https://extension.aitdk.com/"
+    },
+    {
+      "label": "Keywords",
+      "status": "not-found",
+      "clicked": false,
+      "elapsedMs": 6,
+      "error": "No visible navigation element matched \"Keywords\"",
+      "candidates": [
+        "Refresh report",
+        "Hide panel (Alt + D)",
+        "AITDK",
+        "Overview",
+        "Traffic",
+        "Backlinks",
+        "Adsense",
+        "Issues",
+        "GEO",
+        "SERP",
+        "Density",
+        "Headings",
+        "Images",
+        "Links",
+        "Social",
+        "Hreflangs",
+        "Structured",
+        "Whois",
+        "Settings",
+        "Archive",
+        "Similarweb",
+        "Semrush",
+        "Ahrefs",
+        "PageSpeed",
+        "Twitter",
+        "DIT.ai",
+        "The AI Cost Router - Save up to 70%",
+        "Domain Rating",
+        "Total Backlinks",
+        "Referring Domains"
+      ]
+    },
+    {
+      "label": "Whois",
+      "status": "changed",
+      "clicked": true,
+      "elapsedMs": 4208,
+      "attempts": 4,
+      "text": "AITDK\nmessage.bilibili.com\nOverview\nTraffic\nBacklinks\nAdsense\nIssues\nGEO\nSERP\nDensity\nHeadings\nImages\nLinks\nSocial\nHreflangs\nStructured\nWhois\nSettings\nArchive\nSimilarweb\nSemrush\nAhrefs\nPageSpeed\nTwitter\nDIT.ai\nThe AI Cost Router - Save up to 70%\nWhois\nDNS\nWhois / RDAP\nDomain\nBILIBILI.COM\nRegistrar\nAlibaba Cloud Computing (Beijing) Co., Ltd.\nRegistrar ID\n420\nCreated Date\n2004-10-21 11:37:37 UTC\nExpires Date\n2031-10-21 11:37:37 UTC\nUpdated Date\n2026-07-27 18:38:28 UTC\nDomain Status\n\nclient transfer prohibited\n\nclient update prohibited\n\nserver delete prohibited\n\nserver transfer prohibited\n\nserver update prohibited\n\nName Servers\n\nNS3.DNSV5.COM\n\nNS4.DNSV5.COM\n\nDNSSEC\nunsigned\nRaw Whois / RDAP\n{\n \"objectClassName\": \"domain\",\n \"handle\": \"133351793_DOMAIN_COM-VRSN\",\n \"ldhName\": \"BILIBILI.COM\",\n \"links\": [\n  {\n   \"value\": \"https://rdap.verisign.com/com/v1/domain/BILIBILI.COM\",\n   \"rel\": \"self\",\n   \"href\": \"https://rdap.verisign.com/com/v1/domain/BILIBILI.COM\",\n   \"type\": \"application/rdap+json\"\n  },\n  {\n   \"value\": \"https://whois.aliyun.com/rdap/domain/BILIBILI.COM\",\n   \"rel\": \"related\",\n   \"href\": \"https://whois.aliyun.com/rdap/domain/BILIBILI.COM\",\n   \"type\": \"application/rdap+json\"\n  }\n ],\n \"status\": [\n  \"client transfer prohibited\",\n  \"client update prohibited\",\n  \"server delete prohibited\",\n  \"server transfer prohibited\",\n  \"server update prohibited\"\n ],\n \"entities\": [\n  {\n   \"objectClassName\": \"entity\",\n   \"handle\": \"420\",\n   \"roles\": [\n    \"registrar\"\n   ],\n   \"links\": [\n    {\n     \"href\": \"http://www.net.cn\",\n     \"type\": \"text/html\",\n     \"value\": \"https://whois.aliyun.com/rdap/\",\n     \"rel\": \"about\"\n    }\n   ],\n   \"publicIds\": [\n    {\n     \"type\": \"IANA Registrar ID\",\n     \"identifier\": \"420\"\n    }\n   ],\n   \"vcardArray\": [\n    \"vcard\",\n    [\n     [\n      \"version\",\n      {},\n      \"text\",\n      \"4.0\"\n     ],\n     [\n      \"fn\",\n      {},\n      \"text\",\n      \"Alibaba Cloud Computing (Beijing) Co., Ltd.\"\n     ]\n    ]\n   ],\n   \"entities\": [\n    {\n     \"objectClassName\": \"entity\",\n     \"roles\": [\n      \"abuse\"\n     ],\n     \"vcardArray\": [\n      \"vcard\",\n      [\n       [\n        \"version\",\n        {},\n        \"text\",\n        \"4.0\"\n       ],\n       [\n        \"fn\",\n        {},\n        \"text\",\n        \"\"\n       ],\n       [\n        \"tel\",\n        {\n         \"type\": \"voice\"\n        },\n        \"uri\",\n        \"tel:+86.95187\"\n       ],\n       [\n        \"email\",\n        {},\n        \"text\",\n        \"DomainAbuse@service.aliyun.com\"\n       ]\n      ]\n     ]\n    }\n   ]\n  }\n ],\n \"events\": [\n  {\n   \"eventAction\": \"registration\",\n   \"eventDate\": \"2004-10-21T11:37:37Z\"\n  },\n  {\n   \"eventAction\": \"expiration\",\n   \"eventDate\": \"2031-10-21T11:37:37Z\"\n  },\n  {\n   \"eventAction\": \"last changed\",\n   \"eventDate\": \"2021-12-29T02:09:35Z\"\n  },\n  {\n   \"eventAction\": \"last update of RDAP database\",\n   \"eventDate\": \"2026-07-27T18:38:28Z\"\n  }\n ],\n \"secureDNS\": {\n  \"delegationSigned\": false\n },\n \"nameservers\": [\n  {\n   \"objectClassName\": \"nameserver\",\n   \"ldhName\": \"NS3.DNSV5.COM\"\n  },\n  {\n   \"objectClassName\": \"nameserver\",\n   \"ldhName\": \"NS4.DNSV5.COM\"\n  }\n ],\n \"rdapConformance\": [\n  \"rdap_level_0\",\n  \"icann_rdap_technical_implementation_guide_1\",\n  \"icann_rdap_response_profile_1\"\n ],\n \"notices\": [\n  {\n   \"title\": \"Terms of Service\",\n   \"description\": [\n    \"Service subject to Terms of Use.\"\n   ],\n   \"links\": [\n    {\n     \"href\": \"https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml\",\n     \"type\": \"text/html\",\n     \"value\": \"https://rdap.verisign.com/com/v1/domain/bilibili.com\",\n     \"rel\": \"terms-of-service\"\n    }\n   ]\n  },\n  {\n   \"title\": \"Status Codes\",\n   \"description\": [\n    \"For more information on domain status codes, please visit https://icann.org/epp\"\n   ],\n   \"links\": [\n    {\n     \"href\": \"https://icann.org/epp\",\n     \"type\": \"text/html\"\n    }\n   ]\n  },\n  {\n   \"title\": \"RDDS Inaccuracy Complaint Form\",\n   \"description\": [\n    \"URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf\"\n   ],\n   \"links\": [\n    {\n     \"href\": \"https://icann.org/wicf\",\n     \"type\": \"text/html\",\n     \"value\": \"https://rdap.verisign.com/com/v1/domain/bilibili.com\",\n     \"rel\": \"help\"\n    }\n   ]\n  }\n ],\n \"cached\": 1786269698449\n}\n0",
+      "textLength": 4217,
+      "truncated": false,
+      "title": "AITDK SEO Extension",
+      "url": "https://extension.aitdk.com/"
+    },
+    {
+      "label": "SERP",
+      "status": "changed",
+      "clicked": true,
+      "elapsedMs": 4205,
+      "attempts": 4,
+      "text": "AITDK\nmessage.bilibili.com\nOverview\nTraffic\nBacklinks\nAdsense\nIssues\nGEO\nSERP\nDensity\nHeadings\nImages\nLinks\nSocial\nHreflangs\nStructured\nWhois\nSettings\nArchive\nSimilarweb\nSemrush\nAhrefs\nPageSpeed\nTwitter\nDIT.ai\nThe AI Cost Router - Save up to 70%\nNumber Of Indexed Pages\nGoogle\n7\nBing\n52\nYahoo\nBaidu\n3\nYandex\nDuckDuckGo\nAsk\nAOL\nNaver\nQwant\nSogou\n0\nBrave\n0\nGoogle Search Results Preview\nmessage.bilibili.com\nhttps://message.bilibili.com/#/whisper\n消息中心 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibi...\n\nbilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。\n\n0",
+      "textLength": 559,
+      "truncated": false,
+      "title": "AITDK SEO Extension",
+      "url": "https://extension.aitdk.com/"
+    }
+  ]
+}
