@@ -1,7 +1,8 @@
 # 卖空气验证 · TikTok Shop landed cost / 关税 / 利润计算器
 
-> 2026-07-29。方向候选已过 direction-validator 闸门（tentative go），进入 mvp-validation。
-> 主源：赫兹 015/028/029；前置证据见 `方向验证-第4轮-TikTokShop-预查.md`
+> **状态：历史淘汰 / reject（ADR-0006，2026-08-09）**——用户实测不适合，不续研、不排闭环。材料保留作案例。
+> 原记：2026-07-29。曾过 direction-validator（tentative go）进入 mvp-validation。
+> 前置证据见 `方向验证-第4轮-TikTokShop-预查.md`
 
 ## 0. 前置闸门确认
 
