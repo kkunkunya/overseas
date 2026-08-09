@@ -56,7 +56,7 @@
 
 ## 怎么用这份资料
 
-- **立刻动手**：装上浏览器插件（SEO Extension），随便打开几个网站感受它能看什么数据
-- **配合 03 的"SEO"大类**：赫兹专门有一篇 `AITDK SEO 内容的生成和重写`，教你怎么把这个工具用进 SEO 流程
-- **你的学习路径**：先用 Keywords Generator 找词 → 用 Title/Description Generator 生成内容骨架 → 用 Rewriter 优化 → 用 Landing Page Generator 出落地页
-- 这是一个"边学边动手"的切入点——比纯看文章更容易理解 SEO 到底在做什么
+- **立刻动手**：装插件看站，或打开 https://aitdk.com 用网页 Keywords 等——哪种顺手用哪种。
+- **实务备注（非执行约束）**：有人反馈 Agent 控浏览器时扩展面板偶尔不好使；碰到就改网页版、SERP/Trends/web search，或人眼读数贴给 Agent。以后通道改善了，插件照样可以是主路径之一。
+- **学习路径**：Keywords 扩词 → **必须**回 Google SERP/Trends 验证 → 标题描述等生成仅作草稿。
+- 工具可换；问题是扩词与页分析，不是品牌绑定。

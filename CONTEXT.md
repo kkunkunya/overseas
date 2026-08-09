@@ -115,11 +115,11 @@ _Avoid_: 认为堆 FAQ、加几个 schema 或反复问模型就能稳定“排�
 
 ## 标准工具（选方向 / SEO 早中期）
 
-**AITDK**: 本项目**标准免费 SEO 工具箱**（网页 https://aitdk.com + Chrome 插件）。赫兹称「SEO 必备插件」（`原文/0-工具与资源/001-必不可少的神器`）。在本项目中分工：①**看站/看页**（插件：流量粗览、Title/H 结构、链接、Whois 等）②**扩词/内容辅助**（网页 Keywords/Title 等生成器）。选方向评估词时，与 Google SERP、Trends 组成默认免费三件套；不替代赫兹 018 判断框架。
-_Avoid_: 把 AITDK 的 AI 生成词当成已验证需求；生成词必须再过 018（量/竞争/赚钱）
+**AITDK**: 免费 SEO 工具箱（网页 https://aitdk.com + Chrome 插件）。可做扩词/页分析辅助；生成词须再回 SERP/Trends，不能当已验证需求。网页与插件两种入口都可用，按当下是否顺手选择。
+_Avoid_: 把 AI 生成词当需求铁证；工具名绑死方法论
 
-**标准免费三件套**: 选方向与 SEO 早期默认工具组合 = **AITDK**（看词/看页）+ **Google SERP / 搜索语法**（前 10 与 allintitle）+ **Google Trends**（相对趋势）。Similarweb 免费页为可选补强；Ahrefs/Semrush 为 🔑 精确档。
-_Avoid_: 没跑三件套就用感觉定方向；也避免只有 AI 扩词没有 SERP 实查
+**标准免费三件套**: 选方向早期默认组合思路 = **扩词辅助** + **真 Google SERP** + **Google Trends**（实现不绑死某一品牌；AITDK 网页/插件、其它关键词工具、web search 皆可）。Similarweb 可选补强；Ahrefs/Semrush/DataForSEO 等为 🔑 量/KD 精确档。
+_Avoid_: 没跑 SERP 就定方向；只有 AI 扩词没有真结果页
 
 **Trends Radar**: Google Trends 的可选 Chrome 扩词插件。它可将某词的 `rising queries`（飙升查询）递归作为下一轮种子词，帮助发现新词；必须记录词根→飙升词的来源链、日期和本轮上限，去重并归成词群后，仍回 Google Trends、真实 SERP、竞争与变现验证。它只是**候选发现器**，插件内搜索量和 Breakout 不能单独证明稳定需求或付费意愿。赫兹 X 原帖《Trends Radar 实现Google trends 自动词找词》（2026-07-29）。
 _Avoid_: 因递归找到了陌生飙升词就建站；无限扩词触发 Google Trends 限制；把插件估算冒充官方月搜索量。
