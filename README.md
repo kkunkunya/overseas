@@ -33,7 +33,7 @@ overseas/
 
 | 步 | 目录 | 解决什么 | 笔记 | 原文 |
 |---|------|---------|------|------|
-| 1 | [1-选方向](1-选方向/_本步导航.md) | 找到值得做的方向并验证 | YC评估10问 · YC视频 · 目录站赛道验证 · Greg Isenberg Reddit · Marc Lou 冷邮件验证 | 原文/1-选方向 29篇 |
+| 1 | [1-选方向](1-选方向/_本步导航.md) | 找到值得做的方向并验证 | YC评估10问 · YC视频 · 目录站赛道验证 · Greg Isenberg Reddit · Marc Lou 冷邮件验证 · AI应用出海新手完全指南 | 原文/1-选方向 29篇 |
 | 2 | [2-建站开发](2-建站开发/_本步导航.md) | 用 AI + 白嫖方案快速上站 | （待你探索时补） | 原文/2-建站开发 33篇 |
 | 3 | [3-SEO获客](3-SEO获客/_本步导航.md) | 靠搜索拿自然流量 | AITDK · SimilarWeb | 原文/3-SEO获客 45篇 |
 | 4 | [4-流量放大](4-流量放大/_本步导航.md) | 社媒 + 外链 + 投流放大 | Marc Lou 10 个获客渠道 | 原文/4-流量放大 47篇 |
@@ -97,3 +97,4 @@ overseas/
 - DemandMaven 辅源文章：[How to not do product discovery](https://demandmaven.substack.com/p/how-to-not-do-product-discovery) → `1-选方向/Asia-Orangio-避免错误产品发现.md`
 - GTM Strategist 辅源文章：[My 7-Day Business Idea Validation Framework](https://knowledge.gtmstrategist.com/p/7-day-business-idea-validation-framework) → `1-选方向/Maja-Voje-七日轻量验证框架.md`
 - Surfer Academy 辅源视频：The Complete SEO & AI SEO Course for 2026 → `3-SEO获客/Surfer-SEO与AI-SEO完整课程.md`
+- AI 应用出海新手完全指南（未署名 PDF，本地微信文件 2026-08）→ `1-选方向/AI应用出海新手完全指南.md`
