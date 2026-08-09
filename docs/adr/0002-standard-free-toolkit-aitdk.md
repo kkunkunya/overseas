@@ -24,3 +24,4 @@
 
 - 实践清单 / 调研动作默认写上 AITDK 步骤。
 - 精确月搜/KD/外链仍可补 🔑，不因有 AITDK 而假装已有 Ahrefs 级精度。
+- **量/KD 必取证、参考带不卡死** 由 [ADR-0007](0007-keyword-metrics-must-be-fetched.md) 补强：AITDK 扩词 ≠ 量化通过。
