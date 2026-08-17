@@ -53,11 +53,15 @@ overseas/
 - `/domain-modeling`——把出海术语（目录站、躺赚、复利、SEO、外链…）谈拢落 `CONTEXT.md`
 - `/research`——调研方向 / 竞品 / 赛道
 - `/project-prompt`——项目阶段、约定或 Agent 路由发生稳定变化时，刷新 `AGENTS.md` / `CLAUDE.md` 的短地图
-- `direction-validator`（项目 skill）——**可选**选方向流程（人群/词 → 证据）；非强制闸门
-- `mvp-validation`（项目 skill）——**可选**卖空气 / 最小触达验证
+- `ask-overseas`（项目 skill）——出海机会与增长问题混在一起时，定位当前最早缺口并路由唯一下一步
+- `direction-validator`（项目 skill）——**可选**从人群/社区/工作流选择 SEO 资产、Workflow SaaS 或混合楔子路线
+- `vertical-keyword-loop`（项目 skill）——**可选** SEO-first 选词：词群/SERP/竞争/场景取证与 go/watch/narrow/reject
+- `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——已拍板词群的页面/内链/首版蓝图；以及上线时的可抓取/索引审计
+- `distribution-link-loop` / `geo-source-loop`（项目 skill）——首批分发、外链机会与台账；AI 搜索来源资产与引用机会
+- `product-growth-review`（项目 skill）——每站以 8–12 周观察窗、两轮针对性调整，用 GSC、产品行为、分发与收入定位最早瓶颈并决定加码/收窄/停止
 - `kb-ingest`（项目 skill）——外部资料提炼进笔记层、归步、更新索引；与当前路径及其他材料交叉引用
 
-不知道下一步怎么走 → 先读 `README.md` + 对应步骤的 `_本步导航.md`。做产品时**另开项目**（带 `frontend` 领域，走 `/project-design-prompt` → `/layout-priority-design` → `/design-recon` → `/to-tickets`），本库只作资料背景。
+不知道下一步怎么走 → 先用 `ask-overseas`；只想查阅学习材料 → 先读 `README.md` + 对应步骤的 `_本步导航.md`。做产品时**另开项目**实现代码；本库保留方向、搜索与增长方法，具体工程 skill 在产品仓库按其技术栈启用。
 
 ## 指针
 
@@ -77,4 +81,4 @@ overseas/
 单 context（single-context）——根目录一个 `CONTEXT.md` + `docs/adr/`，由 domain-modeling 惰性创建。见 `docs/agents/domain.md`。
 
 ### Skills domain
-暂不声明领域——知识库学习阶段纯靠 global skill。未来建站做产品时回来加。见 `docs/agents/skills-domain.md`。
+本库声明 `overseas-growth` 方法领域：项目 skill 真身统一在 `.pi/skills/`，覆盖方向、搜索、页面蓝图、上线审计、分发/GEO 与增长复盘；具体产品工程仍在独立产品仓库声明 frontend/engineering/deploy。见 `docs/agents/skills-domain.md`。

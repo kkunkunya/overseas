@@ -96,7 +96,7 @@ git add -A && git commit -m "添加 <作者> 材料笔记：<主题1>/<主题2>.
 
 - 用户丢来视频字幕/逐字稿、文章、帖子、课程笔记说"加进知识库"/"归档"/"整理进来" → 用本 skill
 - 用户说"这个视频/这篇文章很好，存下来" → 用本 skill
-- 用户只是问知识库里某内容、或要基于已有资料做选方向/验证 → **不用**本 skill，走 `direction-validator` / `mvp-validation` / `research`
+- 用户只是问知识库里某内容、或要基于已有资料做选方向/搜索机会/增长判断 → **不用**本 skill，走 `ask-overseas` / `direction-validator` / `vertical-keyword-loop` / `research`
 
 ## 参考资料
 

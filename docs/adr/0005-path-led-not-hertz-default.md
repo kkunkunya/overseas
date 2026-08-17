@@ -30,5 +30,5 @@ ADR-0001 规定方法论以赫兹原文为默认第一权威，辅源冲突时�
 
 - `CONTEXT.md`「权威与来源」、`AGENTS.md` / `CLAUDE.md` 约定同步本决策。
 - 既有「辅源不压主源」表述改为「材料按需；路径与实测优先」。
-- `direction-validator` / `mvp-validation` 等 skill 仍可用，但是**可选流程**，不是默认必经。
+- `direction-validator` / `vertical-keyword-loop` 等 skill 仍是按当前问题选用的流程，不是默认必经；SEO 产品默认主链见 ADR-0014。
 - 旧笔记里的「以赫兹为准」字样不搞一次性全库重写；碰到再改，或新笔记按本 ADR 写。

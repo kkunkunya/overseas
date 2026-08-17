@@ -9,8 +9,8 @@ scope: project
 按当前最早未通过的环节路由，不按用户提到的名词堆叠 skill：
 
 ```text
-资料 → 方向 → 搜索机会 → 行动验证 → 站点蓝图 → 实现 → 搜索就绪
-→ 分发/引用 → GEO → 有效用户复盘
+资料 → 方向 → 搜索机会 → 站点蓝图 → 可用 MVP 实现 → 搜索就绪
+→ 分发/引用 → GEO → 观察与有效用户复盘
 ```
 
 | 当前事实 | 下一步 |
@@ -18,7 +18,6 @@ scope: project
 | 要把视频、文章、帖子或课程材料归档进知识库 | `kb-ingest` |
 | 只有想法、人群、社区或产品方向，尚未确定 SEO 资产 / Workflow SaaS / 混合楔子 | `direction-validator` |
 | 已确定从搜索机会进入，要扩词、看 SERP、查竞争与场景、给灯色 | `vertical-keyword-loop` |
-| 已有一个承诺，明确要用真实价格、预订、人工交付或小流量测试行动 | `mvp-validation` |
 | 词群与窄承诺已确定，需要规划页面、内链、首版范围与页面任务 | `seo-site-blueprint` |
 | 产品页已实现，准备上线、刚上线，或需要排查抓取/索引/收录 | `seo-readiness-audit` |
 | 页面可用但缺首批合资格用户、社区反馈或第三方引用 | `distribution-link-loop` |

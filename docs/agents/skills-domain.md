@@ -8,7 +8,6 @@
 | 资料入库 | `kb-ingest` |
 | 路线选择 | `direction-validator` |
 | SEO-first 选词 | `vertical-keyword-loop` |
-| 真实行动验证 | `mvp-validation` |
 | 页面与站点蓝图 | `seo-site-blueprint` |
 | 上线/收录审计 | `seo-readiness-audit` |
 | 分发与外链机会 | `distribution-link-loop` |

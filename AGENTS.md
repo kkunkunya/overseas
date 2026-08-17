@@ -56,10 +56,9 @@ overseas/
 - `ask-overseas`（项目 skill）——出海机会与增长问题混在一起时，定位当前最早缺口并路由唯一下一步
 - `direction-validator`（项目 skill）——**可选**从人群/社区/工作流选择 SEO 资产、Workflow SaaS 或混合楔子路线
 - `vertical-keyword-loop`（项目 skill）——**可选** SEO-first 选词：词群/SERP/竞争/场景取证与 go/watch/narrow/reject
-- `mvp-validation`（项目 skill）——**可选**用真实价格与行动信号验证承诺
 - `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——已拍板词群的页面/内链/首版蓝图；以及上线时的可抓取/索引审计
 - `distribution-link-loop` / `geo-source-loop`（项目 skill）——首批分发、外链机会与台账；AI 搜索来源资产与引用机会
-- `product-growth-review`（项目 skill）——用 GSC、产品行为、分发与收入定位最早瓶颈并决定加码/收窄/停止
+- `product-growth-review`（项目 skill）——每站以 8–12 周观察窗、两轮针对性调整，用 GSC、产品行为、分发与收入定位最早瓶颈并决定加码/收窄/停止
 - `kb-ingest`（项目 skill）——外部资料提炼进笔记层、归步、更新索引；与当前路径及其他材料交叉引用
 
 不知道下一步怎么走 → 先用 `ask-overseas`；只想查阅学习材料 → 先读 `README.md` + 对应步骤的 `_本步导航.md`。做产品时**另开项目**实现代码；本库保留方向、搜索与增长方法，具体工程 skill 在产品仓库按其技术栈启用。
