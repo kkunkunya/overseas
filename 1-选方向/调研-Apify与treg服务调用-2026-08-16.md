@@ -38,7 +38,59 @@ KD 不是裁决；社媒热度也不是裁决。每个方向仍须同时有：�
 
 ---
 
-## 2. 为什么 treg 比 Apify 更适合当前阶段
+## 2. 扩展能力地图：按产品阶段调用，不按 endpoint 数量调用
+
+> 2026-08-16 按 treg Catalog / Connections 观察。**Connected / not connected 是当时账户状态，不是永久能力清单**：调用前先看 Catalog 与 Connections。Google DataForSEO 等可由 treg 代转并按调用计费；GSC、GA、GBP 等自有账户数据须完成授权，未连接时不能把第三方估算冒充一方数据。
+
+### A. 方向与搜索机会（上线前）
+
+| 当前问题 | 优先能力 | 什么时候值得加 | 不应怎么用 |
+|---|---|---|---|
+| Google 结果是否被 PAA、AI Overview、视频、图片或本地包改变 | Google Organic advanced / Images / Videos / AI Mode | 页面形态不清，或工具词 SERP 明显混合 | 对所有词默认跑高级 SERP |
+| 用户是要工具、比较、购买还是学习 | Google Search Intent + 真 SERP | 标题/页型/CTA 有分歧 | 把 intent 标签当用户真实动机结论 |
+| 竞品靠哪些词和页面获客 | Keywords for Site、Relevant Pages、SERP Competitors、Domain/Page Intersection、历史 SERP | 已锁定 1–3 个对标，正在找窄切口 | 全量导出竞品数据库或照抄词表 |
+| 广告主是否在持续为问题付钱、广告承诺是什么 | Google Ads / Ads Transparency | CPC/竞品定价不足以判断商业时刻 | 把有广告直接等同产品必赚 |
+| 图片、电商、本地服务才是主入口 | Google Images/Lens、Shopping、Maps/Local Finder、Business Data/Reviews | SERP 或用户任务已经证明属于这些形态 | 普通线上工具也强行做本地/电商研究 |
+| 目标市场主要不用 Google | Bing、Yahoo、DuckDuckGo、Baidu、Naver、Yandex、Seznam SERP/关键词数据 | 目标国家、语言或产品入口有明确证据 | 为“覆盖更多搜索引擎”默认复制全部流程 |
+
+Google 是当前默认搜索入口；Bing/鸭鸭适合英语市场有明确入口证据时补查，Baidu/Naver/Yandex/Seznam 只在中国/韩国/俄语市场/捷克等对应生态成为目标时才切换。Google Business Profile 只服务本地商家、`near me`、城市目录或地图意图，不是一般工具站的必接项。
+
+### B. 场景、人群与分发（上线前和冷启动）
+
+| 人群或材料形态 | 默认先查 | 取什么 | 何时升级到 Chrome |
+|---|---|---|---|
+| 视觉创作者、短视频工作流 | TikTok、YouTube、Instagram | 视频演示、评论、使用步骤、导出/失败点 | 要复读完整流程、频道语境、评论上下文 |
+| 开发者、独立站、B2B 工具讨论 | X、Reddit、LinkedIn | 痛点原话、替代方案、预算/迁移语言 | 要看版规、个人资料、长帖或许可式联系 |
+| 中文案例、国内平台/内容迁移线索 | 抖音、B 站、知乎、小红书、微博、公众号/视频号 | 已有做法、表达、素材、工作流 | 需要确认原帖、版权、规则与是否适用于目标海外市场 |
+| 兴趣、收藏、视觉灵感型人群 | Pinterest、Instagram、Lemon8 | 保存/分享型内容、审美/模板语言 | 需要看单条内容与外链落地页 |
+
+社媒数据只用来提取用户语言、场景和替代方案。每轮先 2–4 个任务/抱怨词、少量强相关帖子/视频/评论；真人触达、发帖、私聊、合作仍要用户明确授权。
+
+### C. 搜索权威、GEO 与上市后的一方数据
+
+| 阶段 | 能力 | 用途 | 连接/成本边界 |
+|---|---|---|---|
+| 外链机会 | Backlinks / authority / domain metrics | referring domains、链接页、锚文本、新失链线索，供机会台账初筛 | 当前显示 Connected；先按实际返回字段小样本验证，再 Chrome 审来源页 |
+| GEO 来源研究 | AI Visibility / AEO：ChatGPT、Gemini、Claude、Perplexity 的回答/搜索结果 | 反推检索词、引用页与来源资产缺口 | 回答抓取约 $0.004–0.036/次；只研究明确 AI 问题 |
+| GEO 竞争/趋势观察 | AI mentions、品牌/域名/页面历史、AI search volume | 看提及/来源变化，发现可复查现象 | mentions 常约 $0.1/次；不是日常“AI 分数” |
+| 自有搜索表现 | Google Search Console | 查询、展示、点击、页面、索引覆盖与 sitemap 错误 | 当前未连接；站上线后授权，一方数据优先 |
+| 自有行为与转化 | Google Analytics | 流量、事件、漏斗、回访和转化 | 当前未连接；站上线后授权，不用第三方估算替代 |
+| 本地商家资产 | Google Business Profile | 门店资料、评论、问答、地图可见度 | 当前未连接；只对本地意图产品授权 |
+
+### D. 调用纪律
+
+```text
+先问：这个 endpoint 能改变当前 go / watch / narrow / reject，
+或能决定当前页面、分发、GEO、复盘的一项动作吗？
+→ 能：声明国家/语言/词数/预算/预期判断后小样本调用
+→ 不能：不调用
+```
+
+数据提供方、日期、国家/语言、设备、费用和未知项必须随证据卡记录。模型答案、关键词指标、外链分数、社媒互动、AI mention 都是线索；关键页面、原帖、产品和一方数据仍要复读或核验。
+
+---
+
+## 3. 为什么 treg 比 Apify 更适合当前阶段
 
 | 对比 | treg | Apify Console |
 |---|---|---|
@@ -52,11 +104,11 @@ KD 不是裁决；社媒热度也不是裁决。每个方向仍须同时有：�
 
 ---
 
-## 3. 这次手动小试：`tattoo stencil maker`（美国/英语）
+## 4. 这次手动小试：`tattoo stencil maker`（美国/英语）
 
 > 这是用于验证服务链和证据纪律的样词，**不是首批建站建议**。本次结果反而证明了：低 KD 不等于蓝海。
 
-### 3.1 Apify：官方 Google Search Results Scraper
+### 4.1 Apify：官方 Google Search Results Scraper
 
 - Actor：`apify/google-search-scraper`（Apify 维护）。
 - Run：`XuEQfemeoNBqqeA1a`；输入为 `tattoo stencil maker`、`countryCode: us`、英语、只取基础 SERP 项。
@@ -64,7 +116,7 @@ KD 不是裁决；社媒热度也不是裁决。每个方向仍须同时有：�
 - 验证结果：能按国家/语言跑出 SERP dataset；因此它符合「指定国家/语言 Google SERP」这个能力。
 - 但它不直接给可比较的搜索量/KD；要补量/KD 得再接另一个 Actor 或数据源。这正是当前不把它当默认入口的原因。
 
-### 3.2 treg：同一词的三个服务调用
+### 4.2 treg：同一词的三个服务调用
 
 | 调用 | 参数 | 实测结果 / 花费 | 它证明什么 |
 |---|---|---:|---|
@@ -103,7 +155,7 @@ Reddit 返回的有效线索：
 
 ---
 
-## 4. 社媒服务：按平台怎么用
+## 5. 社媒服务：按平台怎么用
 
 treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖子，再对少数高相关帖取评论）：
 
@@ -118,7 +170,7 @@ treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖
 
 ---
 
-## 5. 我替你收窄后的默认调用配方
+## 6. 我替你收窄后的默认调用配方
 
 你今后可以把一句话发给我，例如：
 
@@ -137,7 +189,7 @@ treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖
 
 ---
 
-## 6. 边界：现在先不做什么
+## 7. 边界：现在先不做什么
 
 - **不接新 MCP / 不买 Ahrefs / 不建爬虫流水线。** 当前 treg + Chrome 已覆盖这轮要验证的事实。
 - **不让 Agent 无限探索付费接口。** 每轮先列预算、词数和停止条件；超过需你确认。
@@ -145,6 +197,6 @@ treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖
 - **不把 GSC/GA 或 AI Visibility 预先接成找方向工具。** 前者只在自有站上线后连接，后者只在已有明确 AI 问题与来源资产时按预算调用。
 - **不把本报告的样词带入首批站。** 它只是服务小试；正式方向仍按 ADR-0013 的独立证据包进入 3–4 站组合。
 
-## 7. 下一步
+## 8. 下一步
 
 最顺的下一步不是继续研究平台，而是用这套默认服务配方做 **PRC 菲律宾照片工具的 6 个核心词**，把它和另外 2–3 个独立细分候选做成可比较的机会卡。

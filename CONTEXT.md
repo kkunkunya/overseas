@@ -222,8 +222,8 @@ _Avoid_: 没跑 SERP 就定方向；只有 AI 扩词没有真结果页
 **量/KD 取证通道**: 在三件套之外，选词还要尽量拉月搜与 KD——优先可用的免费/登录网页（如 Ahrefs Free Keyword Difficulty 的 KD + SERP 指标/topVolume 线索），其次插件人眼读数，再其次 DataForSEO 等 API；AITDK Keywords Generator **只扩词、不含量/KD**。见 ADR-0007。
 _Avoid_: 把 AITDK 生词列表当成已量化；无任何量/KD 记录就结案 go
 
-**treg 默认选词服务柜台**: 当前研究时，Kun 只需描述要查什么，Agent 默认经 treg 调服务：指定国家/语言 SERP → DataForSEO；量/CPC/趋势/KD/扩词 → DataForSEO；Reddit/Instagram/X/Threads 的帖子与评论 → 对应平台服务；关键竞品页 → Chrome/网页抓取人工复读。每次仍标国家、语言、日期和上游来源，量/KD 只作线索。Apify 只在已有稳定、重复的大批量/定时抓取与 dataset 导出需求时使用。完整配方见 `1-选方向/调研-Apify与treg服务调用-2026-08-16.md`。
-_Avoid_: 为单个候选搭 API/Actor 流水线；把 treg/第三方数值当最终裁决；让 Agent 无预算无限调用付费服务
+**treg 默认研究服务柜台**: 当前研究时，Kun 只需描述要查什么，Agent 默认经 treg 调按阶段需要的服务：选词/SERP/量-CPC-趋势-KD/扩词 → DataForSEO；页面形态/意图/竞品切口 → advanced SERP、Search Intent、竞品排名词/主力页/交集；场景与人话 → 按目标人群所在处搜索 Reddit、TikTok、YouTube、Instagram、X、Threads 等帖子/视频/评论；外链机会 → Backlinks/authority 小样本后 Chrome 复读；GEO → 明确 AI 问题后查模型回答/来源/mentions；自有站上线后才连接 GSC/GA 读取一方数据。调用前先查 Catalog/Connections 的实际可用性、国家/语言/日期、费用与本轮问题；量/KD、AI mention、外链分数和社媒互动都只作线索。Apify 只在已有稳定、重复的大批量/定时抓取与 dataset 导出需求时使用。完整配方见 `1-选方向/调研-Apify与treg服务调用-2026-08-16.md`。
+_Avoid_: 为单个候选搭 API/Actor 流水线；把 treg/第三方数值当最终裁决；未连接 GSC/GA 却假装有一方数据；让 Agent 无预算无限调用付费服务
 
 **Trends Radar**: Google Trends 的可选 Chrome 扩词插件。它可将某词的 `rising queries`（飙升查询）递归作为下一轮种子词，帮助发现新词；必须记录词根→飙升词的来源链、日期和本轮上限，去重并归成词群后，仍回 Google Trends、真实 SERP、竞争与变现验证。它只是**候选发现器**，插件内搜索量和 Breakout 不能单独证明稳定需求或付费意愿。赫兹 X 原帖《Trends Radar 实现Google trends 自动词找词》（2026-07-29）。
 _Avoid_: 因递归找到了陌生飙升词就建站；无限扩词触发 Google Trends 限制；把插件估算冒充官方月搜索量。
