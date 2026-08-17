@@ -1,1 +1,7 @@
 .DS_Store
+
+# Project skill projections are generated from .pi/skills.
+.agents/skills/treg-research
+# Local project integration metadata (may contain credential references)
+.pi/skills/treg-research/.secret/
+.pi/skills/treg-research/treg.json

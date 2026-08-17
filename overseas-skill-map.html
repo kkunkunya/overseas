@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>overseas · Skill 地图</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <style>
+      :root {
+        --bg: #0f1115;
+        --panel: #171a21;
+        --inset: #0b0d12;
+        --ink: #e7e9ee;
+        --dim: #9aa3b2;
+        --line: #2a2f3a;
+        --blue: #60a5fa;
+        --blue-bg: rgba(59, 130, 246, 0.14);
+        --green: #86efac;
+        --green-bg: rgba(34, 197, 94, 0.12);
+        --amber: #fbbf24;
+        --amber-bg: rgba(245, 158, 11, 0.14);
+        --diagram: #fff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 32px 20px 80px;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          15px/1.65 -apple-system,
+          "PingFang SC",
+          "Microsoft YaHei",
+          Segoe UI,
+          system-ui,
+          sans-serif;
+      }
+      .wrap {
+        max-width: 1080px;
+        margin: auto;
+      }
+      h1 {
+        font-size: 26px;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 36px 0 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--line);
+      }
+      .sub {
+        margin: 0;
+        color: var(--dim);
+        font-size: 13px;
+      }
+      .panel,
+      .skill {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 18px;
+        margin-top: 12px;
+      }
+      .mermaid {
+        background: var(--diagram);
+        border-radius: 8px;
+        padding: 18px;
+        overflow-x: auto;
+        text-align: center;
+      }
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin-top: 10px;
+      }
+      .chip,
+      .tag {
+        display: inline-block;
+        border-radius: 999px;
+        padding: 2px 9px;
+        font-size: 12px;
+      }
+      .chip {
+        border: 1px solid;
+      }
+      .route {
+        background: var(--blue-bg);
+        border-color: #1d4ed8;
+        color: var(--blue);
+      }
+      .evidence {
+        background: var(--amber-bg);
+        border-color: #b45309;
+        color: var(--amber);
+      }
+      .action {
+        background: var(--green-bg);
+        border-color: #15803d;
+        color: var(--green);
+      }
+      input {
+        margin-top: 12px;
+        width: 100%;
+        padding: 10px 12px;
+        background: var(--inset);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        color: var(--ink);
+        font: 14px inherit;
+        outline: none;
+      }
+      input:focus {
+        border-color: var(--blue);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+      }
+      .skill {
+        margin: 0;
+        background: var(--inset);
+        padding: 14px;
+      }
+      .top {
+        display: flex;
+        gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .name {
+        font:
+          700 14px ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          monospace;
+      }
+      .tag {
+        background: #1f2937;
+        border: 1px solid #334155;
+        color: #cbd5e1;
+      }
+      .desc {
+        font-size: 13px;
+        color: #cbd5e1;
+        margin: 7px 0;
+      }
+      .when {
+        font-size: 12px;
+        color: var(--dim);
+      }
+      .flow {
+        font:
+          14px/1.9 ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          monospace;
+        background: var(--inset);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px;
+        white-space: pre-wrap;
+      }
+      .empty {
+        color: var(--dim);
+        text-align: center;
+      }
+      .src {
+        font-size: 12px;
+        color: var(--dim);
+        margin-top: 14px;
+      }
+      a {
+        color: var(--blue);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>overseas · Skill 地图</h1>
+      <p class="sub">
+        选词找方向的流程图。先看“现在卡在哪”，再调一个
+        skill；取证后做能兑现任务的可用 MVP，再用观察窗迭代。
+      </p>
+      <div class="legend">
+        <span class="chip route">路由 / 判断</span
+        ><span class="chip evidence">外部事实取证</span
+        ><span class="chip action">用户行动与增长</span>
+      </div>
+
+      <h2>主流程</h2>
+      <div class="panel">
+        <div class="mermaid">
+          flowchart TD A["外部信号\n场景 / 社区 / 竞品 / 关键词"] -->
+          B["direction-validator\n客户任务、当前替代、产品形态"] B
+          -.需要实时事实.-> C["treg-research\n搜索、竞品、社区、引用、AI 来源"]
+          C --> B B --> D["vertical-keyword-loop\n词群与竞品 → 窄承诺"] D
+          -.补外部事实.-> C D --> E["seo-site-blueprint\n可用 MVP 的页面、内链与首版范围"] E -->
+          F["独立产品仓库\n实现核心产品 + SEO/GEO 最小包"] F -->
+          G["seo-readiness-audit\n公开前的搜索就绪"] G -->
+          H["distribution-link-loop\n首批发现与第三方引用"] G -->
+          I["geo-source-loop\nAI 来源与事实资产"] H -->
+          J["product-growth-review\n8–12 周数据 → 最早瓶颈 → 单一调整"] I --> J J
+          -->|"收窄 / 改承诺 / 改产品"| B
+          L["ask-overseas\n不清楚下一步时的路由"] -.定位最早缺口.-> B L -.-> C L
+          -.-> D L -.-> E M["kb-ingest\n外部材料入知识库"] -.独立支路.-> A
+        </div>
+      </div>
+      <p class="src">
+        实线表示主交接；虚线表示按需取证、路由或回到方向层。产品代码不在本知识库实现。
+      </p>
+
+      <h2>最短执行路径</h2>
+      <div class="flow">
+        不知道做什么？ ask-overseas 有场景、关键词、竞品或社区线索？
+        direction-validator → treg-research（需要事实时）→ vertical-keyword-loop
+        已有窄承诺以及词群、SERP、竞争与变现线索？ seo-site-blueprint → 独立产品仓库 →
+        seo-readiness-audit 页面能完成任务，但没有合资格用户？
+        distribution-link-loop / geo-source-loop
+        已有一站 8–12 周的搜索、行为、分发或收入数据？ product-growth-review
+      </div>
+
+      <h2>Skill 列表</h2>
+      <p class="sub">
+        搜索名称、层级或用途。每张卡只回答：何时调、它交出什么、下一步去哪。
+      </p>
+      <input
+        id="search"
+        placeholder="搜 skill 或用途…（如：竞品、付款、页面、AI、复盘）"
+        autocomplete="off"
+      />
+      <div id="cards" class="grid"></div>
+      <p id="empty" class="empty" hidden>没有匹配的 skill。</p>
+
+      <p class="src">
+        来源：<a href="docs/agents/skills-domain.md"
+          >docs/agents/skills-domain.md</a
+        >、<a
+          href="1-%E9%80%89%E6%96%B9%E5%90%91/%E7%AC%AC%E4%B8%80%E6%AD%A5-%E5%9E%82%E7%9B%B4%E9%80%89%E8%AF%8D%E4%B8%8E%E7%AE%80%E5%8D%95%E9%97%AD%E7%8E%AF.md"
+          >第一步作战卡</a
+        >、项目 `.pi/skills/`。更新 skill 流程时同步更新此页。
+      </p>
+    </div>
+    <script>
+      const skills = [
+        [
+          "ask-overseas",
+          "路由层",
+          "不清楚现在该做什么",
+          "定位从外部信号到商业闭环中的最早缺口，交给一个下游 skill。",
+          "所有阶段的入口",
+        ],
+        [
+          "kb-ingest",
+          "材料层",
+          "要归档文章、视频、帖子或课程",
+          "把外部资料整理进知识库；不替代方向或产品判断。",
+          "独立支路",
+        ],
+        [
+          "direction-validator",
+          "方向层",
+          "只有人群、抱怨、竞品或模糊想法",
+          "还原客户任务、当前替代和可交付结果，决定产品形态。",
+          "→ 选词或产品首版",
+        ],
+        [
+          "treg-research",
+          "取证层",
+          "需要关键词、竞品、社区、引用或 AI 的实时事实",
+          "以最小调用核验会改变产品判断的外部事实。",
+          "按需回到方向 / 选词 / 分发",
+        ],
+        [
+          "vertical-keyword-loop",
+          "选词找方向层",
+          "要把词群和竞品收成一个切口",
+          "找用户入口、替代缺口和窄承诺，给 go/watch/narrow/reject。",
+          "→ seo-site-blueprint",
+        ],
+        [
+          "seo-site-blueprint",
+          "产品首版层",
+          "已有窄承诺以及词群、SERP、竞争与变现线索",
+          "把已取证的承诺变成可用 MVP 的核心页、必要内容和内链。",
+          "→ 独立产品仓库",
+        ],
+        [
+          "seo-readiness-audit",
+          "上线质量层",
+          "产品页准备公开搜索或没有被正确收录",
+          "检查页面能否被读取、索引并承接任务。",
+          "→ 分发或修复",
+        ],
+        [
+          "distribution-link-loop",
+          "发现与来源层",
+          "任务页已可用但缺用户、反馈或引用",
+          "从竞品来源找与核心任务页匹配的社区、资源页、测评和合作。",
+          "→ 增长复盘",
+        ],
+        [
+          "geo-source-loop",
+          "发现与来源层",
+          "用户会直接向 AI 问一个具体问题",
+          "从 AI 现有来源反推缺失结果，补任务页或事实资产。",
+          "→ 增长复盘",
+        ],
+        [
+          "product-growth-review",
+          "复盘层",
+          "已有自己的搜索、行为、分发或收入数据",
+          "找最早失效环节，一次只改一个。",
+          "→ 加码 / 收窄 / 归档",
+        ],
+      ];
+      const cards = document.getElementById("cards"),
+        input = document.getElementById("search"),
+        empty = document.getElementById("empty");
+      function render() {
+        const q = input.value.trim().toLowerCase();
+        const shown = skills.filter((s) =>
+          s.join(" ").toLowerCase().includes(q),
+        );
+        cards.innerHTML = shown
+          .map(
+            (s) =>
+              `<article class="skill"><div class="top"><span class="name">${s[0]}</span><span class="tag">${s[1]}</span></div><div class="desc">${s[3]}</div><div class="when">何时调：${s[2]}<br>交接：${s[4]}</div></article>`,
+          )
+          .join("");
+        empty.hidden = shown.length > 0;
+      }
+      input.addEventListener("input", render);
+      render();
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "base",
+        themeVariables: {
+          primaryColor: "#e0f2fe",
+          primaryTextColor: "#111",
+          primaryBorderColor: "#0369a1",
+          lineColor: "#334155",
+          secondaryColor: "#fef3c7",
+          tertiaryColor: "#dcfce7",
+        },
+      });
+    </script>
+  </body>
+</html>

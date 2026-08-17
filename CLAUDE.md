@@ -53,12 +53,12 @@ overseas/
 - `/domain-modeling`——把出海术语（目录站、躺赚、复利、SEO、外链…）谈拢落 `CONTEXT.md`
 - `/research`——调研方向 / 竞品 / 赛道
 - `/project-prompt`——项目阶段、约定或 Agent 路由发生稳定变化时，刷新 `AGENTS.md` / `CLAUDE.md` 的短地图
-- `ask-overseas`（项目 skill）——出海机会与增长问题混在一起时，定位当前最早缺口并路由唯一下一步
-- `direction-validator`（项目 skill）——**可选**从人群/社区/工作流选择 SEO 资产、Workflow SaaS 或混合楔子路线
-- `vertical-keyword-loop`（项目 skill）——**可选** SEO-first 选词：词群/SERP/竞争/场景取证与 go/watch/narrow/reject
-- `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——已拍板词群的页面/内链/首版蓝图；以及上线时的可抓取/索引审计
-- `distribution-link-loop` / `geo-source-loop`（项目 skill）——首批分发、外链机会与台账；AI 搜索来源资产与引用机会
-- `product-growth-review`（项目 skill）——每站以 8–12 周观察窗、两轮针对性调整，用 GSC、产品行为、分发与收入定位最早瓶颈并决定加码/收窄/停止
+- `ask-overseas`（项目 skill）——定位从外部信号到商业闭环中的最早缺口，路由唯一下一步
+- `direction-validator`（项目 skill）——把人群、社区、关键词或竞品还原为客户任务、当前替代和可交付结果，决定产品形态
+- `treg-research`（项目 skill）——用 treg 取关键词、竞品、社区、引用或 AI 来源事实；只为改变一个产品判断调用
+- `vertical-keyword-loop`（项目 skill）——把词群和竞品收成可兑现的窄承诺，给 `go/watch/narrow/reject`
+- `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——将已取证的承诺规划为可用 MVP 的页面/内链，再审计上线时的可抓取/索引；上线后按观察窗验证真实使用与收入
+- `distribution-link-loop` / `geo-source-loop`（项目 skill）——已上线任务页的首批发现与第三方引用；以及从 AI 现有来源补能完成任务的事实资产
 - `kb-ingest`（项目 skill）——外部资料提炼进笔记层、归步、更新索引；与当前路径及其他材料交叉引用
 
 不知道下一步怎么走 → 先用 `ask-overseas`；只想查阅学习材料 → 先读 `README.md` + 对应步骤的 `_本步导航.md`。做产品时**另开项目**实现代码；本库保留方向、搜索与增长方法，具体工程 skill 在产品仓库按其技术栈启用。
