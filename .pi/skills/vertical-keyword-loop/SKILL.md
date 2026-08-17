@@ -28,7 +28,9 @@ scope: project
 
 默认数据调用走 **treg**：找词时用其 DataForSEO Keyword Suggestions / Google autocomplete；对人工筛过的 6–12 个任务词，按目标国家、语言、设备取 Google SERP，再合并调 Keyword Overview + Bulk KD 获取量、CPC、趋势与 KD。每轮先声明词数、预算和停止条件；treg 返回的是第三方线索，不替代真实 SERP 判断。
 
-用户能打开目标 SERP、前 3–5 个竞品和趋势页时，复读这些真实页面与插件读数。需要真人语言时，先经 treg 对 Reddit / Instagram / X / Threads 取小样本帖子和少量强相关评论，再用 Chrome 复读关键原帖、版规与上下文；社区热度本身不构成需求结论。大批量、定时抓取或 dataset 导出才考虑 Apify。
+只在当前问题需要时追加调用：SERP 页型或 AI/视频/图片/PAA 会改变承接方案 → Google advanced SERP；不清楚用户是找工具、比较还是购买 → Search Intent；竞品已明确、想找其词群/主力页/交集或新切口 → Keywords for Site、Relevant Pages、Domain/Page Intersection、SERP Competitors 或历史 SERP。它们用于缩小一个具体缺口，不用于把竞品数据库全量导出。
+
+用户能打开目标 SERP、前 3–5 个竞品和趋势页时，复读这些真实页面与插件读数。需要真人语言或实际流程时，按目标人群所在处经 treg 对 Reddit / TikTok / YouTube / Instagram / X / Threads 取小样本帖子、视频或少量强相关评论，再用 Chrome 复读关键原帖、版规与上下文；社区热度本身不构成需求结论。大批量、定时抓取或 dataset 导出才考虑 Apify。
 
 ## 3. 短名单与场景
 

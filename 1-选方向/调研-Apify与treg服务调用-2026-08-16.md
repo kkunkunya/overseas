@@ -15,9 +15,14 @@
 | 「查这个词在**菲律宾/美国** Google 前十是谁，手机端」 | **treg → DataForSEO Google SERP** | 指定国家、语言、设备的前十、标题、URL、摘要、SERP 特性 | 每个候选都要做 |
 | 「这 20–50 个词分别有多少量、CPC、趋势、KD，按机会排」 | **treg → DataForSEO Keyword Overview + Bulk KD** | 搜索量、月度变化、CPC/广告竞争、KD；可批量 | 候选池已经人工筛过后 |
 | 「围绕这个种子词扩词」 | **treg → DataForSEO Keyword Suggestions / Google autocomplete** | 长尾、相关词、可再筛的词表 | 找词阶段 |
-| 「去 Reddit / Instagram / X / Threads 看真人怎么抱怨、怎么描述、用什么替代」 | **treg → 对应平台 Search posts + Post comments** | 帖子、评论、原话、竞品/替代方案线索 | 需求验证阶段 |
-| 「把这个竞品站的内容/价格/功能页整体拆出来」 | Chrome + Tavily/网页抓取；需要大量或定期时才上 Apify | 页面与功能缺口，不是 SEO 量/KD | 竞品深挖 |
+| 「去 Reddit / TikTok / YouTube / Instagram / X / Threads 看真人怎么抱怨、怎么描述、用什么替代、实际怎么做」 | **treg → 对应平台 Search posts / videos + Post comments** | 帖子、评论、视频、原话、竞品/替代方案线索 | 需求验证 / 场景还原阶段 |
+| 「这个词的 PAA、AI Overview、图片/视频/本地结果会不会改变页面形态」 | **treg → DataForSEO Google Organic advanced** | 完整 SERP 特性 | 设计工具/内容/目录等承接前 |
+| 「用户到底在找工具、比较还是购买；竞品靠哪些词/页面拿流量；我们共同/缺失哪些词」 | **treg → Search Intent + Keywords for Site / Relevant Pages / Domain or Page Intersection / SERP Competitors** | 意图线索、竞品词群、主力页与可验证切口 | 候选已收窄后 |
+| 「拆这个竞品的可复制外链来源」 | **treg → Backlinks / authority / domain metrics**，再用 Chrome 看真实来源页 | 引用域、链接页、锚文本、新失链线索；以实际返回字段为准 | 外链机会台账 |
+| 「这个竞品站的内容/价格/功能页整体拆出来」 | Chrome + Tavily/网页抓取；需要大量或定期时才上 Apify | 页面与功能缺口，不是 SEO 量/KD | 竞品深挖 |
 | 「每周自动抓 100 个 SERP / 一批账号帖子并导出」 | **Apify task / schedule**（或直接官方 API） | 可重跑、导出、定时的采集任务 | 已有稳定、重复的批量需求后 |
+| 「上线后我的站有哪些真实搜索查询、点击、行为和转化」 | **连接 treg 的 Google Search Console / Google Analytics** | 自有展示、点击、查询、落地页、行为与转化数据 | 上线后增长复盘 |
+| 「AI 是否提及竞品/我们；哪些页面/品牌在 AI 回答里出现」 | **treg → AI Visibility / AEO**（模型回答/搜索结果、mentions、历史增减、AI search volume） | AI 来源、提及与变化线索 | GEO 来源资产与上线后观察 |
 
 ### 固定判断顺序
 
@@ -123,9 +128,10 @@ treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖
 
 1. **先手动列 6–12 个任务词**（不盲目扩几百词）。
 2. **treg / DataForSEO**：每词一个菲律宾 SERP；再把所有词合到 1 次 Keyword Overview + 1 次 Bulk KD。
-3. **treg / 社媒**：每个平台只搜 2–4 次；只对强相关帖拉少数评论。
-4. **Chrome 人工复读**：把最关键的 3–5 条帖子、前十竞争页和官方规则打开核对。
-5. 输出一张机会卡：`go | watch | narrow | reject`，并明确数据口径、日期、国家及没取到的证据。
+3. **只为当前缺口追加调用**：页面形态不清才取 advanced SERP / Search Intent；竞品切口不清才查其排名词、主力页、交集或 SERP competitors；不做全库导出。
+4. **treg / 社媒**：按目标人群所在平台，每个平台只搜 2–4 次；只对强相关帖/视频拉少数评论。
+5. **Chrome 人工复读**：把最关键的 3–5 条帖子/视频、前十竞争页和官方规则打开核对。
+6. 输出一张机会卡：`go | watch | narrow | reject`，并明确数据口径、日期、国家及没取到的证据。
 
 粗略成本以当前目录标价估算：12 个常规 SERP（$0.002/词）+ 1 个 Keyword Overview（$0.024）+ 1 个 Bulk KD（$0.012）+ 12 次社媒搜索（约 $0.001–0.002/次）≈ **$0.07–0.10 / 一个小方向**，不含额外评论、趋势和高级 SERP。价格是目录的实时观察值，调用前仍以页面为准。
 
@@ -135,7 +141,8 @@ treg 目录中，本轮确认到的最小可用组合如下（先关键词找帖
 
 - **不接新 MCP / 不买 Ahrefs / 不建爬虫流水线。** 当前 treg + Chrome 已覆盖这轮要验证的事实。
 - **不让 Agent 无限探索付费接口。** 每轮先列预算、词数和停止条件；超过需你确认。
-- **不把 Apify/社媒抓取当用户研究结论。** 帖子是线索，最终仍要人工读原帖、看替代方案与任务频率。
+- **不把 Apify/treg/社媒返回当用户研究结论。** 帖子、模型回答、关键词与外链指标都是线索；关键来源仍要人工读上下文、看替代方案与任务频率。
+- **不把 GSC/GA 或 AI Visibility 预先接成找方向工具。** 前者只在自有站上线后连接，后者只在已有明确 AI 问题与来源资产时按预算调用。
 - **不把本报告的样词带入首批站。** 它只是服务小试；正式方向仍按 ADR-0013 的独立证据包进入 3–4 站组合。
 
 ## 7. 下一步
