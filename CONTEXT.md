@@ -204,6 +204,9 @@ _Avoid_: 没跑 SERP 就定方向；只有 AI 扩词没有真结果页
 **量/KD 取证通道**: 在三件套之外，选词还要尽量拉月搜与 KD——优先可用的免费/登录网页（如 Ahrefs Free Keyword Difficulty 的 KD + SERP 指标/topVolume 线索），其次插件人眼读数，再其次 DataForSEO 等 API；AITDK Keywords Generator **只扩词、不含量/KD**。见 ADR-0007。
 _Avoid_: 把 AITDK 生词列表当成已量化；无任何量/KD 记录就结案 go
 
+**treg 默认选词服务柜台**: 当前研究时，Kun 只需描述要查什么，Agent 默认经 treg 调服务：指定国家/语言 SERP → DataForSEO；量/CPC/趋势/KD/扩词 → DataForSEO；Reddit/Instagram/X/Threads 的帖子与评论 → 对应平台服务；关键竞品页 → Chrome/网页抓取人工复读。每次仍标国家、语言、日期和上游来源，量/KD 只作线索。Apify 只在已有稳定、重复的大批量/定时抓取与 dataset 导出需求时使用。完整配方见 `1-选方向/调研-Apify与treg服务调用-2026-08-16.md`。
+_Avoid_: 为单个候选搭 API/Actor 流水线；把 treg/第三方数值当最终裁决；让 Agent 无预算无限调用付费服务
+
 **Trends Radar**: Google Trends 的可选 Chrome 扩词插件。它可将某词的 `rising queries`（飙升查询）递归作为下一轮种子词，帮助发现新词；必须记录词根→飙升词的来源链、日期和本轮上限，去重并归成词群后，仍回 Google Trends、真实 SERP、竞争与变现验证。它只是**候选发现器**，插件内搜索量和 Breakout 不能单独证明稳定需求或付费意愿。赫兹 X 原帖《Trends Radar 实现Google trends 自动词找词》（2026-07-29）。
 _Avoid_: 因递归找到了陌生飙升词就建站；无限扩词触发 Google Trends 限制；把插件估算冒充官方月搜索量。
 
@@ -364,9 +367,6 @@ _Avoid_: 在产品项目仓库里重复存知识类原则笔记；把可执行 s
 _Avoid_: 跨仓库随意落盘导致知识库混进执行代码、产品仓库丢失方法论依据
 
 ## 待决项（proposed）
-
-**Apify 调研聚合层**: 作为找方向/选词时的重要信息聚合入口，候选能力包括 Google SERP、社区用户语言、竞品页面，以及部分关键词量/KD Actor。其量/KD必须记录 Actor/上游来源、国家、语言和日期，只作筛选线索，和真实 SERP、社区用户语言、付费线索交叉裁决；可小额付费，但每次必须说明要减少哪个候选判断的不确定性。当前先对真实候选做一次手动小试，待验证各 Actor 的费用、稳定性以及是否真正改变 go/watch/narrow 判断后，再决定是否进入日常 SOP。
-- status: proposed
 
 **按人群选市场的信号组合**: 每个垂直方向分别选国家/语言，不预设美国/泛英语；付费意愿是硬条件，人群粘性满足「任务高频/周期性」或「有活跃且可触达的身份社区」其一即可，但必须写明属于哪种及理由。趋势只要求长期稳定或可持续上升、不事件性归零，不追短期爆发，以免偏离「长期稳定增长」路径。待明确付费意愿的取证定义与最低线。
 - status: proposed
