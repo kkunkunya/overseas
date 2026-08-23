@@ -27,7 +27,7 @@ scope: project
 现有内容/工具漏掉了哪一步，我们能否给出一个更窄、可履约的结果？
 ```
 
-没有待决判断时，先回 `direction-validator` 或 `vertical-keyword-loop`。不要把域名、关键词或竞品名本身当作调研目标。
+没有待决判断时，先回 `vertical-keyword-loop` 或 `direction-validator`。域名和关键词是取证对象；待决判断仍须是产品选择：这个付费站的逻辑能不能学、这些词能不能做成付费 App。
 
 ## 2. 按要消除的疑问选调用
 
@@ -70,8 +70,8 @@ scope: project
 
 ## 5. 路由
 
+- 需要找付费参考站，或从成功站收核心词和长尾：回 `vertical-keyword-loop`。
 - 需要判断人群、任务和产品路线：回 `direction-validator`。
-- 需要把搜索机会收成最多三个候选：回 `vertical-keyword-loop`。
 - 词群和产品承诺已成立，需要页面树：交 `seo-site-blueprint`。
 - 核心任务页已可用，需要争取用户、社区反馈或引用：交 `distribution-link-loop`。
 - 已有明确 AI 问题，需要来源资产：交 `geo-source-loop`。

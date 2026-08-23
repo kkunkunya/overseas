@@ -8,7 +8,7 @@
 | 材料层 | `kb-ingest` |
 | 方向层：外部信号还原为客户任务、替代与产品形态 | `direction-validator` |
 | 取证层：关键词、竞品、社区、引用与 AI 来源的最小事实 | `treg-research` |
-| 选词找方向层：词群与竞品收成窄承诺 | `vertical-keyword-loop` |
+| 选词找方向层：参考站先行，再收核心词与长尾 | `vertical-keyword-loop` |
 | 产品首版层：把已取证的承诺做成可用 MVP、页面和站点 | `seo-site-blueprint` |
 | 上线质量层 | `seo-readiness-audit` |
 | 发现与来源层 | `distribution-link-loop`、`geo-source-loop` |

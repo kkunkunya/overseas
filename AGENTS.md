@@ -56,7 +56,7 @@ overseas/
 - `ask-overseas`（项目 skill）——定位从外部信号到商业闭环中的最早缺口，路由唯一下一步
 - `direction-validator`（项目 skill）——把人群、社区、关键词或竞品还原为客户任务、当前替代和可交付结果，决定产品形态
 - `treg-research`（项目 skill）——用 treg 取关键词、竞品、社区、引用或 AI 来源事实；只为改变一个产品判断调用
-- `vertical-keyword-loop`（项目 skill）——把词群和竞品收成可兑现的窄承诺，给 `go/watch/narrow/reject`
+- `vertical-keyword-loop`（项目 skill）——参考站先行：多模型找付费参考站，人审 SEO 后再收 3 个核心词与 10–15 个长尾
 - `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——将已取证的承诺规划为可用 MVP 的页面/内链，再审计上线时的可抓取/索引；上线后按观察窗验证真实使用与收入
 - `distribution-link-loop` / `geo-source-loop`（项目 skill）——已上线任务页的首批发现与第三方引用；以及从 AI 现有来源补能完成任务的事实资产
 - `kb-ingest`（项目 skill）——外部资料提炼进笔记层、归步、更新索引；与当前路径及其他材料交叉引用

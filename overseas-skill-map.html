@@ -184,8 +184,8 @@
     <div class="wrap">
       <h1>overseas · Skill 地图</h1>
       <p class="sub">
-        选词找方向的流程图。先看“现在卡在哪”，再调一个
-        skill；取证后做能兑现任务的可用 MVP，再用观察窗迭代。
+        选词找方向的流程图。先找付费参考站，再收核心词和长尾；
+        取证后做能兑现任务的可用 MVP，再用观察窗迭代。
       </p>
       <div class="legend">
         <span class="chip route">路由 / 判断</span
@@ -196,19 +196,36 @@
       <h2>主流程</h2>
       <div class="panel">
         <div class="mermaid">
-          flowchart TD A["外部信号\n场景 / 社区 / 竞品 / 关键词"] -->
-          B["direction-validator\n客户任务、当前替代、产品形态"] B
-          -.需要实时事实.-> C["treg-research\n搜索、竞品、社区、引用、AI 来源"]
-          C --> B B --> D["vertical-keyword-loop\n词群与竞品 → 窄承诺"] D
-          -.补外部事实.-> C D --> E["seo-site-blueprint\n可用 MVP 的页面、内链与首版范围"] E -->
-          F["独立产品仓库\n实现核心产品 + SEO/GEO 最小包"] F -->
-          G["seo-readiness-audit\n公开前的搜索就绪"] G -->
-          H["distribution-link-loop\n首批发现与第三方引用"] G -->
-          I["geo-source-loop\nAI 来源与事实资产"] H -->
-          J["product-growth-review\n8–12 周数据 → 最早瓶颈 → 单一调整"] I --> J J
-          -->|"收窄 / 改承诺 / 改产品"| B
-          L["ask-overseas\n不清楚下一步时的路由"] -.定位最早缺口.-> B L -.-> C L
-          -.-> D L -.-> E M["kb-ingest\n外部材料入知识库"] -.独立支路.-> A
+flowchart TD
+  A["目标领域\n场景 / 社区 / 竞品"] --> D
+  D["vertical-keyword-loop\n付费参考站, Semrush, 核心词与长尾"]
+  D -.补外部事实.-> C
+  C["treg-research\n搜索、竞品、社区、引用、AI 来源"]
+  D --> B
+  B["direction-validator\n客户任务、当前替代、产品形态"]
+  B -.需要实时事实.-> C
+  C --> B
+  B --> E
+  E["seo-site-blueprint\n可用 MVP 的页面、内链与首版范围"]
+  E --> F
+  F["独立产品仓库\n实现核心产品 + SEO/GEO 最小包"]
+  F --> G
+  G["seo-readiness-audit\n公开前的搜索就绪"]
+  G --> H
+  G --> I
+  H["distribution-link-loop\n首批发现与第三方引用"]
+  I["geo-source-loop\nAI 来源与事实资产"]
+  H --> J
+  I --> J
+  J["product-growth-review\n8-12 周数据, 最早瓶颈, 单一调整"]
+  J -->|收窄或改产品| D
+  L["ask-overseas\n不清楚下一步时的路由"]
+  L -.定位最早缺口.-> D
+  L -.-> C
+  L -.-> B
+  L -.-> E
+  M["kb-ingest\n外部材料入知识库"]
+  M -.独立支路.-> A
         </div>
       </div>
       <p class="src">
@@ -217,9 +234,10 @@
 
       <h2>最短执行路径</h2>
       <div class="flow">
-        不知道做什么？ ask-overseas 有场景、关键词、竞品或社区线索？
-        direction-validator → treg-research（需要事实时）→ vertical-keyword-loop
-        已有窄承诺以及词群、SERP、竞争与变现线索？ seo-site-blueprint → 独立产品仓库 →
+        不知道做什么？ ask-overseas 有目标领域？
+        vertical-keyword-loop（找付费参考站 → 你导出 Semrush → 核心词与长尾）→
+        treg-research / 社区反查（需要事实时）→ direction-validator
+        已有窄承诺以及词、SERP、竞争与变现线索？ seo-site-blueprint → 独立产品仓库 →
         seo-readiness-audit 页面能完成任务，但没有合资格用户？
         distribution-link-loop / geo-source-loop
         已有一站 8–12 周的搜索、行为、分发或收入数据？ product-growth-review
@@ -267,7 +285,7 @@
           "方向层",
           "只有人群、抱怨、竞品或模糊想法",
           "还原客户任务、当前替代和可交付结果，决定产品形态。",
-          "→ 选词或产品首版",
+          "→ 产品首版；缺参考站时回选词",
         ],
         [
           "treg-research",
@@ -279,9 +297,9 @@
         [
           "vertical-keyword-loop",
           "选词找方向层",
-          "要把词群和竞品收成一个切口",
-          "找用户入口、替代缺口和窄承诺，给 go/watch/narrow/reject。",
-          "→ seo-site-blueprint",
+          "要找付费参考站或从成功站挖词",
+          "多模型列出可点击参考站，人审付费逻辑和 SEO 后收 3 个核心词与 10–15 个长尾。",
+          "→ 社区反查或 seo-site-blueprint",
         ],
         [
           "seo-site-blueprint",

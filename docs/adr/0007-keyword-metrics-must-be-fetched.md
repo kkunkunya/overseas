@@ -1,6 +1,6 @@
 # ADR-0007: 选词量/KD 必取证，参考带不卡死
 
-- status: accepted
+- status: superseded by ADR-0015
 - date: 2026-08-09
 
 ## 背景
