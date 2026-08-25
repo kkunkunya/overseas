@@ -34,6 +34,6 @@ Kun 有两个相关仓库：
 ## 后果
 
 - 新建工程性 skill 时先问「这是工程性还是知识类」：工程性 → 产品仓库 `.pi/skills/`；知识类 → 知识库对应步骤目录。
-- 知识库不再出现可执行 skill 真身与 `.pi/skills/` / `.agents/skills/` 投影目录。
+- 知识库不再出现**工程性** skill 真身；出海方法 skill 的导入投影由 ADR-0017 允许。
 - `validation-instrument` 的创建指示 `docs/agents/skill-spec-validation-instrument.md` 留本库，真身落 `oversea-project/amigurumi-pricing-calculator/.pi/skills/validation-instrument/`。
 - 若某 skill 既是通用方法论又跨多产品复用，评估是否升级为 global skill（`scope: global`，进 `~/.agents/skills/`），不在两个产品仓库各放一份。

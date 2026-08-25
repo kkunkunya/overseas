@@ -53,10 +53,10 @@ overseas/
 - `/domain-modeling`——把出海术语（目录站、躺赚、复利、SEO、外链…）谈拢落 `CONTEXT.md`
 - `/research`——调研方向 / 竞品 / 赛道
 - `/project-prompt`——项目阶段、约定或 Agent 路由发生稳定变化时，刷新 `AGENTS.md` / `CLAUDE.md` 的短地图
-- `ask-overseas`（项目 skill）——定位从外部信号到商业闭环中的最早缺口，路由唯一下一步
+- `ask-overseas`（项目 skill）——定位从参考站到商业闭环中的最早缺口，路由唯一下一步；3+15 已锁定时停止选词；上线数周没排名先审计索引，不换词、不满观察窗不归档
 - `direction-validator`（项目 skill）——把人群、社区、关键词或竞品还原为客户任务、当前替代和可交付结果，决定产品形态
 - `treg-research`（项目 skill）——用 treg 取关键词、竞品、社区、引用或 AI 来源事实；只为改变一个产品判断调用
-- `vertical-keyword-loop`（项目 skill）——参考站先行：多模型找付费参考站，人审 SEO 后再收 3 个核心词与 10–15 个长尾
+- `vertical-keyword-loop`（项目 skill）——参考站先行：多模型找付费参考站，人审后从 Semrush 导出/截图记分析账，再收 3 个核心词与 10–15 个长尾；短名单写入笔记后停止扩词，交社区反查或方向验证
 - `seo-site-blueprint` / `seo-readiness-audit`（项目 skill）——将已取证的承诺规划为可用 MVP 的页面/内链，再审计上线时的可抓取/索引；上线后按观察窗验证真实使用与收入
 - `distribution-link-loop` / `geo-source-loop`（项目 skill）——已上线任务页的首批发现与第三方引用；以及从 AI 现有来源补能完成任务的事实资产
 - `kb-ingest`（项目 skill）——外部资料提炼进笔记层、归步、更新索引；与当前路径及其他材料交叉引用
@@ -75,10 +75,10 @@ overseas/
 工作单住 GitHub Issues，用 `gh` CLI 操作。见 `docs/agents/issue-tracker.md`。
 
 ### Triage labels
-用默认角色名当标签字符串（bug / enhancement / needs-triage / needs-info / ready-for-agent / ready-for-human / wontfix）。见 `docs/agents/triage-labels.md`。
+使用 `ready-for-agent` / `ready-for-human`；仓库里已有的 bug / enhancement / needs-* / wontfix 可保留检索。见 `docs/agents/triage-labels.md`。
 
 ### Domain docs
 单 context（single-context）——根目录一个 `CONTEXT.md` + `docs/adr/`，由 domain-modeling 惰性创建。见 `docs/agents/domain.md`。
 
 ### Skills domain
-本库声明 `overseas-growth` 方法领域：项目 skill 真身统一在 `.pi/skills/`，覆盖方向、搜索、页面蓝图、上线审计、分发/GEO 与增长复盘；具体产品工程仍在独立产品仓库声明 frontend/engineering/deploy。见 `docs/agents/skills-domain.md`。
+本库声明 `overseas` 方法领域；真身在 kun-agent-mono `skills/overseas/`，本库只导入软链。见 `docs/agents/skills-domain.md` 与 ADR-0017。
