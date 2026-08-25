@@ -184,8 +184,8 @@
     <div class="wrap">
       <h1>overseas · Skill 地图</h1>
       <p class="sub">
-        选词找方向的流程图。先找付费参考站，再收核心词和长尾；
-        取证后做能兑现任务的可用 MVP，再用观察窗迭代。
+        选词找方向的流程图。先找付费参考站，再收 3+15；短名单锁定后停扩词。
+        取证后做能兑现任务的可用 MVP。数周没排名先查索引，观察窗未满不归档。
       </p>
       <div class="legend">
         <span class="chip route">路由 / 判断</span
@@ -198,32 +198,38 @@
         <div class="mermaid">
 flowchart TD
   A["目标领域\n场景 / 社区 / 竞品"] --> D
-  D["vertical-keyword-loop\n付费参考站, Semrush, 核心词与长尾"]
+  D["vertical-keyword-loop\n付费参考站, Semrush, 3+15 后停扩词"]
   D -.补外部事实.-> C
   C["treg-research\n搜索、竞品、社区、引用、AI 来源"]
   D --> B
-  B["direction-validator\n客户任务、当前替代、产品形态"]
+  B["direction-validator\n缺哪一键、形态、先借力兑现"]
   B -.需要实时事实.-> C
+  B -.近期复查.-> R["recent-market-radar\n只更新判断, 不重开选词"]
+  R --> B
   C --> B
   B --> E
   E["seo-site-blueprint\n可用 MVP 的页面、内链与首版范围"]
   E --> F
   F["独立产品仓库\n实现核心产品 + SEO/GEO 最小包"]
   F --> G
-  G["seo-readiness-audit\n公开前的搜索就绪"]
+  G["seo-readiness-audit\n可访问 → 抓取 → 索引 → 意图"]
+  G -->|数周没排名, 不换词| G
   G --> H
   G --> I
-  H["distribution-link-loop\n首批发现与第三方引用"]
-  I["geo-source-loop\nAI 来源与事实资产"]
+  H["distribution-link-loop\n信任链要初始 HTML href"]
+  I["geo-source-loop\n未进 Google/Bing 先审计"]
+  I -.页面未露出.-> G
   H --> J
   I --> J
-  J["product-growth-review\n8-12 周数据, 最早瓶颈, 单一调整"]
-  J -->|收窄或改产品| D
+  J["product-growth-review\n8-12 周窗口, 最早瓶颈"]
+  J -->|补页或改产品| E
+  J -->|立项差距扛不住| B
   L["ask-overseas\n不清楚下一步时的路由"]
   L -.定位最早缺口.-> D
   L -.-> C
   L -.-> B
   L -.-> E
+  L -.-> G
   M["kb-ingest\n外部材料入知识库"]
   M -.独立支路.-> A
         </div>
@@ -234,13 +240,14 @@ flowchart TD
 
       <h2>最短执行路径</h2>
       <div class="flow">
-        不知道做什么？ ask-overseas 有目标领域？
-        vertical-keyword-loop（找付费参考站 → 你导出 Semrush → 核心词与长尾）→
-        treg-research / 社区反查（需要事实时）→ direction-validator
-        已有窄承诺以及词、SERP、竞争与变现线索？ seo-site-blueprint → 独立产品仓库 →
-        seo-readiness-audit 页面能完成任务，但没有合资格用户？
-        distribution-link-loop / geo-source-loop
-        已有一站 8–12 周的搜索、行为、分发或收入数据？ product-growth-review
+        不知道做什么？ ask-overseas
+        有目标领域、还没有 3+15？ vertical-keyword-loop（付费参考站 → 你导出 Semrush → 锁定后停扩词）
+        需要事实？ treg-research / 社区反查；复查已有判断？ recent-market-radar
+        词已锁、任务或「缺哪一键」未清？ direction-validator
+        承诺和词已齐？ seo-site-blueprint → 独立产品仓库 → seo-readiness-audit
+        数周没排名、想换词？仍走 seo-readiness-audit，不退回选词
+        任务页能完成、缺用户？ distribution-link-loop / geo-source-loop
+        已有一站 8–12 周数据？ product-growth-review；窗口未满不归档
       </div>
 
       <h2>Skill 列表</h2>
@@ -261,7 +268,7 @@ flowchart TD
         >、<a
           href="1-%E9%80%89%E6%96%B9%E5%90%91/%E7%AC%AC%E4%B8%80%E6%AD%A5-%E5%9E%82%E7%9B%B4%E9%80%89%E8%AF%8D%E4%B8%8E%E7%AE%80%E5%8D%95%E9%97%AD%E7%8E%AF.md"
           >第一步作战卡</a
-        >、项目 `.pi/skills/`。更新 skill 流程时同步更新此页。
+        >、kun-agent-mono `skills/overseas/`。更新 skill 流程时同步更新此页。
       </p>
     </div>
     <script>
@@ -270,8 +277,8 @@ flowchart TD
           "ask-overseas",
           "路由层",
           "不清楚现在该做什么",
-          "定位从外部信号到商业闭环中的最早缺口，交给一个下游 skill。",
-          "所有阶段的入口",
+          "定位从参考站到付费词、社区需求和商业闭环中的最早缺口；3+15 已锁则停止选词。",
+          "所有阶段的入口；数周没排名走审计",
         ],
         [
           "kb-ingest",
@@ -284,22 +291,22 @@ flowchart TD
           "direction-validator",
           "方向层",
           "只有人群、抱怨、竞品或模糊想法",
-          "还原客户任务、当前替代和可交付结果，决定产品形态。",
-          "→ 产品首版；缺参考站时回选词",
+          "还原客户任务、当前替代、缺哪一键和可交付结果，决定产品形态。",
+          "→ 产品首版；3+15 已锁不退回选词",
         ],
         [
           "treg-research",
           "取证层",
           "需要关键词、竞品、社区、引用或 AI 的实时事实",
           "以最小调用核验会改变产品判断的外部事实。",
-          "按需回到方向 / 选词 / 分发",
+          "无 3+15 回选词；已锁回方向验证",
         ],
         [
           "vertical-keyword-loop",
           "选词找方向层",
           "要找付费参考站或从成功站挖词",
           "多模型列出可点击参考站，人审付费逻辑和 SEO 后收 3 个核心词与 10–15 个长尾。",
-          "→ 社区反查或 seo-site-blueprint",
+          "写入笔记后停扩词 → 社区反查或方向验证",
         ],
         [
           "seo-site-blueprint",
@@ -312,8 +319,8 @@ flowchart TD
           "seo-readiness-audit",
           "上线质量层",
           "产品页准备公开搜索或没有被正确收录",
-          "检查页面能否被读取、索引并承接任务。",
-          "→ 分发或修复",
+          "检查页面能否被读取、索引并承接任务。数周没排名先走这里。",
+          "→ 修复；不要退回选词或提前归档",
         ],
         [
           "distribution-link-loop",
@@ -326,15 +333,22 @@ flowchart TD
           "geo-source-loop",
           "发现与来源层",
           "用户会直接向 AI 问一个具体问题",
-          "从 AI 现有来源反推缺失结果，补任务页或事实资产。",
-          "→ 增长复盘",
+          "从 AI 现有来源反推缺失结果，补任务页或事实资产。页面未进 Google/Bing 时先审计。",
+          "→ 增长复盘或回审计",
         ],
         [
           "product-growth-review",
           "复盘层",
           "已有自己的搜索、行为、分发或收入数据",
-          "找最早失效环节，一次只改一个。",
-          "→ 加码 / 收窄 / 归档",
+          "找最早失效环节，一次只改一个。观察窗未满不归档。",
+          "→ 补页 / narrow / 加码；不退回选词",
+        ],
+        [
+          "recent-market-radar",
+          "取证层",
+          "已有产品判断，想用近 30 天信号复查",
+          "只更新原判断，不替代深度验证，也不重开已锁定的选词。",
+          "→ 方向验证；人否决短名单才回选词",
         ],
       ];
       const cards = document.getElementById("cards"),
