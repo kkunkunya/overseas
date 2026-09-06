@@ -16,5 +16,16 @@ Kun 尚未走完 SEO/GEO/出海流程，需要 Agent 主动串起全部阶段，
 |S5|高|候选隔离且独立验收，既有修改不受污染|Git diff、验证器、fresh Session证据、远端PR/head|未测|
 ## 边界
 真实网站、支付/域名供应商和产品路径未指定；本次准备方法与学习路线，不宣称已完成网站验收/交易/部署。当前实测效果未知；walkthrough与方法完整性验证不冒充排名收入实证。
+
+## 已确认增补：Apple 多语言案例
+
+Kun 确认其余方案，要求多语言 SEO 参考 Apple 等大企业的实际做法。采用 Apple 第一方页面样本与 Google 官方国际化文档交叉核对；企业做法是案例，不自动成为最优方案或排名效果证明。
+
+- A1：中文案例记录观察日期、具体 URL、国家与语言区别、切换与本地化、HTML 技术证据及未测范围；每项事实可追到来源。
+- A2：在既有 `seo-site-blueprint` 多语言 reference 吸收可复用步骤，区分现在可规划和第二语言发布时执行；无需新 Skill、无需复制 Apple 全站或新增外部程序。
+- A3：保持 25 模块，HTML 多语言卡能搜索 Apple/苹果、读懂适用原则并到达案例；中文步骤笔记与总索引一致。独立浏览器补验仅覆盖受改卡片、链接和两种宽度。
+- A4：候选以新 head 补做独立增量验收；合并/分发仅报告实际事实，认证缺口不得用切换凭据绕过。
+
+研究使用 Lody Sol/medium（machine `fafcdb66-d3ae-45ff-ab1b-7cb6c131b6a3`、config `5e1f4d15-6335-4906-9c7f-beaaac9e9f3f`），负责第一方页面与适用规则的区分；主会话维护知识导航与 HTML，原 mono writer 维护方法唯一写入面。当前主会话 `gh pr view` 仍无法解析私有 mono 仓库；不把 Git 可读当作 API 权限恢复。
 ## 派工
 mono唯一writer：中高档Sol medium；需要把多套外部方法翻译到现有职责链。当前Claude配置未返回明确的Opus5型号，选择白名单且实时精确可用的同档Sol。machine fafcdb66-d3ae-45ff-ab1b-7cb6c131b6a3 / config 5e1f4d15-6335-4906-9c7f-beaaac9e9f3f / model gpt-5.6-sol / effort medium / local mono project worktree true。主会话负责知识库与HTML，独立验收另开。

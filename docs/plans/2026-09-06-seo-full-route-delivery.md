@@ -11,6 +11,14 @@
 
 ## 验证与状态
 
+### Apple 案例增补（2026-09-06）
+
+用户确认其余方案，要求多语言分支增加 Apple 等大企业的实际案例。已取 Apple 5 页样本与 Google 官方规则，新增[中文案例](../../3-SEO获客/SEO-GEO全流程/Apple-多语言SEO案例-2026-09-06.md)及持久证据；HTML 仍为25模块，仅多语言卡与关联笔记更新。此增量正在独立验收，下面的首版 PASS 不自动覆盖新增内容。
+
+本轮主会话重新核查：`gh pr view` 无法解析私有 mono 仓库，Issue #5 评论返回 `Resource not accessible by integration`；Git remote 仍可读。未切换凭据、未绕过权限，合并与分发尚未完成。
+
+### 已验收的首版
+
 方法独立验收 S1/S2/S5 已通过，最终候选 `58c147a6e53a8d9c1b73586fc282fc077c9c8bc3`，基线 `c0a16572468a247c8422455297fc6070d64a4d0b`。本地与远端分支一致；见[原始验收与复验](seo-integration-reviews-2026-09-06/methods-acceptance.md)。HTML独立验收 S3/S4 已通过，25模块、6项当前准备、搜索/筛选/展开/笔记跳转、桌面与390px手机宽度均有证据；见[HTML验收记录与截图](seo-integration-reviews-2026-09-06/html-acceptance.md)。资料与方法完整性验证不等于真实网站、收录、支付或收入效果验证。
 
 原有知识库未提交内容保持原样；本次导航只加入自己的段落。主会话GitHub评论接口返回HTTP401，旧决策票的历史状态尚未回写；方法writer已能发布候选PR及Issue #5交棒评论，二者权限事实分别记录。

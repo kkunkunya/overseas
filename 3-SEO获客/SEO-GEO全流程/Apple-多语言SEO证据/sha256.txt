@@ -1,0 +1,17 @@
+471d367d670d1749705a738d557a3a3f4d738bd9c16c2d84d0b96b48ebd6a3fc  /tmp/seo-apple-evidence-20260906/chooser.html
+99cc1599b247b22c8713764433ba1dbda16a745d1957e2a04ddf48fc96fd17c3  /tmp/seo-apple-evidence-20260906/chooser.headers.txt
+5290939153faf1f2cfb297bde08e40396fa441e21b293733062a1679407e57f2  /tmp/seo-apple-evidence-20260906/us-iphone17.html
+12e6e86ec5bc8ce353deb17d64e31a024fcb7449ca1ab9e37c652bf8f968503e  /tmp/seo-apple-evidence-20260906/us-iphone17.headers.txt
+3aad6e182f1c6abd9b2afd489644f176691eea7eea54f9e02f788b7bfc6b7056  /tmp/seo-apple-evidence-20260906/tw-iphone17.html
+0f108c9ec2e5d77143d906d29390316fd3c729fb3e4f626eb119219708d566a7  /tmp/seo-apple-evidence-20260906/tw-iphone17.headers.txt
+5f20f5102f97de7230c27c2281cf19c892c3094a95e10527bb792479fe022eb4  /tmp/seo-apple-evidence-20260906/ca-en-iphone17.html
+f3394070f42c239c0f1524867ed1da19d32875a5862c7eeb4d50383269d3de32  /tmp/seo-apple-evidence-20260906/ca-en-iphone17.headers.txt
+3e881aaf602066baa8389d903cd3ad725839bda37a8cafcb9c2a81a1e9bfa9bd  /tmp/seo-apple-evidence-20260906/ca-fr-iphone17.html
+695eec8523c6456b0dc8e8bffb068a02b8ef1575502e9fb5082aa61235761d8c  /tmp/seo-apple-evidence-20260906/ca-fr-iphone17.headers.txt
+44aff65370dde02d73b8b0473494ff842d1cbf18d770584c04f26ed9720e043e  /tmp/seo-apple-evidence-20260906/google-localized.html
+2e4cd5169c59d46e7ac42defd041839c8fb19af3e8ed1c362249d10645325c7a  /tmp/seo-apple-evidence-20260906/google-localized.headers.txt
+4381e2c7f796859fbee81011cc6af4592f820d2eddf04da87390d29d31a32f64  /tmp/seo-apple-evidence-20260906/google-multiregional.html
+7d7e72df0e636a3062a8909f3dda3911842ee8333cdffc2a6d8e167899f272b1  /tmp/seo-apple-evidence-20260906/google-multiregional.headers.txt
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /tmp/seo-apple-evidence-20260906/google-canonical.headers.txt
+ceae5729d7cd7834d73a36a0130e2ed4aac4f17033bf7d595704a7fed229bec5  /tmp/seo-apple-evidence-20260906/google-canonical.html
+6aa298bc7b40e87f566467a3995fb62d332273d9cbc7c0e6b535268f95cf4f82  /tmp/seo-apple-evidence-20260906/google-canonical.headers.txt

@@ -1,0 +1,50 @@
+FILE: chooser
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" dir="ltr" prefix="og: http://ogp.me/ns#">
+<title>Choose your country or region - Apple</title>
+<meta name="Description" content="Select your country or region to learn about the latest products, view news, and receive support from Apple, all in your preferred language." />
+<link rel="canonical" href="https://www.apple.com/choose-country-region/" />
+href="/choose-country-region/" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country"
+FILE: us-iphone17
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" dir="ltr" prefix="og: http://ogp.me/ns#">
+<title>iPhone 17 - Apple</title>
+<meta name="Description" content="iPhone 17. Center Stage front camera. Latest-generation Ceramic Shield. 6.3-inch ProMotion display. A19 chip. Five  gorgeous colors." />
+<link rel="canonical" href="https://www.apple.com/iphone-17/" />
+href="https://www.apple.com/ca/fr/iphone-17/" hreflang="fr-CA"
+href="https://www.apple.com/ca/iphone-17/" hreflang="en-CA"
+href="https://www.apple.com/iphone-17/" hreflang="en-US"
+href="https://www.apple.com/tw/iphone-17/" hreflang="zh-TW"
+href="/choose-country-region/" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country"
+FILE: tw-iphone17
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW" lang="zh-TW" dir="ltr" prefix="og: http://ogp.me/ns#">
+<title>iPhone 17 - Apple (台灣)</title>
+<meta name="Description" content="iPhone 17，配備 Center Stage 前置相機、最新一代超瓷晶盾、6.3 吋顯示器支援 ProMotion 自動適應更新頻率技術，以及 A19 晶片。備有五款絢麗色彩。" />
+<link rel="canonical" href="https://www.apple.com/tw/iphone-17/" />
+href="https://www.apple.com/ca/fr/iphone-17/" hreflang="fr-CA"
+href="https://www.apple.com/ca/iphone-17/" hreflang="en-CA"
+href="https://www.apple.com/iphone-17/" hreflang="en-US"
+href="https://www.apple.com/tw/iphone-17/" hreflang="zh-TW"
+href="/choose-country-region/" title="選擇你的國家或地區" aria-label="台灣. 選擇你的國家或地區" data-analytics-title="choose your country"
+FILE: ca-en-iphone17
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-CA" lang="en-CA" dir="ltr" prefix="og: http://ogp.me/ns#">
+<title>iPhone 17 - Apple (CA)</title>
+<meta name="Description" content="iPhone 17. Center Stage front camera. Latest-generation Ceramic Shield. 6.3-inch ProMotion display. A19 chip. Five  gorgeous colours." />
+<link rel="canonical" href="https://www.apple.com/ca/iphone-17/" />
+href="https://www.apple.com/ca/fr/iphone-17/" hreflang="fr-CA"
+href="https://www.apple.com/ca/iphone-17/" hreflang="en-CA"
+href="https://www.apple.com/iphone-17/" hreflang="en-US"
+href="https://www.apple.com/tw/iphone-17/" hreflang="zh-TW"
+href="/choose-country-region/" title="Choose your country or region" aria-label="Canada (English). Choose your country or region" data-analytics-title="choose your country"
+FILE: ca-fr-iphone17
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-CA" lang="fr-CA" dir="ltr" prefix="og: http://ogp.me/ns#">
+<title>iPhone 17 - Apple (CA)</title>
+<meta name="Description" content="iPhone 17. Caméra avant Center Stage. Ceramic Shield dernière génération. Écran ProMotion 6,3 po. Puce A19. Cinq couleurs sublimes." />
+<link rel="canonical" href="https://www.apple.com/ca/fr/iphone-17/" />
+href="https://www.apple.com/ca/fr/iphone-17/" hreflang="fr-CA"
+href="https://www.apple.com/ca/iphone-17/" hreflang="en-CA"
+href="https://www.apple.com/iphone-17/" hreflang="en-US"
+href="https://www.apple.com/tw/iphone-17/" hreflang="zh-TW"
+href="/choose-country-region/" title="Choisir votre pays ou région" aria-label="Canada (Français). Choisir votre pays ou région" data-analytics-title="choose your country"
+CHOOSER TARGET LINKS
+href="/ca/"
+href="/ca/fr/"
+href="/tw/"
