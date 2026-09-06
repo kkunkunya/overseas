@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-06T09:28:48.889Z",
+  "sha256": {
+    "html": "fedfdb2ed84f5cb132ee8ea60f08515e4f354a400378eb4c884fcea48025c120",
+    "routeData": "e7c8fc97b43d3b12a14bd8b632127dce666db73935c66c2acfc27c39fe021679",
+    "readme": "a0dba1a042318290a0963edce226506239ad25123d33335054671432cc66639f"
+  },
+  "counts": {
+    "htmlCards": 25,
+    "routeCards": 25,
+    "now": 6,
+    "phases": {
+      "回看基础": 2,
+      "现在准备": 6,
+      "上线之后": 6,
+      "条件出现": 7,
+      "专项方法": 4
+    }
+  },
+  "aliases": {
+    "languages": "多语言 国际化 本地化 hreflang international localization",
+    "pseo": "程序化SEO 程序化 SEO pSEO programmatic scaled pages",
+    "messaging": "邮件 短信 SMS email 营销自动化"
+  },
+  "inputResetsPhaseToAll": true,
+  "owners": {
+    "payment": {
+      "expected": "seo-readiness-audit",
+      "html": "seo-readiness-audit",
+      "route": "seo-readiness-audit",
+      "match": true
+    },
+    "commerce": {
+      "expected": "direction-validator",
+      "html": "direction-validator",
+      "route": "direction-validator",
+      "match": true
+    },
+    "service": {
+      "expected": "direction-validator",
+      "html": "direction-validator",
+      "route": "direction-validator",
+      "match": true
+    },
+    "team": {
+      "expected": "direction-validator",
+      "html": "direction-validator",
+      "route": "direction-validator",
+      "match": true
+    },
+    "tools": {
+      "expected": "treg-research",
+      "html": "treg-research",
+      "route": "treg-research",
+      "match": true
+    },
+    "messaging": {
+      "expected": "product-growth-review",
+      "html": "product-growth-review",
+      "route": "product-growth-review",
+      "match": true
+    }
+  },
+  "currentStatus": {
+    "userReportNotAcceptance": true,
+    "monoCandidateUnmerged": true
+  },
+  "pass": true
+}
