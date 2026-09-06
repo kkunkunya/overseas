@@ -1,0 +1,3658 @@
+[
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
+    "sha256": "ea83a54d8499da0f4cfa418f7d05878432c094f2a3242a860d2b1df95d16daf8",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/banana/skills/seo-image-gen/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/banana/skills/seo-image-gen/SKILL.md",
+    "sha256": "d7eebd6282c4348077c2949c4f7a144e5e1b0afcb06e976d4a235b58276d45b8",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/bing-webmaster/skills/seo-bing/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/bing-webmaster/skills/seo-bing/SKILL.md",
+    "sha256": "acc66bbab32ad8506dab6ee7806a9b140f8d86dc7da29f9e93717191508be5ef",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+    "sha256": "0aa298649f4ff461136415af6ab12a834f738ee0f2eacf4c66dc20313fc5aca7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+    "sha256": "27f0f09b810a41bbc9d3316a1b9be4faf933e9ed1bf832cc4f86ebadfa390192",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/profound/skills/seo-profound/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/profound/skills/seo-profound/SKILL.md",
+    "sha256": "a62553829be2129135b54df11650bea34fbb5c5101a462047c63e2624b71c48e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/seranking/skills/seo-seranking/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/seranking/skills/seo-seranking/SKILL.md",
+    "sha256": "4184935435017d183cc5b95562387a749696cdf12f918a9ae3d0405b602d8054",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
+    "sha256": "17144819c75c0766b0f44d86f23868869c8fb4bcfb2ecc095cf2446010173052",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-audit/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-audit/SKILL.md",
+    "sha256": "7a3d7817fa6b78d38a399d13ce84f327ba935ad8189e1aa061c855658be21864",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-backlinks/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-backlinks/SKILL.md",
+    "sha256": "95f395f5a3c48ce87db739d0bfc2029d2b2c6f648c05f3b191f0d9a461ff84d2",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-cluster/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-cluster/SKILL.md",
+    "sha256": "e418337d324d35af7103edfe2cc361e9514eb26ea7f2db47f99d37815d767892",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-competitor-pages/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-competitor-pages/SKILL.md",
+    "sha256": "0b12117db8320f3307f9f3769d5038179eea41b5142da8c400e3b1d4ae4fb1ab",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-content-brief/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-content-brief/SKILL.md",
+    "sha256": "e821f346b0c31f413c6562d0cf83b30130c07ed40371ab80199383eb1e8af21b",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-content/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-content/SKILL.md",
+    "sha256": "99818733b8639855f010ef0a0abf0409bb47774539b2df8a4fb135d57801c867",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-dataforseo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-dataforseo/SKILL.md",
+    "sha256": "c845fd746409422633908d6fb21a1a6a2f4b15f32cae57a3301d931f2696fa14",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-drift/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-drift/SKILL.md",
+    "sha256": "1780f507af735e333b87790ce7310abd9e3b21b3a8b29f0a6ea022f9562e130e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-ecommerce/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-ecommerce/SKILL.md",
+    "sha256": "d627c0e3988b85c85c5a474381695022a10fe455da2215938fb41e4255ad636d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-flow/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-flow/SKILL.md",
+    "sha256": "51f9c1b56d16705c17fff4c6668a7b7ba3ade7747ff430f28cfbaa8b33b5a3d2",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-geo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-geo/SKILL.md",
+    "sha256": "41e3012757cd34f6d8726d807d08688ca04833bc91172ebb4118a681f16db0cc",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-google/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-google/SKILL.md",
+    "sha256": "5a395f982b25b89fd082d9bcf5922588af89ee4d13e6f600d3bfafa8922bb59a",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-hreflang/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-hreflang/SKILL.md",
+    "sha256": "b249aaad42738161927048c0fc24aa9e6750cdea56157416fcf46c83b0790174",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-image-gen/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-image-gen/SKILL.md",
+    "sha256": "fbfe38171737d063abe5669928e801ea27df623ce02041b187fee8533ea2beae",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-images/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-images/SKILL.md",
+    "sha256": "00c1e22f2d8294b7684bca241d94f797bb4cf6bd1e71e6f09a7a44b0533d80ef",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-local/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-local/SKILL.md",
+    "sha256": "0bd78c2d2b8156dee403f17ba981d8d783af523fb93a1dc53be7ebc9397681e9",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-maps/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-maps/SKILL.md",
+    "sha256": "2dec9479f49d7747fc44acfbfcf31c23bd1a4d91074fd8ea5d5995f16e3360b0",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-page/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-page/SKILL.md",
+    "sha256": "e4a173501317d8d604083947c61b9e1f903652d76d0fa9973e392f6a8d12adc9",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-plan/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-plan/SKILL.md",
+    "sha256": "f799fc02d0e321b2ab2eae9a9acdbe275e096f83e84f05ca5c4d033b7f0505ff",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-programmatic/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-programmatic/SKILL.md",
+    "sha256": "42ac4f8ef13e91982dc467622686c3fcce8ed5932747c3a0ad607847b2095f39",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-schema/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-schema/SKILL.md",
+    "sha256": "2bbfa3dfccea85ca2c55e6052887764a34f749300c5c467c1a4245058b4c8960",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-sitemap/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-sitemap/SKILL.md",
+    "sha256": "c03197c08e05233200c1db655b9f15ed617eb285085c3c30ebb79e51001efa33",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-sxo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-sxo/SKILL.md",
+    "sha256": "738567e0baa60afe7ac0497ab061dd3b095e211a04522f1269d5e09c5195eef0",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo-technical/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-technical/SKILL.md",
+    "sha256": "c7c1c298f83e15f44f68d5a55500d4c0a920398ca85ab65ce5205cbc984ddb9c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/claude-seo",
+    "sha": "a1480c7e590b16001bd9dc1627eacdcd44d580f9",
+    "path": "skills/seo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo/SKILL.md",
+    "sha256": "c04477cff49300fa32f96a07ee939f9caf733d39b17e6eae9666094aff621364",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "extensions/banana/skills/seo-image-gen/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/extensions/banana/skills/seo-image-gen/SKILL.md",
+    "sha256": "615fcb0fbadf510da4aeef4e9e509ca19b406932647a1000dd8e915f80451baa",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
+    "sha256": "0bb50ed56e33d2677f01637f9b462025b115d04c7304d9310b99a47be2128e23",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
+    "sha256": "a5509dbb1635ecbad0fb66f4284acc67ea6575a85eb1213c4fd2d87769d5293c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-audit/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-audit/SKILL.md",
+    "sha256": "3dc846ea1b75833238217cb12c3dac0fbd2d2415cb677ff41b6123731d8c5a69",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-backlinks/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-backlinks/SKILL.md",
+    "sha256": "9d480ac7b9e35b556998013d4ad8346096c3a6ff6b1dfe6619c5f03903661a52",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-cluster/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-cluster/SKILL.md",
+    "sha256": "441b1ff26b070c108a828c8308f7095e2d439c7caf0b0e9dbc0865134e11cc03",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-competitor-pages/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-competitor-pages/SKILL.md",
+    "sha256": "9d3f4d3aff69853ef7c23e2908cf6b52243d7cd8abc0ee227701a74f67ebab77",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-content/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-content/SKILL.md",
+    "sha256": "717b239a6b615fa3b43337b0c653a6ad5951d094a539956cf70742db771d58d4",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-dataforseo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-dataforseo/SKILL.md",
+    "sha256": "0bb50ed56e33d2677f01637f9b462025b115d04c7304d9310b99a47be2128e23",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-drift/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-drift/SKILL.md",
+    "sha256": "809cfe03d39cc99f2befc98a5ab4fd371954a6df2ef3c43d8564938b6bbe57fa",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-ecommerce/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-ecommerce/SKILL.md",
+    "sha256": "05c22ef926e4a4b5ad359cb491d5291d567b43d2a36faf6c9d12f35d9530be6e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-firecrawl/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-firecrawl/SKILL.md",
+    "sha256": "a5509dbb1635ecbad0fb66f4284acc67ea6575a85eb1213c4fd2d87769d5293c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-flow/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-flow/SKILL.md",
+    "sha256": "d1ba9c17e8b4f0ec8f4ae57af51acf07ff9c74ae53fd729dcd5b3526a0a7e5f9",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-geo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-geo/SKILL.md",
+    "sha256": "8cfb805223638e5adb6ec99194e765162d5fac15e18667bd9d8da3e45ff60293",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-google/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-google/SKILL.md",
+    "sha256": "8a6cea49a845aff9f2714d71d7d06581657a47082ef6d5c79be62a593c80478d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-hreflang/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-hreflang/SKILL.md",
+    "sha256": "1a137c6fcabcb3d98d20e05f964b26f44b933c77f63f101e58afca9b33e850a2",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-image-gen/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-image-gen/SKILL.md",
+    "sha256": "615fcb0fbadf510da4aeef4e9e509ca19b406932647a1000dd8e915f80451baa",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-images/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-images/SKILL.md",
+    "sha256": "5402f8cbb6da9f54259ddf26d8e0f3c01597fd2c23047be563789fed823b474d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-local/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-local/SKILL.md",
+    "sha256": "9bbf61055936522c69235b1bd643e411e1b6c6e1d55b1b9d9abc68f7b5a83591",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-maps/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-maps/SKILL.md",
+    "sha256": "9339b4d012e23070178aaba870eeb924d7723186eceba5a5227619e2971e9ab5",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-page/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-page/SKILL.md",
+    "sha256": "36cd1df5d9a996fe850a762b909c67369d613353486b94c73e6fc36a3022270e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-performance/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-performance/SKILL.md",
+    "sha256": "ff38ab0145ef00e88ecb85827f4b4ebf5e6e6145a7ac2679957ad7b037cee844",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-plan/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-plan/SKILL.md",
+    "sha256": "3764f002301e26ff562919c178b3aeb25f075d1701d3cfbd6a1e8231e3ad032c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-programmatic/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-programmatic/SKILL.md",
+    "sha256": "ccc896911b7c851d2dd01d55fcfa7ab99fda588b4b2895c28c5ca0753b006729",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-schema/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-schema/SKILL.md",
+    "sha256": "ac5695982ee41b88a73aa4b0e0f489fd30513108ca5abb88a1afd24a844f677a",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-sitemap/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-sitemap/SKILL.md",
+    "sha256": "8363669bd38d999a6459bc49bc0cd6e776e3711e84349010e89fe67855316794",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-sxo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-sxo/SKILL.md",
+    "sha256": "3cef4198ed867de42c5d8744638e2dfd67eac9c187838b048ce712a6cfed7f4c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-technical/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-technical/SKILL.md",
+    "sha256": "580520e2db546be7e9246f77b583c3a84d085ba0b4934f52b67caea5ef12e58e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo-visual/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-visual/SKILL.md",
+    "sha256": "2da7d74a7c806b827c003a6655f70a30c85e15609af8867e852ab7b342278113",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "AgriciDaniel/codex-seo",
+    "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+    "path": "skills/seo/SKILL.md",
+    "url": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo/SKILL.md",
+    "sha256": "f1c890d9f695de89f3e1479c3bfce619c901dbc7a70334545ee97cdc720bdc68",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "Bhanunamikaze/Agentic-SEO-Skill",
+    "sha": "69199160e18372bc5cdf9ddec20ccb9fb1b509f1",
+    "path": "SKILL.md",
+    "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill/blob/69199160e18372bc5cdf9ddec20ccb9fb1b509f1/SKILL.md",
+    "sha256": "028f0483bca4090d661bdff4c9243409af7756b7dd75610a8e968a3eb4d161c9",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/ab-test-setup/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/ab-test-setup/SKILL.md",
+    "sha256": "1e4ec3bcc7a9b832237db7eabf784b05f4598f9532b07400bad17a74074612ca",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/analytics-tracking/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/analytics-tracking/SKILL.md",
+    "sha256": "840098ceb0af034e7bcf62f2b7a6473f0860d157ffc3057082eb17d64deb3743",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/competitor-alternatives/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/competitor-alternatives/SKILL.md",
+    "sha256": "1c3ff76fa0300ad3e450332f268aa8eb14da39722b713b8cc3b4a2ce28a9bb86",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/content-strategy/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/content-strategy/SKILL.md",
+    "sha256": "1fb9d6c57f1b816b8a65c543910e5be5e50847c1cc56652e0da2027f232df9e6",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/copy-editing/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/copy-editing/SKILL.md",
+    "sha256": "1d24d5e161d53399be058669832492f571391ff844d14d4e1c3bac0c8763aabf",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/copywriting/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/copywriting/SKILL.md",
+    "sha256": "21202711c6b52f006cfebcefabd6781fb65dfd78b385c48bdcc9b19bca4e4e55",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/email-sequence/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/email-sequence/SKILL.md",
+    "sha256": "d1abc04bc58e8511a68bd7da19846ec750d97cc4f843ba2d79d67caa43d2401d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/form-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/form-cro/SKILL.md",
+    "sha256": "a4f096c027b31d94e7941d372a7e3926e3d89fc8a6db74f81f960646a76e1d23",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/free-tool-strategy/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/free-tool-strategy/SKILL.md",
+    "sha256": "03d16d8c3cdcf3a212f0e0dc7ee12cb74dbfb77a3e25cc6dd9d8961e3cd2a408",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/launch-strategy/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/launch-strategy/SKILL.md",
+    "sha256": "1611b01c3b9946b920849f1367bcd705ac493bd4c7556ccb4c1cb1c1cb5087f7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/marketing-ideas/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/marketing-ideas/SKILL.md",
+    "sha256": "76b56b5a15a6a36a0987c53e5e8e39d637d2450c33218a78a259e08a36ab59d7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/marketing-psychology/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/marketing-psychology/SKILL.md",
+    "sha256": "22d86d86d86b3229bbc39645ac23bf491a0503bc9f6c7a293b67b8652f1f327e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/onboarding-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/onboarding-cro/SKILL.md",
+    "sha256": "d3ed538a2eaf52517b7e625cc335c56e06a5f825c3ef98569415854269d44ca3",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/page-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/page-cro/SKILL.md",
+    "sha256": "4ddfeb7676eb31ac77ed30eedaa89b94713f79fbe72904550848080da5cdfaad",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/paid-ads/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/paid-ads/SKILL.md",
+    "sha256": "0c7a8efd3d641bed30cc99a927c81b5df75801397c1988f5de59eefdc050a126",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/paywall-upgrade-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/paywall-upgrade-cro/SKILL.md",
+    "sha256": "54b74e2dc0476e41f3db8d5a13bfa0adfca20494e63564aa2927584ccc486fc4",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/popup-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/popup-cro/SKILL.md",
+    "sha256": "0d37211c60d0ef1a67deef75f2f31feb79788cf33a0a7ed573a6c119c83219ae",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/pricing-strategy/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/pricing-strategy/SKILL.md",
+    "sha256": "d86827dd4b0bb3a1cc5c3584537ab03972c0e6b842b027404f1ecc1507ab086d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/product-marketing-context/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/product-marketing-context/SKILL.md",
+    "sha256": "32ab77572d110c14e2dc6143f3a3a1fe88bf86824aefdfaa2f0a79914064d394",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/programmatic-seo/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/programmatic-seo/SKILL.md",
+    "sha256": "bab347a0cdfee444f4ff273bc68c5f72912ff3941ab9aa34254dee8522ecaa2c",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/referral-program/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/referral-program/SKILL.md",
+    "sha256": "3a7bf7e47e544adc82b01d95e3a94e60474d3ed8f2a107adc52d1f2211fba03d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/schema-markup/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/schema-markup/SKILL.md",
+    "sha256": "1dc73cfc3de7466e84301bfc11a71b8a1a90b47aa842e2e181b61f34a187b2b3",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/seo-audit/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/seo-audit/SKILL.md",
+    "sha256": "51fdd3616ae1dd1209e0f7344582e76bed640c182118df9824859470249031d7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/signup-flow-cro/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/signup-flow-cro/SKILL.md",
+    "sha256": "d661c9f501f5c3df8634867a9d695e36e80ce4a5249ffcb0d047f071ef5c9abc",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "sha": "e818d5e38551a931333381d69c43da6e767ec775",
+    "path": ".claude/skills/social-content/SKILL.md",
+    "url": "https://github.com/TheCraigHewitt/seomachine/blob/e818d5e38551a931333381d69c43da6e767ec775/.claude/skills/social-content/SKILL.md",
+    "sha256": "9a60e940ac72df13a5057de5a82d40da20877eb069903462ba0d13ab1d74507e",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "geo/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/geo/SKILL.md",
+    "sha256": "52c5c3ff91ee6df062a7ef588a6e7e3f42099af362bcca44ba7d4e3aa543bd7d",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-audit/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-audit/SKILL.md",
+    "sha256": "7cc197e07bac496521731233d0c35119ea9a75220f47f1a25d312cc8cf59f378",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-brand-mentions/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-brand-mentions/SKILL.md",
+    "sha256": "6a5d55c3e43e148a262944c33640ad81d99e91b63ac46a9980bda153d69754e8",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-citability/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-citability/SKILL.md",
+    "sha256": "e6b5edd38469e27ca286101d05e98a4931ea7dbaf45fb8248876ff7f9809172f",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-compare/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-compare/SKILL.md",
+    "sha256": "c0793908bfb2350ff9bbabd188c8a264ed60f55525c6b8cdfad24b33d8001682",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-content/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-content/SKILL.md",
+    "sha256": "63d754bbdac1bf086a372379cccb041eb328c94cbb3d82bf2904bc1ee38f867f",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-crawlers/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-crawlers/SKILL.md",
+    "sha256": "e9429e5b16192b596931f5485ef9d2b3b746370d47d787212e6158d9884c0247",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-llmstxt/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-llmstxt/SKILL.md",
+    "sha256": "de12c9cc28b01d0853a7a9f298285ae218b91b0847ae70c782ced01180fcc078",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-platform-optimizer/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-platform-optimizer/SKILL.md",
+    "sha256": "78220f7756e1eace330eed8f226dea4e34f986e913c4d498d585845654e60a8f",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-proposal/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-proposal/SKILL.md",
+    "sha256": "1e28ba46765cabffea4e4386fa2c602f4069e1267769cf9373f49543d49a43f7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-prospect/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-prospect/SKILL.md",
+    "sha256": "825f05d74dc0e63eca9597fb343c9e177499866b4d51b7e36011db6ee17a20a6",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-report-pdf/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-report-pdf/SKILL.md",
+    "sha256": "9990a6a1b8be9a6b40a0435810e7fdc13e8c7e0bc9e9e33cee40965c5b0bddc7",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-report/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-report/SKILL.md",
+    "sha256": "6c1c89648117a111d8802580ffe255727a4c0d7e5226b3c53cb568b4c282df28",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-schema/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-schema/SKILL.md",
+    "sha256": "b7dc0a602cce8441dd70ecbc2a15bc586c1b96897baf72c04615daa177260c17",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-technical/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-technical/SKILL.md",
+    "sha256": "b39152dc4c99157e8baab6d723f634ec77b9a210eaee679c8efc86e9ebd14b08",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "zubair-trabzada/geo-seo-claude",
+    "sha": "0a1bb52aba7b05e732c686743f4fa23de8121fa1",
+    "path": "skills/geo-update/SKILL.md",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-update/SKILL.md",
+    "sha256": "81ded0d02dafd04d14e672c668b1681c6340f161a114abea150987ccf32928f9",
+    "notes": "seo-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/ab-testing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ab-testing/SKILL.md",
+    "sha256": "1fd229160f6014f3f2d7c92cc7d2f991fbf8dc9ed68aac9793c71b408a6d1144",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/ad-creative/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ad-creative/SKILL.md",
+    "sha256": "e5b0cd0bc6bf55ab2abd02ca399fa996b67324cbda0dd1a719689e9322ba6808",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/ads/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ads/SKILL.md",
+    "sha256": "5759f8e81a2fc61c135cb7e63b472e8788cf6a1a143b865b818e215d0fc02c69",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/ai-seo/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md",
+    "sha256": "b1ecd93ebc65af886f81bc0a90645c8fd4ffdf68c5b3d4495a9e61481d954d00",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/analytics/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/SKILL.md",
+    "sha256": "3eda97d96b2329daa933b6fdb94bf81aaa1196e3e344e56a8805f972a7438404",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/aso/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/aso/SKILL.md",
+    "sha256": "09ea96274ae075eaf10b39fdb2749d3f272c13cbd8070d1524a4648c101d8b51",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/attribution/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/attribution/SKILL.md",
+    "sha256": "eccc43eb93fed8fa871205fc441830ee020bcfce8b78a645e6e679c3f6099ac6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/churn-prevention/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/churn-prevention/SKILL.md",
+    "sha256": "88fd25b77e44ef3689d68d54091df9659a40f5e905c8bdeb09bdeed3f049ad67",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/co-marketing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/co-marketing/SKILL.md",
+    "sha256": "5fe1124e8b6ff64ad0644d1483bed2cc6598c6f0cf6d89219c3198b6b066f1fb",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/cold-email/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/cold-email/SKILL.md",
+    "sha256": "b7f8d793169a5111c857e5720c6b80028686cc95d5a0d0d6570957c2710aff9e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/community-marketing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/community-marketing/SKILL.md",
+    "sha256": "e4c4a21e82a04e8ef6e2845fa34ebaf5512ba59ae1c9c74d8caa9f045628f4da",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/competitor-profiling/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/competitor-profiling/SKILL.md",
+    "sha256": "3e775491484a9e6fddce1db4e03415a900a5026d898ef146161f6fea017eafcf",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/competitors/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/competitors/SKILL.md",
+    "sha256": "99e9ea715b1ac6dbaedda345a27358fb5e099f7d4fd5be63789d6e65cf2a6f46",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/content-strategy/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md",
+    "sha256": "0ad572d607884c561668810f77cd21bbe3e0508c64090f2997661a728360f946",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/copy-editing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copy-editing/SKILL.md",
+    "sha256": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/copywriting/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copywriting/SKILL.md",
+    "sha256": "ce18137ae31ab37f261078501431649865ab6b403054d97490754e82acb002d8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/cro/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/cro/SKILL.md",
+    "sha256": "199016bec3b44bc6a7507b111b6028f6550cc852cd54c7d0df789f15d6f814c4",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/customer-research/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/SKILL.md",
+    "sha256": "ae4769147f63dd5aea1308a0fddd85473601164893f58111dce738738226317e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/directory-submissions/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/directory-submissions/SKILL.md",
+    "sha256": "dd08854f5cd1e16413dd588b13e02a32ce01dd3a9f4e9b1099f92a7b635ac24a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/emails/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/emails/SKILL.md",
+    "sha256": "1fbd54df4c59f48408057e7db0dfb1a53c033e6a4ca5cd1927a47c51ec28d8f1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/events/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/events/SKILL.md",
+    "sha256": "2861ad31d71db0f9fd067303993d3386958eba57799aa9ece902163244dcdfbd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/free-tools/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/free-tools/SKILL.md",
+    "sha256": "609158ee26c6005cf6138635a1a8ac4928322651c82ba13584db19d610d61e6b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/image/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/image/SKILL.md",
+    "sha256": "c34b67e249e558410ee960043d0de3c1d188dc3b6ba36d7714c16ec6f1fad46e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/influencer-marketing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/influencer-marketing/SKILL.md",
+    "sha256": "45d0d36d8c418f16fa25b59c9b392c9cb9b850f764357023b2d7b4f4cd08adc1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/launch/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/launch/SKILL.md",
+    "sha256": "1d5f5e6a4caaa5b62604a8df324b060eb99da567e65e9fc5a69b9999c61325b2",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/lead-magnets/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/SKILL.md",
+    "sha256": "bfb1e260e56fb11611bfac94236e7ebf79433e3350012ecce2379eef0af25af8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/marketing-council/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-council/SKILL.md",
+    "sha256": "0b94358427c344e1f5f50169770cce44e0b065ec8b05fc887a800daed008ac31",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/marketing-ideas/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-ideas/SKILL.md",
+    "sha256": "d5ea46d2d2eb2fb039494e8b545550a6bd5b5b9aedc5e65a228ac514deb018ff",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/marketing-loops/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/SKILL.md",
+    "sha256": "db4ba419ee74c7ef4c6dacffdf92fa4038e720640a4b4b95e8766ad9ff269898",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/marketing-plan/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-plan/SKILL.md",
+    "sha256": "95722fc0566e139db44ab5d5b5e0f1174a0a2344baca6a3b266f86f8a266e88c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/marketing-psychology/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-psychology/SKILL.md",
+    "sha256": "573bbe4f6e300e7fb75299e314f56e26382d284782caa2ae0e0f33eb2e646548",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/offers/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/offers/SKILL.md",
+    "sha256": "f27239be82e5d4ad42daa944fad7d0a640b80ca82697ba7399843437a001e5aa",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/onboarding/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/onboarding/SKILL.md",
+    "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/paywalls/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/paywalls/SKILL.md",
+    "sha256": "d062c03f6b99e76ffaa367a1494ba80098b2033d4d74609b895373a024a8eac1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/popups/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/popups/SKILL.md",
+    "sha256": "6c66e7f923c1eebc7eb7b94971af2e8016d3b5316e14bb1ad4b15ed3522084ce",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/pricing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing/SKILL.md",
+    "sha256": "6cb88c2e944331c12f2fb83341ff16aba85a34629df11f4cffc7f611e4df6868",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/product-marketing/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing/SKILL.md",
+    "sha256": "6dfd6bd485f62448385844cb9eceefcee0977c843d7a1c9e6077590d4e19d1ec",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/programmatic-seo/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/programmatic-seo/SKILL.md",
+    "sha256": "15cb5979cab5263ede902a830e03342869256ece17905bff240eef498e27cde1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/prospecting/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/prospecting/SKILL.md",
+    "sha256": "beabb53a99b4df893216c18ba84198d7f2622cc83ef35043c09b218840498356",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/public-relations/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/public-relations/SKILL.md",
+    "sha256": "36fe43e755d951a9e05a268319e6089e7727dcd9de0a9ab6c4ec56768e4190ed",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/referrals/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/referrals/SKILL.md",
+    "sha256": "103bd339d6d7796fae1128487c1560f38feecd94898d0d7c44ca0383f4c809d9",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/revops/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/SKILL.md",
+    "sha256": "bb27b16ad41c5c2d4fea14c12359c6a01fc755f2bb91140f0c2c43b05b3adb10",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/sales-enablement/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/sales-enablement/SKILL.md",
+    "sha256": "d83c3244dd8e2e64d585f1ff0d760eff181587f06b90ceaf8127a4ce618265dd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/schema/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/schema/SKILL.md",
+    "sha256": "d8b7aa7bcd9727a87fb5470a6c9ee252b99a7ccb84f637d7c67c5d155b507e0b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/seo-audit/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/SKILL.md",
+    "sha256": "9420a6c1ffcf7212766bcb618c28766ecb084631bed8045f3115d42b1230d368",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/signup/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/signup/SKILL.md",
+    "sha256": "9395aabae64891ebdac5f31d17c83b9d47546dc0c9b22654c7b89e9b04da7cf6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/site-architecture/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/site-architecture/SKILL.md",
+    "sha256": "a47f693c6a4f45db89276d8c341b3aa3054090cc8002dd4a2635448d7d152492",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/sms/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/sms/SKILL.md",
+    "sha256": "bf649cfac0e3851f28b4746dc0dccb51c7526935b64cae7dd237b1b948c58842",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/social/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/social/SKILL.md",
+    "sha256": "8cc93d9b361622cdb640e87969747b85603bed2d268e923179f8dfb4799ec8c7",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "path": "skills/video/SKILL.md",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/video/SKILL.md",
+    "sha256": "3b6d4864bae49dd3d60e7f6218e0de0803633989d68bdcf093a3771307387ac2",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "affiliate-marketing-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/affiliate-marketing-strategy/SKILL.md",
+    "sha256": "d5065ed2453aae39a99c457cc5f522ee8a50bd57d8804da660f95bae9c3b116a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "api-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/api-monitoring/SKILL.md",
+    "sha256": "639b8475a685a288e71282462f0053de131f523f25577c469215c1f98ac706d1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-monitoring/SKILL.md",
+    "sha256": "8143cd6d7f48dd3f7ae5f593f95401a81d8ec6333e37bf7a806e00b1a8fd1542",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-protection/brand-protection-amazon/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-amazon/SKILL.md",
+    "sha256": "e8b8522a030a9100342e917ecf2c4b7c10b906718d58723e8f1c5932b8f43411",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-protection/brand-protection-ebay/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-ebay/SKILL.md",
+    "sha256": "f42c532b2329782067680ce492d71494041f513df7db1e985ae85becf310508b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-protection/brand-protection-shopify/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-shopify/SKILL.md",
+    "sha256": "199e66ce2a700225de347f51d998972a87d39d284284d853f5ece1188fa6e2a6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-protection/brand-protection-tiktok/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-tiktok/SKILL.md",
+    "sha256": "a11314060a5b4cc2d9a79ad940b71a97b39e9fe330210f0f57a499a854cb7593",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "brand-protection/brand-protection-walmart/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-walmart/SKILL.md",
+    "sha256": "a293a620e5407002dda997aeb89e28fd6a786c9602decc6fa07bbf5b7942239a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "competitive-pricing-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitive-pricing-strategy/SKILL.md",
+    "sha256": "ce62a59cea9f47ed7fd927aa9b340e3879360ed50747332406870c2fc217f318",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "competitor-price-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitor-price-analysis/SKILL.md",
+    "sha256": "a4d0dbe58ca2ecfbe06ef94717147184b0a9c07f1ed76486f638eb5a9d505579",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "competitor-price-tracker/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitor-price-tracker/SKILL.md",
+    "sha256": "fce94eec07fd5b9c6adf1e467275e491a483fd4175dca3425515490802e9b071",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "conversion-rate-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/conversion-rate-optimization/SKILL.md",
+    "sha256": "8c8815336665c4d585b14b1bbbdb72185a108e1b98740074181be419e4ed97c6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "cross-border-ecommerce/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/cross-border-ecommerce/SKILL.md",
+    "sha256": "6fbc4da4bf3260624882888391d59c8a67dc616459772a31ca12dbabeded304e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "customer-feedback-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/customer-feedback-analysis/SKILL.md",
+    "sha256": "7b564e72ca0e25477b95b4a67b7c6ca74440b2030017bed16ec2dc3bbc753327",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "domain-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/domain-monitoring/SKILL.md",
+    "sha256": "1c432226f86552921dd60ccc7fe159c8bad1a33a78bb00dad9e8d7c83712d2a9",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "dropshipping-product-research/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/dropshipping-product-research/SKILL.md",
+    "sha256": "b30b90653a015e29159dacea685645ede5f89e34e3c53b446e15ccfc2d2b8cd3",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "dynamic-pricing-ecommerce/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/dynamic-pricing-ecommerce/SKILL.md",
+    "sha256": "c1e8262bcfd9e6110193f4e9d20256516623c04c16de12a4e844844fa6ae8512",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ebay-advertising/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-advertising/SKILL.md",
+    "sha256": "1aa8f8f6cde0b5b64ab18a5924a2356b76c12e7223541cd47338070cbc124ca1",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ebay-product-research/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-product-research/SKILL.md",
+    "sha256": "2eeaba579f7a2d932e1d68cc485da87fe2d28699d59b94238e5270a5fee145f5",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ebay-seller-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seller-guide/SKILL.md",
+    "sha256": "c9b8490784f9a31581ec7d2d17d382f2d5a0e4616eba4fc9eac0829d53ad35f4",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ebay-seller-tools/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seller-tools/SKILL.md",
+    "sha256": "f188324d2610826983593be7fcf5831b8ef295727d8bc0e5149dedd7c22722ac",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ebay-seo/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seo/SKILL.md",
+    "sha256": "11ae58a9e74cebe2a5047e90b7456eff8172221af102036f7594fa4743892c66",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-ab-testing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-ab-testing/SKILL.md",
+    "sha256": "6bb37355b4f343f35b26a3555ca92e3cf91ab57771b6d65f9b4d7f7cd16c42f8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-branding/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-branding/SKILL.md",
+    "sha256": "59c4c79f76dbdedbe6e4e0ea0ecc1db863c45e39c3a39a3b3128a177b8ff76f6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-business-plan/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-business-plan/SKILL.md",
+    "sha256": "8ab42c59a3dc23b3dfccd565cc4491d5d111a86238c6464b99199e7c58b6737a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-checkout-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-checkout-optimization/SKILL.md",
+    "sha256": "7c757dee99be0b35008506d3454596ec2936bebcd5fcb488eae1f94628b6f940",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-competitor-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-competitor-analysis/SKILL.md",
+    "sha256": "e65bce6c2c1daab8c78be201ca83a0fe8ad67ccd0072c667329dcb2e55c5ed08",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-content-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-content-marketing/SKILL.md",
+    "sha256": "dd617915a4535453068c82cfc43e8a7b06f6809b5f1b457d87ec73933d34dd12",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-customer-retention/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-customer-retention/SKILL.md",
+    "sha256": "7fd9d1a683b48a86245564244e92061b4b6025fb79ff9f4279212fde15a438cd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-email-marketing-builder/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-email-marketing-builder/SKILL.md",
+    "sha256": "f36feb25a0e6ba299fb038ce062433f214c056701b32fe4a2ada0ff80df6714f",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-feed-management/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-feed-management/SKILL.md",
+    "sha256": "eb3bf8bfc4e59b2193e416736537db92059b56b43d61d9238e62ba6a1c1a7d48",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-growth-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-growth-strategy/SKILL.md",
+    "sha256": "073f6252641779efdfb4e95822136018bfaf59034f8b77b50b486adb3b20a48a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-keyword-research/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-keyword-research/SKILL.md",
+    "sha256": "2c7a0fc0a71214d92090786c900f2c3d072b72a3b7b6bed69c3db011c910ce13",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-landing-page/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-landing-page/SKILL.md",
+    "sha256": "b3685198fa75b407bb97467438bf758a50f1d895bdbee0441e1ca4345ab77bf7",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-marketing-strategy-builder/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-marketing-strategy-builder/SKILL.md",
+    "sha256": "b1db995abb7f43795053cb73b2ee09d7878806550467be904cf1787a1440c746",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-personalization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-personalization/SKILL.md",
+    "sha256": "35dc0e5e844331c0ae8518261e50a260dd3e56cb7e98be7522a2291a95c6eba3",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-ppc-strategy-planner/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-ppc-strategy-planner/SKILL.md",
+    "sha256": "97c82cf843b8d03aa4e07beacec9815f8ee4d06d599430b930fc23f520b037fa",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-returns-management/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-returns-management/SKILL.md",
+    "sha256": "2bcd2d6a127918ea45eb0ff0a167937661a00a3326b597a5603fb34b2bfdd17c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-shipping-rates/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-shipping-rates/SKILL.md",
+    "sha256": "a83988105fad28642697c4a855426c803a4783167f93c99b0c79adfc5c1c0e0b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-social-media-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-social-media-marketing/SKILL.md",
+    "sha256": "0958a73d56481dd5d6f0343bce5a9c1d1392a008df83e94b019092fc27c4e9da",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-subscription-model/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-subscription-model/SKILL.md",
+    "sha256": "f86f10ec860b748f70e9f2c8f03a6102f29e84a9ae4713184eb1b65ad8c1c402",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "ecommerce-video-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-video-marketing/SKILL.md",
+    "sha256": "43e73096d6f9b75c1de93d042d115b66625a8204d19a370e39f74a4b6143e0cd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-advertising/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-advertising/SKILL.md",
+    "sha256": "a25fa1f9e6c356d9157a2884b512f6608368fdb04d6535388cd353da55e10d0d",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-competitor-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-competitor-analysis/SKILL.md",
+    "sha256": "b38bb9a0530a5d43a583bbb9a62df452cc387d5867fe322a72ae3bac7437b14f",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-custom-orders/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-custom-orders/SKILL.md",
+    "sha256": "e3f2620930a91b7fbfa0390447694346f0c68335d13bfad713ca2cc767fe6149",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-digital-products/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-digital-products/SKILL.md",
+    "sha256": "163eb4c033245f0174cee745dff97173773541eff7004c2aa3e72fd9edf42430",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-keyword-research/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-keyword-research/SKILL.md",
+    "sha256": "0beaa11594870034025fb3568ba3e1941168697d424e0d4c7d26002ba0ee6a57",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-listing-photography/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-listing-photography/SKILL.md",
+    "sha256": "96ecf0036dcc6d3f860a5a522d4821e1402c48695e6f38afb24c6ba389d7b023",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-multi-shop/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-multi-shop/SKILL.md",
+    "sha256": "1756e4a3784569aa8d58646b9cd8057df1e1b7a1ce4cfc09e565c1d4c32be891",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-offsite-ads/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-offsite-ads/SKILL.md",
+    "sha256": "468143ad837ffe45c12947908bc11785a750361fe78cd7937be6c86e0a9462ef",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-pricing-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-pricing-strategy/SKILL.md",
+    "sha256": "a1d4194feb2aa8eb6d1c73d9e1c3beeb004bf6d2601bab4520622c97a80f6c6a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-print-on-demand/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-print-on-demand/SKILL.md",
+    "sha256": "aacb546a6df377941c616f92c4ceac94bf05851f0ddb33baa3eef1db96295df6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-product-description/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-product-description/SKILL.md",
+    "sha256": "731b59ef4f0c2223322a876c3009e7db41ae96ab7bfa1f74779233295fcc9dee",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-review-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-review-strategy/SKILL.md",
+    "sha256": "c83a10fa9b4b8cd84b4d0518a8a3f49b7d1dee783374ee7d976046d941919f45",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-seasonal-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seasonal-strategy/SKILL.md",
+    "sha256": "a4aa118f533b1437d66a9328f52d5364408ebfc31dec11e543ed8263e7d35dc5",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-seller-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seller-guide/SKILL.md",
+    "sha256": "a98db84d91bcc42b3d4fe5a44950f5831cf7d4ed26b3f734f3fc8549caac40d3",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-seo-tags/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seo-tags/SKILL.md",
+    "sha256": "460f67d74c16a639ad2dee90a0aac995b88066a5acb5f069e66116b1c0b82ad2",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-seo/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seo/SKILL.md",
+    "sha256": "0d8ff6019a498f3d9b12ca91af0e82fceb6b42ce40a3b958b95c7f558ccdfe97",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-shipping-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shipping-strategy/SKILL.md",
+    "sha256": "6569db6dd96155256f7233ef0361c081fbd085cff084c506709a85f1443159b4",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-shop-analytics/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-analytics/SKILL.md",
+    "sha256": "77ac54596a1c633a7f4956a88717243b3988f4be2af9bd5319d881a03a453c62",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-shop-branding/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-branding/SKILL.md",
+    "sha256": "e7ec733e899b570f0a4fdbe85aeb323531218741247590636226178af387d6eb",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-shop-setup/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-setup/SKILL.md",
+    "sha256": "cbe4fd90cc93461452ed58148616c0a08a0b1559d0146f5113811c11477e5f46",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-social-media-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-social-media-marketing/SKILL.md",
+    "sha256": "9409c497b76fee35f646aeaca3adef8cf7b5bf0d66f4a2f203d867ca5b711817",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "etsy-star-seller/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-star-seller/SKILL.md",
+    "sha256": "e277e5dfc8b98354148ed6d106b7ff1c725c9a1e86be171c76d601edfc4cf6e8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "file-integrity-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/file-integrity-monitoring/SKILL.md",
+    "sha256": "9c0ead47b6d3e8cd39aad5a1a02ea951917dc0b174cc4c2a3bda4f869e3e0f17",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "google-shopping-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/google-shopping-optimization/SKILL.md",
+    "sha256": "4df65441245c7bb5fda6ee4fe296a3899df75c01a599b38b4639c5ed0aebfddb",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "influencer-outreach/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/influencer-outreach/SKILL.md",
+    "sha256": "f578ca20f4e25a851810fd2410ab18b9da6325a04417e8e12a28f28cd3357851",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "inventory-tracking-software/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/inventory-tracking-software/SKILL.md",
+    "sha256": "067b0a829f18e64c1241cdf0decdb66a6fe1abaf705b83bbde4acde53e62043c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "localization-testing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/localization-testing/SKILL.md",
+    "sha256": "d5d09d60143c95c96f78f46712b05185aff60e23fc9fdf4bfd92e1bb35729b4e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "market-gap-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/market-gap-analysis/SKILL.md",
+    "sha256": "63dfd620ad7aca156cbb578d7aafe76bb45d42aa33d42e8a7bd16ef7fa399845",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "minimum-advertised-price/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/minimum-advertised-price/SKILL.md",
+    "sha256": "54910787b937211d51e9ea07b8614ab29c54f9561c0a460c9d431fe84f1f8113",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "multichannel-ecommerce/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/multichannel-ecommerce/SKILL.md",
+    "sha256": "ebd77d68d8cc3fc3eac8b9247a9363e5e376143991edbd94e43cff2edc56ee86",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "omnichannel-ecommerce/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/omnichannel-ecommerce/SKILL.md",
+    "sha256": "45bcf2e1942d22dce5dad50b873f86d5ae4d24dea50ad59edf835b3dbcba97af",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "online-reputation-management/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/online-reputation-management/SKILL.md",
+    "sha256": "162b82ebaf974c455de2d084c6ea6793a87e905493be9bb211d775c9aaedf92f",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "price-optimization-tool/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/price-optimization-tool/SKILL.md",
+    "sha256": "ad2d4d74100c934705789de847f9700ba1b54afb81dd4ca39e442aa1e6faab08",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-description-generator/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-description-generator/SKILL.md",
+    "sha256": "2c868d8c6d436d2f10c48da44ae92ae76aa1e68cb5dcc0ca4122c9ee4beccc69",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-differentiation/product-differentiation-amazon/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-amazon/SKILL.md",
+    "sha256": "95874f8d90952f9f7af0bd55d2038f1a33a30d832150cabccbd0bd65154b5b13",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-differentiation/product-differentiation-ebay/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-ebay/SKILL.md",
+    "sha256": "9f6c3d7d2674939f27ebd243290ea44dcf0a88c3f74a7fe447b90c80fdc0a6aa",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-differentiation/product-differentiation-shopify/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-shopify/SKILL.md",
+    "sha256": "eeb231b9bcd62b447dbbad9c44aed9adfcf733f91cccbc421e1561738ec18288",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-differentiation/product-differentiation-tiktok/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-tiktok/SKILL.md",
+    "sha256": "57be618bdfd07c17f8fd19e8a05ee4ba9b6bf291b6c0dda4a750f28b5ade1797",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-launch-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-launch-strategy/SKILL.md",
+    "sha256": "663c40dac8b9e9e637af0abd94026d36dbfa616aedffd15660d3ecb7794a6659",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-page-seo/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-page-seo/SKILL.md",
+    "sha256": "84c1a1835a4838ca86008dae6acbc18829c33f5f8fc306db4535cbde5f39dc0b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-review-analysis/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-review-analysis/SKILL.md",
+    "sha256": "f685d0447460df78b0b2b0b057ed4eb52e473257f03bca5564df7a9c890efeaa",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "product-title-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-title-optimization/SKILL.md",
+    "sha256": "49f35dabe9d611c401e2f80bba1a1beb3043dfc87725fa4c86d34bee51194654",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md",
+    "sha256": "f4386322b573b5cfd1a8b250734400f07c1ce6b7d73482640a964fe5a0706e29",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "profit-margin-calculator/profit-margin-calculator-shopify/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-shopify/SKILL.md",
+    "sha256": "876018d50a5c9cee88be2c7784b8ec79cc3b7be59f21be58bee2cd0972635c96",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "profit-margin-calculator/profit-margin-calculator-tiktok/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-tiktok/SKILL.md",
+    "sha256": "9deca408422ae6c240fb16e8045bed9a691981635776ef539b2dfcc0f55e7f10",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "profit-margin-calculator/profit-margin-calculator-walmart/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-walmart/SKILL.md",
+    "sha256": "941bf7f8537914fd53c546069780646d50643bc97466804e1e2a749cef4a710e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "public-status-page/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/public-status-page/SKILL.md",
+    "sha256": "f8c73939cf99d48da2553479cccb8d2b8d1cf1180c32356d1c3282375b4acf41",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "restock-alert/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/restock-alert/SKILL.md",
+    "sha256": "4a22459e02492e4c954dd81c11743ceefb1bd6d03af2e51f3ef53c1b881b97df",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "review-checker/amazon-review-checker/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/amazon-review-checker/SKILL.md",
+    "sha256": "31f9d556505c94189e3b562931a6f09aeb070fbd7df40b96380ab48d18cee51a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "review-checker/ebay-review-checker/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/ebay-review-checker/SKILL.md",
+    "sha256": "a046a86f9630b7b7e2465eb13b5e23520cae6ae93e51b18045b983c53c5db458",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "review-checker/walmart-review-checker/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/walmart-review-checker/SKILL.md",
+    "sha256": "cd23e3805d270105b9376b67a579f31264b212c5e460252709bb10a586d47a00",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "review-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-monitoring/SKILL.md",
+    "sha256": "7f6fcba043f793b61e6abb222bc4089f51f939a7abb1368d9af74415ce398909",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "sales-tracking-tool/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/sales-tracking-tool/SKILL.md",
+    "sha256": "22850921c30f2aeea05299d804a25f408c833708a3c74b0f45b2eaf760325ec9",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "share-of-shelf/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/share-of-shelf/SKILL.md",
+    "sha256": "faa55c823f7e554d8e826bc30fc223577d6129edf682c1efd6face59ee59a114",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-ab-testing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-ab-testing/SKILL.md",
+    "sha256": "0134053906c26d3a4190883fc88408f40602ef95bf0acb18b76fdad5bfc4ee1a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-analytics-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-analytics-guide/SKILL.md",
+    "sha256": "d9877b4bd11717e4451681b0d13609b8564f27e5b9f08f3deca4a24699bb794f",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-app-recommendations/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-app-recommendations/SKILL.md",
+    "sha256": "a4b17b8baa2c4aaaadc28783b42114c5998789dfcf53250b3433b29feeac256b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-blog-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-blog-strategy/SKILL.md",
+    "sha256": "a6c6526a1c520ac7f9d7c0d1dcba090765f864ab7405780ecdb8cf63de712e63",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-cart-abandonment/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-cart-abandonment/SKILL.md",
+    "sha256": "3cee0e9689b6aa14a6293f9dd7368c3f4737097f77ad96fdc37b2beba9ef1d04",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-checkout-customization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-checkout-customization/SKILL.md",
+    "sha256": "e989e55245b332dde8e23d599234efdbe4f1e74013048dc05240c549c0f142da",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-conversion-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-conversion-optimization/SKILL.md",
+    "sha256": "7577721e44437c3852fdf8570f00df6b32345f5892ee9f85363108e3376389ae",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-dropshipping/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-dropshipping/SKILL.md",
+    "sha256": "9a8243182426dd2ec5ea7fcc1fa72270bb3c208eea8016403e4c0832c3012a3b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-email-flows/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-email-flows/SKILL.md",
+    "sha256": "cb109726b4368d16e32b8610b1bc8ef5dfc707e608acd4bc0ad088bec9ebcaed",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-facebook-instagram-shop/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-facebook-instagram-shop/SKILL.md",
+    "sha256": "b302ba1484c9af6246b9856050ccedcf437c0afea7c3846f6bd4a42e4da5950e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-google-channel/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-google-channel/SKILL.md",
+    "sha256": "bf80b392d4c7f534ec11596d0626fdb70fb13dc5a8fb2fb333b3b47f759e3357",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-international/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-international/SKILL.md",
+    "sha256": "a97fe760cc0e8c7c9a6988d3c68e9275a29dfd98bdb0adc16e820a01f2a2c9b2",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-inventory-management/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-inventory-management/SKILL.md",
+    "sha256": "963972295d749457c8b7a9da6a1a9573751206f6daff4736e1d7f88e12978429",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-landing-page-builder/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-landing-page-builder/SKILL.md",
+    "sha256": "6442ee5bb60b8c689d08981f2f52957f5be2bd6359722e86d62919f56c37cfa5",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-loyalty-program/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-loyalty-program/SKILL.md",
+    "sha256": "ecee1dadde7920be6ea3e3788889bf59f7511cfb16743458e50bdb9506aa9860",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-marketing/SKILL.md",
+    "sha256": "9411e8f928f0d0648277faf5bb7ac2af264eb5f629b0d3c61c48d8c76306d75c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-migration/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-migration/SKILL.md",
+    "sha256": "278a51627b257f8408b1ffb5de5158e92a510965a50a4eec6b48c47167361f72",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-page-speed/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-page-speed/SKILL.md",
+    "sha256": "4b1b772ded5c8073c11f607f7ad0b33176d3e4bf853efcb472183cd582d3ae2e",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-product-photography-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-product-photography-guide/SKILL.md",
+    "sha256": "1387107fd2ee89595816b1a7eb58e19763c216fba52251292c9fa20fe0e53882",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-seo/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-seo/SKILL.md",
+    "sha256": "76ccad7d28cef2530b70811c9e2c6d5d3d71ef61ba3ac97e9c3cb6273d21a6e0",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-speed-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-speed-optimization/SKILL.md",
+    "sha256": "1a1f1d4ff760af8519d7ab4d3bb7576e948e84113dc5ff154d99e950e2093456",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-store-setup/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-store-setup/SKILL.md",
+    "sha256": "2d0145ade67f3da4e3c7ac4a4f9d93ac549f8a92fa3add0f6fa0253f2f4a2183",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-subscription-setup/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-subscription-setup/SKILL.md",
+    "sha256": "8f099e6bfcda3ca1c29be69e7a19148c168d04fed4453191c8ac4e6614611251",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-tax-compliance/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-tax-compliance/SKILL.md",
+    "sha256": "2199b0c471d2e98065456209d178caecbc5fb4cbd481de2c076110d1379fc34a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-theme-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-theme-optimization/SKILL.md",
+    "sha256": "3d84c32be35de56fddd5c68458743ca0da210c297b2c368e73715863f56a24ef",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-upsell-cross-sell/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-upsell-cross-sell/SKILL.md",
+    "sha256": "af983e08639c78b605e524d3ae081cc4d8dd0fdd81d80031fa804908d680b4e8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shopify-wholesale-channel/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-wholesale-channel/SKILL.md",
+    "sha256": "19a60967da9c6b08aaa488711fb6cb93229aad2a734ea597201cdff7ce660835",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "shoppable-video/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shoppable-video/SKILL.md",
+    "sha256": "d392b8f6c6d5f3380245b145091727e011081779d59ff9363dcd02ab6201512c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "social-media-monitor/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/social-media-monitor/SKILL.md",
+    "sha256": "3a1a17bcc4b1942d905179d0846d5a36f4d1ccdc6ed24ad9b3bd79ffd187ab03",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md",
+    "sha256": "5d0024dbcfe4f2fddaa270af3a1e09cbdd0a409e00eb4c8a370615002b044c10",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "supply-chain-optimization/supply-chain-optimization-shopify/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-shopify/SKILL.md",
+    "sha256": "da1dde82e43d238206425ead18aeaccf985dddc57bcb747e74a230905b77f40a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "supply-chain-optimization/supply-chain-optimization-tiktok/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-tiktok/SKILL.md",
+    "sha256": "f58d0618033ba185f6ca9b1813c2926369bd1a66b30a79456cc27372f6d273f9",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "supply-chain-optimization/supply-chain-optimization-walmart/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-walmart/SKILL.md",
+    "sha256": "637c02dfbb542e5b0f390ac3423ff4f8e6db95ea92a822233b3b9ae07ecad3ed",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "synthetic-monitoring/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/synthetic-monitoring/SKILL.md",
+    "sha256": "be1e0a28c01e549db67976675a3712cbc507457fc523e331effe2dd3e38b0b1f",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-creator-marketplace/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-creator-marketplace/SKILL.md",
+    "sha256": "97621fcce8c3accc3d81a4af7de77b848082052db6140d83cd019886f1735181",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-influencer-marketing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-influencer-marketing/SKILL.md",
+    "sha256": "f937803f846bedf7cc899cf454bb18c29544487198d43965dac29f02a90dc356",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-live-selling/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-live-selling/SKILL.md",
+    "sha256": "46de334b5131bf67ed9dd67296d10e0363cbfbef451f8aa9de1883e8b83444d7",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-ads/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-ads/SKILL.md",
+    "sha256": "21d74d5686dab22ad6ffcf7b5f09710ca7bf02e531bbf845f7a1dd7b96085b18",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-affiliate-program/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-affiliate-program/SKILL.md",
+    "sha256": "71c44604f653110ec33f7a3f770766a4914d506ef1af63bb9392d55518c3583a",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-analytics/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-analytics/SKILL.md",
+    "sha256": "c42a73ef40f9a3b6906e2b2713638065ffaf1ffc14fab9d9174a04eefa8aaa2d",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-branding/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-branding/SKILL.md",
+    "sha256": "ead772b7775c7a014b0c5159635007f1e2d3760ac369bc92f6590ed8cc4b97f5",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-compliance/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-compliance/SKILL.md",
+    "sha256": "8707764d9baac289151a865953d15ff45108aa6812a24e912ed38767b8c06c8d",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-content-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-content-strategy/SKILL.md",
+    "sha256": "adfbfbb858e2351308105844dd7d7bce5585bdc46951d1a33985d57340b988ca",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-conversion/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-conversion/SKILL.md",
+    "sha256": "ddb7f8fd079ecc221d435ae6aba5c39e9d8ae15911531e9fb3e9068e76f175ff",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-creator-management/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-creator-management/SKILL.md",
+    "sha256": "ef7d0925d68e9f0ed0b2bc2fc6955b699b88c499eaa6b3d029a3c2b44497cda7",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-cross-border/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-cross-border/SKILL.md",
+    "sha256": "ed4f5136d0bebbb9c461ec7e6635925774b5365a9216f4c1468ecd32527ac7df",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-customer-service/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-customer-service/SKILL.md",
+    "sha256": "43453045474d812e4dd2fe36b9ac995bf586362730fe5f7d5be82260f6fc43cc",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-fulfillment/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-fulfillment/SKILL.md",
+    "sha256": "d20bb031e1ac1b549eb50b1d4de92db248d58ba7c75ef8cc94c29882d49521b4",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-inventory/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-inventory/SKILL.md",
+    "sha256": "51cc08897680d046ab8b8505efc9f12749e92cd2f19e139a99da251c67b5b292",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-listing-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-listing-optimization/SKILL.md",
+    "sha256": "02a43bc2cf151662c4ebdba1c03eb233bebb0d8cf8510b3d8b55ff016eb61b84",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-pricing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-pricing/SKILL.md",
+    "sha256": "5fded04996eb21e3c2fba00930873116a20da9ce8a31f5f21d1218f34945fdab",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-product-research/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-product-research/SKILL.md",
+    "sha256": "a47dfc717c18480fe28d5c4ec96a482c70352f65397802d71c698d5c36d3564c",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-promotions/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-promotions/SKILL.md",
+    "sha256": "9af9110954d201cb66da8e85611b693312a0d67008a4a7dc5e5823ed23cba00b",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-returns/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-returns/SKILL.md",
+    "sha256": "5f4cf702673c88e4180f8db5c59ad43666b6a72e0220c2179593648625b7f4b3",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-reviews/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-reviews/SKILL.md",
+    "sha256": "cf7c3d6c7fd144548bc36afccfe24934acc50f12132810fc99d0f82193fcf178",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-seller-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-seller-guide/SKILL.md",
+    "sha256": "de2dd7fc86c6760ce344a3a529bf241605286f7b0a673be7e5d2e059dfd92213",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-shipping/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-shipping/SKILL.md",
+    "sha256": "76cd9c044341721ec743bd0a237f4a0e54917caf45944043dc1b5912600e5b67",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "tiktok-shop-trending-products/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-trending-products/SKILL.md",
+    "sha256": "c0e9e5a12d7297467ae5672b95f8d1e433280f885e31390505c9655bb521b8d8",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "visual-regression-testing/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/visual-regression-testing/SKILL.md",
+    "sha256": "b27cba8e02fdff44ffae19752c4812f691be6c559f5ba31764d0437cd991b6dd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "walmart-advertising-strategy/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-advertising-strategy/SKILL.md",
+    "sha256": "5908ca60431f2068911e746af025064b77a4c67bf6010e1d099f4427e90bf8fd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "walmart-listing-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-listing-optimization/SKILL.md",
+    "sha256": "91332a9ebe822bb2c5757a4243cd5908390c19ae9e2dd76cd70c70b625f5e025",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "walmart-price-tracker/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-price-tracker/SKILL.md",
+    "sha256": "bfa1e760fbececf0ef06aaa9e4b4c2b2aecd1bc73cf4dce0c5811db8e4e4fbc9",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "walmart-seller-guide/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-seller-guide/SKILL.md",
+    "sha256": "8f99811f65f6a16eddd2214b2a5640439df42d95dcf60fbfb256a5aa700dbbdd",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "walmart-seller-tools/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-seller-tools/SKILL.md",
+    "sha256": "fccb94d060559cb3f4fa3676d38cb1182f9da554ab4506d6c1b24a251e3329b6",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "warehouse-optimization/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/warehouse-optimization/SKILL.md",
+    "sha256": "18aa38e15cce301cead9eed5f8f8dcbfba50517f2026bab0d0481371a712b9ce",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "nexscope-ai/eCommerce-Skills",
+    "sha": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+    "path": "woocommerce-seo/SKILL.md",
+    "url": "https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/woocommerce-seo/SKILL.md",
+    "sha256": "c710166666da45bdeb4af335195e92e35d8e6de428d03ccd552ccd363f10b676",
+    "notes": "commerce-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/activate/ad-account-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/activate/ad-account-auditor/SKILL.md",
+    "sha256": "63280bce46a36ae75ea3491e2fb0d003d6ad46ce9467060b9ab844b49d8de474",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/activate/conversion-signal-qa/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/activate/conversion-signal-qa/SKILL.md",
+    "sha256": "6964befb1838a9ad1758e55d8f47ba2a45a9dada1353d5ce03e3c87771e471dc",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/activate/conversion-value-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/activate/conversion-value-mapper/SKILL.md",
+    "sha256": "3fd0cae87c30ea346a9eb3a5cec40f813e01173920bf294e033ef2e40e7650f2",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/activate/placement-exclusion-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/activate/placement-exclusion-manager/SKILL.md",
+    "sha256": "a008d7eeba7774dfde99f37df0d1991f938a1fa32b67e0b51354ac2dc05ae2ea",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/orchestrate/ad-creative-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/orchestrate/ad-creative-builder/SKILL.md",
+    "sha256": "63b880cede60127c0d385f8e6045ae8cc3d5e502e6b756e68c72e403b4053f02",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/orchestrate/ad-test-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/orchestrate/ad-test-designer/SKILL.md",
+    "sha256": "7160f23c77de20dfa546d2ca1fc45488f36af686eb9c9758fc72f597c4d84104",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/orchestrate/bid-strategy-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/orchestrate/bid-strategy-planner/SKILL.md",
+    "sha256": "0df1deacc659c5f9a1a95e262b7386cec6084eab740a0488645662d2a0e60e08",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/orchestrate/landing-experience-checker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/orchestrate/landing-experience-checker/SKILL.md",
+    "sha256": "a8c7605868c58763622bdee078d74819a7c45bf77ee3075163eb6a8d1ed7d6ab",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/research/audience-segment-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/research/audience-segment-builder/SKILL.md",
+    "sha256": "2aa454645d5053e4b54b7c6c5a4c3fb54301629db8712c555673f49794bb22ac",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/research/campaign-architect/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/research/campaign-architect/SKILL.md",
+    "sha256": "00701af99252c60aa8af082ebb4000e0d08d3f3e0d14847efc037bdbf4d78469",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/research/product-feed-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/research/product-feed-optimizer/SKILL.md",
+    "sha256": "8b86431228f516f659b1918b85587ef147735a66bbd8e11e80a8f2336b58b78d",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/research/search-term-miner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/research/search-term-miner/SKILL.md",
+    "sha256": "6c0d6279ca9c575a2d84f331bd75cca6927e5b8969e54d173ba3dc30c2028429",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/scale/attribution-reconciler/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/scale/attribution-reconciler/SKILL.md",
+    "sha256": "cdf1ff00ec4032696a94d0a6226b4663488bb81b1a446e34d56be181be3346d8",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/scale/budget-pacing-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/scale/budget-pacing-monitor/SKILL.md",
+    "sha256": "670fbe2e65d2dfd092ba767c4fb050045f72ce19679957da66790f3a60fdde18",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/scale/fatigue-frequency-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/scale/fatigue-frequency-manager/SKILL.md",
+    "sha256": "f9eae2fa55bb25f21eea0e82b9c46b0485c3e7a07446afcd88bc6627678787da",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "ad/scale/paid-measurement-loop/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/ad/scale/paid-measurement-loop/SKILL.md",
+    "sha256": "233590da42c852f8d4a23a14a5fe9093da07df1845c11c35da04d1e97b0f9240",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/deliver/cold-outbound-sequencer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/deliver/cold-outbound-sequencer/SKILL.md",
+    "sha256": "a7dc94f8fbcdd3980929a3fd79156955e86f280a0cf57d2c060d993e35a135f4",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/deliver/email-quality-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/deliver/email-quality-auditor/SKILL.md",
+    "sha256": "2e0125eac5aebb0702fe72efbeac37ffbe17db0d548988c77208e421aabe0a15",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/deliver/inbox-placement-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/deliver/inbox-placement-monitor/SKILL.md",
+    "sha256": "b800ed91bee0575f7d7870e0dd8bede37fb86c87b093393bb46859a45113cab9",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/deliver/send-experiment-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/deliver/send-experiment-designer/SKILL.md",
+    "sha256": "7d0f3e2825a408a20ac5ac4a6514ab093c34bebb9450ebf6e481e21f84d918ce",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/engage/dynamic-content-personalizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/engage/dynamic-content-personalizer/SKILL.md",
+    "sha256": "343ade28133bd5d637ba5efdf3b4d028c548f0714469fe300282eb673b1818ae",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/engage/email-creative-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/engage/email-creative-builder/SKILL.md",
+    "sha256": "b011527e8b0910d225239bd446e645aa63a870400815898b159fa04b990f41fd",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/engage/email-render-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/engage/email-render-builder/SKILL.md",
+    "sha256": "9943c2dada33831431d071c71f0839c0463b3f03836e5b1c346c6280dc5a7592",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/engage/subject-line-lab/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/engage/subject-line-lab/SKILL.md",
+    "sha256": "6b7431ad52a51543abc5d67bb1c822495243cf17d255a036d729b9a1a2af3a5d",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/nurture/email-sequence-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/nurture/email-sequence-designer/SKILL.md",
+    "sha256": "c6461154d48b4af76ae0013513c0d282c7b3e462404aeb78974b7dd86dedab2c",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/nurture/newsletter-monetization-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/nurture/newsletter-monetization-planner/SKILL.md",
+    "sha256": "e38e5914781b08640ec40058b6848af97db1ea4e69ca5f518f74c0bde1121fc5",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/nurture/preference-frequency-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/nurture/preference-frequency-manager/SKILL.md",
+    "sha256": "d34da47c22e2488ece9483a881d78bf00fce70191fab5cbc1f6f316dba1dacb4",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/nurture/reactivation-specialist/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/nurture/reactivation-specialist/SKILL.md",
+    "sha256": "3baf8d99fcc47aba384ce0713b29a419c203bd273ef5505e48f28c0fe1291512",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/setup/deliverability-qa/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/setup/deliverability-qa/SKILL.md",
+    "sha256": "c59b5ab3076352ba8c5fa773085d1fdc1860d5dd20534401b9dd157cdf19bf18",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/setup/list-growth-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/setup/list-growth-designer/SKILL.md",
+    "sha256": "00344324db7b56d0d374bc143cad9f4ac7eade870f42cd47231d4c8d806e8bfd",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/setup/list-hygiene-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/setup/list-hygiene-monitor/SKILL.md",
+    "sha256": "a24834b0ad57e856a600eb158bd83476ea4e763048ea3e362b4efbc16a967fd5",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "email/setup/list-segment-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/email/setup/list-segment-builder/SKILL.md",
+    "sha256": "57339f08db92556cdc34ec551bade5587a658f9c53c1de1c8c761570d6e1621a",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/activate/content-amplifier/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/activate/content-amplifier/SKILL.md",
+    "sha256": "a10b329d0a0ff5c87269f045a324b2b2c19b6decbd97061785f320c7107a101a",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/activate/contract-helper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/activate/contract-helper/SKILL.md",
+    "sha256": "86d03689d0645ea30615cf80ab19cc5e67bf100ab6fbf5e990817b6e8dca47fe",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/activate/creator-content-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/activate/creator-content-auditor/SKILL.md",
+    "sha256": "8bf0aaf017b399e89c92301a315e75dba610f210328b7d1b0c3cf24f132596c6",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/activate/outreach-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/activate/outreach-manager/SKILL.md",
+    "sha256": "30e4d0e00e759488235c54b9918513f622fc76d1f199bfeaea75860cc49ccaf0",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/report/landing-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/report/landing-optimizer/SKILL.md",
+    "sha256": "c3a01696d7946aa4d3c2f1453aa2842414122079b0f6a7ec3767a862f67b8d63",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/report/performance-analyzer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/report/performance-analyzer/SKILL.md",
+    "sha256": "9acb990fe127955d95034fa3442595988885e4620e48dea9a72608f0c598e566",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/report/report-generator/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/report/report-generator/SKILL.md",
+    "sha256": "1c33850438c2f3d5b9ea9b2517dcfffb3a63252cf66f9038f733250d9f41e3eb",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/report/roi-calculator/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/report/roi-calculator/SKILL.md",
+    "sha256": "06cc98245b04e2cdb1a400d5acc171f10aa20f082da63969030127c905e6082a",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/scout/audience-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/scout/audience-mapper/SKILL.md",
+    "sha256": "80840cb62bcd20aa51724a60d8d69ce04f92134812cd06343c6db4cb9719b998",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/scout/fit-scorer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/scout/fit-scorer/SKILL.md",
+    "sha256": "70449e24699e875e607f85f7578aba4acfc0e1fb5bbd85581a11a20bb50a0861",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/scout/influencer-discovery/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/scout/influencer-discovery/SKILL.md",
+    "sha256": "b8a85d15d1286e4271d1bddfb6fb18fb72c90f0cb40d320c88f51593372895bf",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/scout/trend-spotter/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/scout/trend-spotter/SKILL.md",
+    "sha256": "5b032ce53b013b44d7c95581a06657d7f607de8b24a34fa313d0ffb97713470d",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/target/brief-generator/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/target/brief-generator/SKILL.md",
+    "sha256": "3deb5c0ab802ee7c3be9fcb5b917f9b896e8ee37705828504bddf3cf1370f512",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/target/budget-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/target/budget-optimizer/SKILL.md",
+    "sha256": "f4fc07954c73d9cbb54cb365d78bceb65ece10dcdaa209477eb52547610b8afe",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/target/campaign-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/target/campaign-planner/SKILL.md",
+    "sha256": "a09420e865df9e466adfc41c5e41e17d85a0d929fac65c265db75152dbec7fba",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "influencer/target/competitor-tracker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/influencer/target/competitor-tracker/SKILL.md",
+    "sha256": "64d018cba103b00a8712a4f08de95d4e4abcb82d068e37daed6891c31aa8a886",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/assemble/launch-asset-packager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/assemble/launch-asset-packager/SKILL.md",
+    "sha256": "ed260b280e0dc913365afbd22502faa662bd717e866a849c1d2f5ec2169372d0",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/assemble/message-house-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/assemble/message-house-builder/SKILL.md",
+    "sha256": "2516b26239def278b5f4e31e5d4b522229cca65e6c0a045bcde23e9a1fa7c57b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/assemble/pricing-packaging-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/assemble/pricing-packaging-planner/SKILL.md",
+    "sha256": "0eca15bb86148a70d62f429f599f02620692ec206679f398c3c467353f7132fe",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/assemble/sales-enablement-kit/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/assemble/sales-enablement-kit/SKILL.md",
+    "sha256": "dffeef19736d15c498e391cc68baf0711d45ae60ea98ef87c9f384ecf06cbce2",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/mobilize/community-launch-runner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/mobilize/community-launch-runner/SKILL.md",
+    "sha256": "00ddaf40c5f13cb035f8a60463cb77e29de5df0dd19864623cafbbff6681747b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/mobilize/launch-day-conductor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/mobilize/launch-day-conductor/SKILL.md",
+    "sha256": "9442c52826788bb39039a6f0c4af199e33c9b9de9744482ce7006c8155f9edcc",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/mobilize/launch-readiness-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/mobilize/launch-readiness-auditor/SKILL.md",
+    "sha256": "cf4c342cdbc822fcf39d1e5f69f5f0d4fea6310b0396103cc139aa5ea29498dd",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/mobilize/press-media-relations/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/mobilize/press-media-relations/SKILL.md",
+    "sha256": "11bc9a49ef39045c8ba99c266ff75ac0e59f986fbf927d79a7eaea604d002294",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/prove/launch-feedback-synthesizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/prove/launch-feedback-synthesizer/SKILL.md",
+    "sha256": "98154f1f859517bd7c339b53a77baf7228a78047a8d91e43ffc488114338b6d1",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/prove/launch-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/prove/launch-monitor/SKILL.md",
+    "sha256": "4a37b962d726b04eaa5439bc264cb868371264e10166f44ad624c33b9eefaf91",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/prove/launch-retro-analyzer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/prove/launch-retro-analyzer/SKILL.md",
+    "sha256": "a5e3b411893af555a2454c29caf2b12fef9a6abd5f8de56ead0e93555f4070ba",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/prove/momentum-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/prove/momentum-planner/SKILL.md",
+    "sha256": "f9ab6d3a6b2dff808c76bbb512d4e16bbbe68cab21e6997b6ac36e591693934f",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/research/early-access-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/research/early-access-designer/SKILL.md",
+    "sha256": "4314c91f6bdd176e2a70d89628935b053f67938056d6b1245e11f8044c6d42c8",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/research/launch-tier-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/research/launch-tier-planner/SKILL.md",
+    "sha256": "cbe091987a319bcc2155b0c27939c56c322d71081a1b127c7848054e11d6a1d2",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/research/launch-window-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/research/launch-window-planner/SKILL.md",
+    "sha256": "c72365a213db35715addc1581e2c8aad5a3c0661aaeede11a3f976abd8d0c181",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "launch/research/positioning-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/launch/research/positioning-mapper/SKILL.md",
+    "sha256": "8cd0d326bb88631b39bcedfb9b14527626650764db0c33d184f5febbb1feb155",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/architect/brand-language-codifier/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/architect/brand-language-codifier/SKILL.md",
+    "sha256": "b85a647be4055aebb94a55f2332258d61061a248750917e49a1adcbdeea32578",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/architect/message-system-architect/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/architect/message-system-architect/SKILL.md",
+    "sha256": "7510544ffb0b18b7ba49e66733338504536315a8bbb62956787b30a86329d3c8",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/architect/story-bank-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/architect/story-bank-builder/SKILL.md",
+    "sha256": "ef5875e8cb37e28ebd5b86553238311687cc35bf94e923db596417a5a12b4145",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/architect/strategic-narrative-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/architect/strategic-narrative-designer/SKILL.md",
+    "sha256": "ffe9cd8ea24de79600a993e3976a798d20a7b69af44389390585013b300e3024",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/evaluate/message-test-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/evaluate/message-test-designer/SKILL.md",
+    "sha256": "ec7ffb03a792ecadfa1aea7acc8bff0ab8e67b9a8d1ce77b1cb13f79e1249d74",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/evaluate/narrative-drift-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/evaluate/narrative-drift-monitor/SKILL.md",
+    "sha256": "3b5dc0db62b19390504295fdb2dcf899a29a25df102ee50f706431bc343533d2",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/evaluate/narrative-quality-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/evaluate/narrative-quality-auditor/SKILL.md",
+    "sha256": "820fd8a9b962c1fe8ad09268f71ff9ed6e660047e00d5c9debf3a56c2ce303d3",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/evaluate/narrative-resonance-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/evaluate/narrative-resonance-monitor/SKILL.md",
+    "sha256": "e826eafad5a7ecf13c595134fda5ac2a8332705fd09cb33f0463edf13a2d0629",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/land/narrative-cascade-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/land/narrative-cascade-planner/SKILL.md",
+    "sha256": "f396253a8cd200d6b30eab6d0b54859d9d49471eba26add134856d78d9d0ea5c",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/land/narrative-enablement-kit/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/land/narrative-enablement-kit/SKILL.md",
+    "sha256": "2eb8b78ee7a4139fbd41105e43f602fb1ab87633148a2c468842abb86356f7b8",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/land/pitch-narrative-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/land/pitch-narrative-builder/SKILL.md",
+    "sha256": "503b77632022c56343958e38fa983595146b17dc18df3a2e302ba31ebad8ee13",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/land/proof-point-packager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/land/proof-point-packager/SKILL.md",
+    "sha256": "f5fade009615323723b64b14a4556dc6ba449b7f2ad93de520c8a34f0404698e",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/trace/audience-belief-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/trace/audience-belief-mapper/SKILL.md",
+    "sha256": "340a907285a837804284a9821106d7112474637a6899e3cccbd6382a52f6abb4",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/trace/category-narrative-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/trace/category-narrative-mapper/SKILL.md",
+    "sha256": "e2fa86d238f6801169f33c132f876812b7dd5fa7ef5d0a994661cb39f8e89c68",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/trace/narrative-baseline-mapper/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/trace/narrative-baseline-mapper/SKILL.md",
+    "sha256": "d5a78661584fe6f6c4042e27f6adac6dfb3d9ef0ab67142177e5c87760590d23",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "narrative/trace/positioning-truth-tracer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/narrative/trace/positioning-truth-tracer/SKILL.md",
+    "sha256": "8b9d67161c6bb008ba8c5a43d6cf7b651ea780824614ec716cfb2b2177373403",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/channel-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/channel-registry/SKILL.md",
+    "sha256": "fe674ec039b8858330cdcc0b2ee2eeb64d9a67dbed5b4d5c44da9fb822e9b6ae",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/consent-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/consent-registry/SKILL.md",
+    "sha256": "b824f95dd1eb54f211e8260cd879ec50b4cef8a7f569f469e05b7463ac710cb7",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/creator-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/creator-registry/SKILL.md",
+    "sha256": "8491f776d314f33b060a6a7b7ec7a0de69ebbfe89ce0315c9d59aa28fe2c57b6",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/entity-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/entity-registry/SKILL.md",
+    "sha256": "1611aa16bd485ec8e58f72a5bf50c8f31c2c6ac1e5234ac3d1731c9aaef98c29",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/launch-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/launch-registry/SKILL.md",
+    "sha256": "d063c42ab1ac1f33470fb07b5189c98edb79f1fde3dc07275f040cbd7d2edcca",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/memory-management/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/memory-management/SKILL.md",
+    "sha256": "1a3fdc9a02d7a1ac9b60020ba02110bfb024f064b63a77167f31b8a27754429d",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/narrative-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/narrative-registry/SKILL.md",
+    "sha256": "1ca4dbbc48c882df414cfa32759b06be87e3260bab2dff2e6ca3bbc1ab68b72b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "protocol/offer-claims-registry/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/protocol/offer-claims-registry/SKILL.md",
+    "sha256": "601507d0ac192fe5293f2b3a6ea9ffccecf61e3607db1631df56671bc1d1ef16",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/evaluate/domain-authority-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/evaluate/domain-authority-auditor/SKILL.md",
+    "sha256": "44e0aeb7bc89f87d02035566855029320fa0952789d5d60699e8750763525330",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/evaluate/offsite-signal-analyzer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/evaluate/offsite-signal-analyzer/SKILL.md",
+    "sha256": "31683928d60c0cb4c453001f35216da749b239317cc508a79a48f1586f657e98",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/evaluate/performance-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/evaluate/performance-monitor/SKILL.md",
+    "sha256": "64041054d895a965c2a5377486cf6ecdc999d78492eea9f9afbce5829614aa09",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/evaluate/rank-tracker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/evaluate/rank-tracker/SKILL.md",
+    "sha256": "1dc8d9994e9dcccf983ce2d17b65940b071e8885b67d699e1e018cda9d716392",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/implement/content-writer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/implement/content-writer/SKILL.md",
+    "sha256": "cf0138f710988b2cb698d3be52ee92119f69222710dc7753a843ecfb9b463f80",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/implement/geo-content-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/implement/geo-content-optimizer/SKILL.md",
+    "sha256": "3d5e0a6d08593ee601999572e5adcc3e421c501764da3974bbe0e564255f1162",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/implement/page-play-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/implement/page-play-builder/SKILL.md",
+    "sha256": "488194b1b359dc51fb196f362135145fbdc0861542d0d72f81005422da179c2e",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/implement/serp-markup-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/implement/serp-markup-builder/SKILL.md",
+    "sha256": "0e71984c513b6a530af10d49cbd23babcd00ef6c05d097bba38ee8e7391dcbc9",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/survey/competitor-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/survey/competitor-analysis/SKILL.md",
+    "sha256": "905922fb722baf1fb3d2046a4d13031cf1ab8d7e8e4dde8b89dcc7f67eea2245",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/survey/content-gap-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/survey/content-gap-analysis/SKILL.md",
+    "sha256": "af797cb4e690539a023be90890f1c7c3506bd8b6192e5fc74f8a77b22a7f5a97",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/survey/keyword-research/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/survey/keyword-research/SKILL.md",
+    "sha256": "2b47555b8ce9f6a05499bc065e1cf41b9c558f039dc237efe07cee53a8c976b9",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/survey/serp-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/survey/serp-analysis/SKILL.md",
+    "sha256": "2b23cae5a675bdfe9872b6d21b68b6650b8edc9c8d3561c0423c2b6f097470c4",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/tune/content-quality-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/tune/content-quality-auditor/SKILL.md",
+    "sha256": "e27be2557045da655193af0bc15d533aab40c2cfbdcd0972b2dce69545d4eb85",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/tune/on-page-seo-checker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/tune/on-page-seo-checker/SKILL.md",
+    "sha256": "0ec9eb013e2eb8d208d1e4c36fae6fe8e1803bc70cd31e279ed880ddb8562b08",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/tune/site-structure-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/tune/site-structure-optimizer/SKILL.md",
+    "sha256": "391ad255c156c311094548b44a969ed1cce81d29cf4077f55aa2831495b99c50",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "seo-geo/tune/technical-seo-checker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/seo-geo/tune/technical-seo-checker/SKILL.md",
+    "sha256": "644b100eb3f0d0c7858342873c792f4b3f01db5e80bc05e50ed97ac0c9c030ce",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/craft/advocacy-program-designer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/craft/advocacy-program-designer/SKILL.md",
+    "sha256": "8e32f9999c48b4cb9d6cadfadba479444c66527267ed0f6233f7f6fbb69c1b7b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/craft/short-video-scripter/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/craft/short-video-scripter/SKILL.md",
+    "sha256": "00e1b9aa913c1e4de55ec56bcee2e5fb51ce9e93fce2152a8f18ecbf4a4c828e",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/craft/social-calendar-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/craft/social-calendar-builder/SKILL.md",
+    "sha256": "970c26d7b3fd1bfe899f10baeedeafad8b7effc364e5553bbce7527fe5eb0d87",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/craft/social-creative-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/craft/social-creative-builder/SKILL.md",
+    "sha256": "44cb27a8aec2cc07f7a4fedf737d78059ab05884f9295c06e22040135c8ca3d9",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/explore/channel-portfolio-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/explore/channel-portfolio-planner/SKILL.md",
+    "sha256": "c39ee4d4943f6377c42082cd3040b3bac8c97665772e3aa56e79120c91330866",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/explore/participation-warmup-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/explore/participation-warmup-planner/SKILL.md",
+    "sha256": "81aaabd27660f734dae8bcebbbc27e0b139ebe29bc85770a9714a9d0bbbb417e",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/explore/platform-norm-profiler/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/explore/platform-norm-profiler/SKILL.md",
+    "sha256": "baa559ecfaa7f26071eef2422bcdcfd3c3a3edc3cb8a7b6b8a2ea60bbcee84f8",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/explore/voice-dossier-builder/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/explore/voice-dossier-builder/SKILL.md",
+    "sha256": "e58f840fb1262319b88ef22432b9bb4e250e3828adcce93f2a95dd30564e68cb",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/host/crisis-response-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/host/crisis-response-planner/SKILL.md",
+    "sha256": "a4c6811d12a54678151b9dcdafe7e32a9c2f076f9aa7f641ec940f737e5816af",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/host/engagement-inbox-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/host/engagement-inbox-manager/SKILL.md",
+    "sha256": "b990a916e21a1f95b7e288f85ec7c06e64d0eb14dcf424e94ef58a3af9ce9bc2",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/host/social-quality-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/host/social-quality-auditor/SKILL.md",
+    "sha256": "66250eaa3d075bc352e27d00e097dff05f5bd8b1d87e3752a38017ff10b907eb",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/host/social-selling-planner/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/host/social-selling-planner/SKILL.md",
+    "sha256": "8da9af0bc238a26de82288030fb935401a7b6a3f7a809fa4e2ade3704d9b2545",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/observe/dark-social-attributor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/observe/dark-social-attributor/SKILL.md",
+    "sha256": "4d9f03dafaa06f95ac85cd8b631940916456a755b1a433e36e86fe2fde7fc2fc",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/observe/share-of-voice-tracker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/observe/share-of-voice-tracker/SKILL.md",
+    "sha256": "b999baa3c761c6f1f82c0ade2e407f41721af0de9fff541611fea7ed94d7c729",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/observe/social-measurement-loop/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/observe/social-measurement-loop/SKILL.md",
+    "sha256": "04411b23f77315bb87e7b01fc02756bd7d822714cad40048dc934cfb396f2e00",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/aaron-marketing-skills",
+    "sha": "888dd38edbd43e7eaeeb4ba053d6c290fb21b89d",
+    "path": "social/observe/social-pulse-monitor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/social/observe/social-pulse-monitor/SKILL.md",
+    "sha256": "ed68b42fd22cf101a7dbc3aec1465e7e78b76dd5afd7a3a1a2772b1b9d654382",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "build/geo-content-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/build/geo-content-optimizer/SKILL.md",
+    "sha256": "4f18881ee8a5a249246725f32e6cd606a78a5a9a9bee79189ec0fb96f8e2032f",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "build/meta-tags-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/build/meta-tags-optimizer/SKILL.md",
+    "sha256": "4be21f126173879227b20cad8f6a70c05dd22dcb4a2604b8b38c92b14e7ff032",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "build/schema-markup-generator/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/build/schema-markup-generator/SKILL.md",
+    "sha256": "15e31622970d744aec0642e15092e70224601c145eaa9aa7a2a6c9015da55141",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "build/seo-content-writer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/build/seo-content-writer/SKILL.md",
+    "sha256": "7f1be73ce9ee48ec9db6a946429d0d663e9d25aefce8c16de613187cd4e9fa23",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "cross-cutting/content-quality-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/cross-cutting/content-quality-auditor/SKILL.md",
+    "sha256": "064e72d0658afc4b0d2973da9210e86f9c8b094efd285da3d66b285f587752ba",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "cross-cutting/domain-authority-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/cross-cutting/domain-authority-auditor/SKILL.md",
+    "sha256": "42984f536f9da9191f02102743da6dfa2845017fa8c2c2979163bf8ab8ef5c57",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "cross-cutting/entity-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/cross-cutting/entity-optimizer/SKILL.md",
+    "sha256": "faae8d0849690d47011de325dcc0ca4785d7a4b6c08e6074e9f68adcbfd184ee",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "cross-cutting/memory-management/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/cross-cutting/memory-management/SKILL.md",
+    "sha256": "fbbc09bf10e7ce3f54439b81fd600f17cff942007d8a1fc98533bca0458f5f2f",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "monitor/alert-manager/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/monitor/alert-manager/SKILL.md",
+    "sha256": "c22fca91382afd382a103cb7d98d2ba92007f38e6f9f5b4f891fdda4fee44533",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "monitor/backlink-analyzer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/monitor/backlink-analyzer/SKILL.md",
+    "sha256": "cea9aacf9140824a3f95520e877157104ef567de32414024bd5644766efdbb9b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "monitor/performance-reporter/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/monitor/performance-reporter/SKILL.md",
+    "sha256": "0066fb086fa82543ff67cac14f0e10bd47ebdc9b77866e230ec65a9dcd94b782",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "monitor/rank-tracker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/monitor/rank-tracker/SKILL.md",
+    "sha256": "584bcbc0b6882b3ec922cf5d12a94d1a2cd46308475853e3d258c43c1db1089a",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "optimize/content-refresher/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/optimize/content-refresher/SKILL.md",
+    "sha256": "dcf05df3cbd02c50491e81dca2d52f7c6766adb19d675e5d19f2c4d0ce4a8afa",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "optimize/internal-linking-optimizer/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/optimize/internal-linking-optimizer/SKILL.md",
+    "sha256": "0cc8932e8b326966cb2a6b54450d9eccb42b15d2edacf323226cb17604148f5c",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "optimize/on-page-seo-auditor/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/optimize/on-page-seo-auditor/SKILL.md",
+    "sha256": "cfcacf2cd199434e9b482ba538b36116c14f552f314297f6d6bb0cd55e2094f0",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "optimize/technical-seo-checker/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/optimize/technical-seo-checker/SKILL.md",
+    "sha256": "7de154f6dec933d725e5344fdf9ede92264173ebd987b4a33f44ad4b0f75ead6",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "research/competitor-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/research/competitor-analysis/SKILL.md",
+    "sha256": "9dfab21b49b23e4687b6435c09146070247dd410d361c7ea0902f69883806e26",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "research/content-gap-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/research/content-gap-analysis/SKILL.md",
+    "sha256": "9bbafd85280384604303cbee2853bf48bdeea6206c6b015040a814666874daba",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "research/keyword-research/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/research/keyword-research/SKILL.md",
+    "sha256": "95c417660834e31a5aa6777d949cd4c344bdae51435299dd1b84e0728a0dbb4b",
+    "notes": "aaron-学习笔记.md"
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "sha": "3a1578a63cdde8037ee16d32a3ea9f808eae6bd0",
+    "path": "research/serp-analysis/SKILL.md",
+    "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/3a1578a63cdde8037ee16d32a3ea9f808eae6bd0/research/serp-analysis/SKILL.md",
+    "sha256": "259377de49188dfb9e9a4908cc947c191ba259f46d458dbc252da9b60691a9c7",
+    "notes": "aaron-学习笔记.md"
+  }
+]

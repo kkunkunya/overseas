@@ -1,0 +1,278 @@
+> 持久学习副本：以下为2026-09-06原读取报告，保留当时的只读边界说明。原文链接已转为固定SHA；分组manifest现统一在[457项读取清单](读取清单.json)。最新执行路线见[总览](README.md)。
+
+# eCommerce / Marketing Skills 学习笔记
+
+## 读取范围与基线
+
+- 阅读根目录：`/tmp/seo-skills-study-20260906`。
+- Nexscope `nexscope-ai--eCommerce-Skills`：HEAD `ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e`；全文读取 162 份 `SKILL.md`。
+- Corey Haines `coreyhaines31--marketingskills`：HEAD `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`；全文读取 50 份 `SKILL.md`。
+- 合计 212 份。盘点使用大小写不敏感的 `SKILL.md` 匹配；本版本没有额外大小写变体。
+- `commerce-read-manifest.json` 只列这些已全文读取的 212 个 skill 文件，不混入 README 或参考文件。
+- 仅本地资料阅读：未安装、未运行仓库代码/脚本、未调用 skill 工作流、未访问账户/API、未发送消息，也未写源仓库。
+
+## 证据边界
+
+- 下列是原文学习索引，不是实施建议或验收结论。
+- 市场份额、平台规则、费率、工具能力、案例结果、下载量、频率、百分比、样本门槛、预测数字和评分，一律按**作者主张/示例/自定义启发式，非实效证明**处理；本次未额外联网验证。
+- Nexscope README 写有“157 free skills”“142 skills install”“16K+ downloads”，而当前 SHA 实际有 162 个 skill 文件；文件集合为准，README 数字按作者宣传或版本滞后处理。
+- 政策、法律、税务、广告/物流/履约费率、SEO/AI 检索行为、平台接口与模型/工具价格，落地前都需要当前一手证据。
+
+## 两仓库定位、适用阶段与推荐阅读顺序
+
+- **Corey Haines / marketingSkills**：面向 SaaS/技术营销的跨漏斗工作台。强项是产品营销上下文、客户研究、内容/SEO、测量/实验、获客、留存与 RevOps 的衔接；适合尚未对齐买家、价值、站点和测量的阶段。
+- **Nexscope / eCommerce-Skills**：面向多平台电商的运营提示集。强项是将问题落在 Shopify、Etsy、TikTok Shop、eBay、Walmart 等运营语境；少数长文有证据边界/回滚门，大量 Beta 条目只是状态→优先行动→时间线→KPI 的模板。
+- **顺序**：① `product-marketing` → `customer-research` → `analytics`；② `seo-audit` → `site-architecture` → `schema` → `ai-seo` / `programmatic-seo`；③ 电商再读 `ecommerce-keyword-research`、`product-page-seo`、`shopify-seo` 或对应平台 listing；④ `cro` / `ab-testing` / `attribution`；⑤ `content-strategy`、`ads`、`social`、`influencer-marketing`；⑥ `churn-prevention`、`revops`、库存/供应链与 `marketing-loops`。
+- **阶段配对**：探索/定位先读 Corey 的产品营销与研究；站点和发现性读 SEO 栈；已有流量/订单后读转化、定价、广告；规模化后读留存、RevOps、库存与受控循环。
+
+## 已全文阅读的必要参考文件（29 份，不计入 manifest）
+
+- [nexscope-ai--eCommerce-Skills/README.md](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/README.md)
+- [coreyhaines31--marketingskills/README.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/README.md)
+- [clis/README.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/tools/clis/README.md)
+- [composio/README.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/tools/composio/README.md)
+- [references/format-volatility.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/format-volatility.md)
+- [references/content-types.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/content-types.md)
+- [references/agent-readiness.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/agent-readiness.md)
+- [references/okf.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/okf.md)
+- [references/citations-vs-recommendations.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/citations-vs-recommendations.md)
+- [references/content-patterns.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/content-patterns.md)
+- [references/youtube-ai-citations.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/youtube-ai-citations.md)
+- [references/platform-ranking-factors.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/references/platform-ranking-factors.md)
+- [references/ai-writing-detection.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/references/ai-writing-detection.md)
+- [references/international-seo.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/references/international-seo.md)
+- [references/playbooks.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/programmatic-seo/references/playbooks.md)
+- [references/schema-examples.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/schema/references/schema-examples.md)
+- [references/mermaid-templates.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/site-architecture/references/mermaid-templates.md)
+- [references/site-type-templates.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/site-architecture/references/site-type-templates.md)
+- [references/navigation-patterns.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/site-architecture/references/navigation-patterns.md)
+- [references/loop-template.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/references/loop-template.md)
+- [references/loop-guardrails.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/references/loop-guardrails.md)
+- [references/loop-state.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/references/loop-state.md)
+- [references/loop-orchestration.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/references/loop-orchestration.md)
+- [references/loop-catalog.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/references/loop-catalog.md)
+- [references/sample-size-guide.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ab-testing/references/sample-size-guide.md)
+- [references/test-templates.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ab-testing/references/test-templates.md)
+- [references/interviews-and-surveys.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/references/interviews-and-surveys.md)
+- [references/source-guides.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/references/source-guides.md)
+- [references/audit-guardrails.md](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ads/references/audit-guardrails.md)
+
+这些文件用于理解 README 所述依赖关系、SEO/站点结构、实验记录、客户研究，以及循环的状态、人审和停机约束；没有执行其中任何工具、安装或账户操作。
+
+## Nexscope 学习索引（162 份）
+
+- [affiliate-marketing-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/affiliate-marketing-strategy/SKILL.md)：用途：搭建联盟计划；输入产品、边际、受众和伙伴条件，输出平台/佣金、招募、素材、归因和反欺诈方案。
+- [api-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/api-monitoring/SKILL.md)：用途：监控 API/webhook；输入端点、SLA 和阈值，输出健康检查、告警、验证与 SLA 报告。
+- [brand-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-monitoring/SKILL.md)：用途：追踪品牌提及；输入品牌/竞品/渠道，输出声量、情绪、趋势和危机观察；分数/阈值是作者示例。
+- [brand-protection-amazon](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-amazon/SKILL.md)：用途：Amazon 品牌保护；输入权利、商品/卖家、MAP 和证据，输出侵权/仿冒/未授权排查、证据、测试购买和下架/升级路径；法律/平台流程须实时核验。
+- [brand-protection-ebay](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-ebay/SKILL.md)：用途：eBay 品牌保护；输入权利、商品/卖家、MAP 和证据，输出侵权/仿冒/未授权排查、证据、测试购买和下架/升级路径；法律/平台流程须实时核验。
+- [brand-protection-shopify](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-shopify/SKILL.md)：用途：Shopify 品牌保护；输入权利、商品/卖家、MAP 和证据，输出侵权/仿冒/未授权排查、证据、测试购买和下架/升级路径；法律/平台流程须实时核验。
+- [brand-protection-tiktok](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-tiktok/SKILL.md)：用途：TikTok Shop 品牌保护；输入权利、商品/卖家、MAP 和证据，输出侵权/仿冒/未授权排查、证据、测试购买和下架/升级路径；法律/平台流程须实时核验。
+- [brand-protection-walmart](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/brand-protection/brand-protection-walmart/SKILL.md)：用途：Walmart 品牌保护；输入权利、商品/卖家、MAP 和证据，输出侵权/仿冒/未授权排查、证据、测试购买和下架/升级路径；法律/平台流程须实时核验。
+- [competitive-pricing-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitive-pricing-strategy/SKILL.md)：用途：制定可审计定价；输入可比报价、成本、渠道和约束，输出归一化价格图、贡献底线、响应规则与可逆 rollout。
+- [competitor-price-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitor-price-analysis/SKILL.md)：用途：分析竞品价格；输入可比 SKU、价格、促销和交付，输出价格地图、缺口、弹性线索和行动。
+- [competitor-price-tracker](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/competitor-price-tracker/SKILL.md)：用途：跟踪竞品价/促销/MAP；输入目标商品和历史观察，输出变化、模式、优先行动和待验证假设。
+- [conversion-rate-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/conversion-rate-optimization/SKILL.md)：用途：规划电商 CRO；输入漏斗、页面、研究和目标，输出问题、优先级、测试路线与指标。
+- [cross-border-ecommerce](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/cross-border-ecommerce/SKILL.md)：用途：评估跨境扩张；输入市场、商品、物流、支付与能力，输出市场矩阵、落地成本、合规/本地化与分期路线。
+- [customer-feedback-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/customer-feedback-analysis/SKILL.md)：用途：分析反馈；输入评论、问卷或工单，输出情绪、痛点、表扬、功能请求和优先级。
+- [domain-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/domain-monitoring/SKILL.md)：用途：监控域名/SSL/DNS；输入域名和风险阈值，输出到期、解析、证书健康和处置清单。
+- [dropshipping-product-research](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/dropshipping-product-research/SKILL.md)：用途：筛选 dropshipping 商品；输入品类、供应商、重量、利润和营销条件，输出可行性、风险与验证清单。
+- [dynamic-pricing-ecommerce](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/dynamic-pricing-ecommerce/SKILL.md)：用途：设计有护栏的动态定价；输入需求/成本/库存信号与底线，输出上下限、规则、模拟、审批、日志和回滚，不直接改价。
+- [ebay-advertising](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-advertising/SKILL.md)：用途：规划 eBay 广告；输入商品、利润、关键词和预算，输出结构、出价、ROAS 监测和测试。
+- [ebay-product-research](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-product-research/SKILL.md)：用途：研究 eBay 商品；输入候选、类目和成交资料，输出售出率、ASP、竞争、季节性与判断。
+- [ebay-seller-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seller-guide/SKILL.md)：用途：梳理 eBay 运营；输入店铺阶段与品类，输出 auction/BIN、listing、SEO、发货和服务路线。
+- [ebay-seller-tools](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seller-tools/SKILL.md)：用途：选择 eBay 工具；输入任务与预算，输出工具类别、筛选条件和使用顺序。
+- [ebay-seo](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ebay-seo/SKILL.md)：用途：优化 eBay 搜索；输入 listing、类目、标题和 item specifics，输出可检索性和转化改进。
+- [ecommerce-ab-testing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-ab-testing/SKILL.md)：用途：设计电商实验；输入假设、流量、页面/广告/邮件环境，输出实验设计、统计、优先级和复盘。
+- [ecommerce-branding](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-branding/SKILL.md)：用途：建立电商品牌；输入受众、差异和产品，输出定位、信息、视觉和一致性方案。
+- [ecommerce-business-plan](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-business-plan/SKILL.md)：用途：编制电商业务计划；输入市场、成本、渠道和目标，输出市场/财务假设、运营里程碑和风险。
+- [ecommerce-checkout-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-checkout-optimization/SKILL.md)：用途：优化结账；输入漏斗、支付、配送和信任要素，输出摩擦诊断、改进与测试。
+- [ecommerce-competitor-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-competitor-analysis/SKILL.md)：用途：做跨渠道竞品研究；输入竞品和公开资料，输出定位、组合、获客、份额估计和待验证点。
+- [ecommerce-content-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-content-marketing/SKILL.md)：用途：规划/审计电商内容；输入客户语言、趋势、竞品和产品，输出支柱、日历、缺口、审核和分发。
+- [ecommerce-customer-retention](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-customer-retention/SKILL.md)：用途：提升留存；输入行为、购买和沟通资料，输出 RFM、邮件/SMS、忠诚度、订阅和 win-back。
+- [ecommerce-email-marketing-builder](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-email-marketing-builder/SKILL.md)：用途：搭建邮件体系；输入 ESP、生命周期、分群和商品，输出自动化流程、日历与增长检查。
+- [ecommerce-feed-management](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-feed-management/SKILL.md)：用途：管理商品 feed；输入 feed URL/文件与渠道要求，输出完整性、同步、SKU/属性缺口和修复。
+- [ecommerce-growth-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-growth-strategy/SKILL.md)：用途：制定增长路线；输入 CAC、LTV、AOV、利润和现状，输出增长杠杆、扩张矩阵和 90 天路线图。
+- [ecommerce-keyword-research](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-keyword-research/SKILL.md)：用途：做跨平台词研；输入商品、受众、平台和意图，输出词簇、意图和列表/内容优化方向。
+- [ecommerce-landing-page](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-landing-page/SKILL.md)：用途：审计落地页；输入页面、流量、CTA、信任和数据，输出首屏、信息、移动端、速度与测试建议。
+- [ecommerce-marketing-strategy-builder](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-marketing-strategy-builder/SKILL.md)：用途：制定全渠道策略；输入客户、竞争、预算和目标，输出渠道组合、节奏、指标和 90 天计划。
+- [ecommerce-personalization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-personalization/SKILL.md)：用途：规划个性化；输入 RFM、行为和商品，输出分群、推荐/动态内容、沟通和实验。
+- [ecommerce-ppc-strategy-planner](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-ppc-strategy-planner/SKILL.md)：用途：规划 PPC；输入利润、预算、创意和历史，输出 break-even ROAS、结构、分配与优化检查。
+- [ecommerce-returns-management](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-returns-management/SKILL.md)：用途：管理退货；输入退货原因、政策、物流和商品，输出根因、逆向物流和预防行动。
+- [ecommerce-shipping-rates](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-shipping-rates/SKILL.md)：用途：比较运费；输入包裹、区域、时效和服务，输出承运商、zone、尺寸重量、免邮和跨境比较。
+- [ecommerce-social-media-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-social-media-marketing/SKILL.md)：用途：制定电商社媒；输入平台、资产、受众和目标，输出日历、社交电商、互动和报告。
+- [ecommerce-subscription-model](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-subscription-model/SKILL.md)：用途：设计订阅；输入商品、复购周期、价值和流失，输出模型、定价和留存方案。
+- [ecommerce-video-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/ecommerce-video-marketing/SKILL.md)：用途：规划商品视频；输入商品、受众和渠道，输出 demo、UGC、短视频、SEO 和测量。
+- [etsy-advertising](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-advertising/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-competitor-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-competitor-analysis/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-custom-orders](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-custom-orders/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-digital-products](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-digital-products/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-keyword-research](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-keyword-research/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-listing-photography](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-listing-photography/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-multi-shop](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-multi-shop/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-offsite-ads](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-offsite-ads/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-pricing-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-pricing-strategy/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-print-on-demand](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-print-on-demand/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-product-description](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-product-description/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-review-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-review-strategy/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-seasonal-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seasonal-strategy/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-seller-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seller-guide/SKILL.md)：用途：梳理 Etsy 运营；输入店铺阶段、商品和目标，输出店铺、SEO、定价、广告、发货与服务路线。
+- [etsy-seo-tags](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seo-tags/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-seo](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-seo/SKILL.md)：用途：审计 Etsy SEO；输入标题、13 标签、描述、属性和图片，输出逐项优化与 0–100 分；权重是作者自定义。
+- [etsy-shipping-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shipping-strategy/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-shop-analytics](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-analytics/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-shop-branding](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-branding/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-shop-setup](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-shop-setup/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-social-media-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-social-media-marketing/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [etsy-star-seller](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/etsy-star-seller/SKILL.md)：用途：规划 Etsy 对应主题；输入店铺、商品、客户和目标，输出状态、优先行动、时间线与 KPI。此为通用 Beta 框架，无实时 Etsy 数据/API。
+- [file-integrity-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/file-integrity-monitoring/SKILL.md)：用途：监控文件完整性；输入资产、基线和阈值，输出变更、异常、验证与响应。
+- [google-shopping-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/google-shopping-optimization/SKILL.md)：用途：优化 Google Shopping；输入 feed、Merchant Center、产品、预算和结果，输出属性、结构、出价和 ROAS 改进。
+- [influencer-outreach](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/influencer-outreach/SKILL.md)：用途：组织创作者外联；输入品牌、候选、权益和预算，输出筛选、联络、谈判、合同/授权和关系管理。
+- [inventory-tracking-software](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/inventory-tracking-software/SKILL.md)：用途：规划库存追踪；输入 SKU、库位、渠道、销售和交期，输出可视化、预警、预测和工具筛选。
+- [localization-testing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/localization-testing/SKILL.md)：用途：测试本地化；输入市场、语言、页面/支付/物流，输出语言、文化、结账、法规和 QA 检查。
+- [market-gap-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/market-gap-analysis/SKILL.md)：用途：发现市场缺口；输入竞品、评论、需求和品类，输出未满足需求、机会假设与验证优先级。
+- [minimum-advertised-price](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/minimum-advertised-price/SKILL.md)：用途：管理 MAP；输入品牌、经销商、价格和证据，输出违规识别、沟通/升级流程和合规记录。
+- [multichannel-ecommerce](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/multichannel-ecommerce/SKILL.md)：用途：运营多渠道；输入渠道、库存、订单和 listing，输出同步、路由、分发和运营路线。
+- [omnichannel-ecommerce](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/omnichannel-ecommerce/SKILL.md)：用途：制定全渠道体验；输入旅程、渠道、库存和品牌，输出统一体验、数据和协同方案。
+- [online-reputation-management](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/online-reputation-management/SKILL.md)：用途：管理线上声誉；输入提及、评论、风险和目标，输出监测、分类、回应和修复优先级。
+- [price-optimization-tool](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/price-optimization-tool/SKILL.md)：用途：做证据边界内的价格决策；输入单位经济、候选价、弹性和约束，输出情景、实验、监测和 rollout gate，不宣称最优价。
+- [product-description-generator](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-description-generator/SKILL.md)：用途：生成/优化商品描述；输入商品事实、客户语言、关键词和平台约束，输出 FABE/卖点文案与审核；评分为作者启发式。
+- [product-differentiation-amazon](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-amazon/SKILL.md)：用途：Amazon 商品差异化；输入竞品、评论、listing 和趋势，输出弱点、USP、定位/内容角度与验证优先级；影响分数是作者示例。
+- [product-differentiation-ebay](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-ebay/SKILL.md)：用途：eBay 商品差异化；输入竞品、评论、listing 和趋势，输出弱点、USP、定位/内容角度与验证优先级；影响分数是作者示例。
+- [product-differentiation-shopify](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-shopify/SKILL.md)：用途：Shopify 商品差异化；输入竞品、评论、listing 和趋势，输出弱点、USP、定位/内容角度与验证优先级；影响分数是作者示例。
+- [product-differentiation-tiktok](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-differentiation/product-differentiation-tiktok/SKILL.md)：用途：TikTok Shop 商品差异化；输入竞品、评论、listing 和趋势，输出弱点、USP、定位/内容角度与验证优先级；影响分数是作者示例。
+- [product-launch-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-launch-strategy/SKILL.md)：用途：规划商品发布；输入产品、渠道、库存和受众，输出 pre-launch、发布日、post-launch 节奏和 KPI。
+- [product-page-seo](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-page-seo/SKILL.md)：用途：优化商品页 SEO；输入页面、商品、schema、图片和性能，输出页面内、结构化数据、速度、移动端和 FAQ 行动。
+- [product-review-analysis](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-review-analysis/SKILL.md)：用途：分析商品评论；输入评论/评分，输出痛点、表扬、功能需求、情绪和可行动洞察。
+- [product-title-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/product-title-optimization/SKILL.md)：用途：优化商品标题；输入平台、商品和关键词，输出字段约束内的标题候选与检验。
+- [profit-margin-calculator-amazon](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-amazon/SKILL.md)：用途：计算 Amazon 利润；输入售价、成本、平台/履约/广告/退货费用，输出单位利润、break-even 和价格情景；默认费率须按当前账单核验。
+- [profit-margin-calculator-shopify](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-shopify/SKILL.md)：用途：计算 Shopify 利润；输入售价、成本、平台/履约/广告/退货费用，输出单位利润、break-even 和价格情景；默认费率须按当前账单核验。
+- [profit-margin-calculator-tiktok](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-tiktok/SKILL.md)：用途：计算 TikTok Shop 利润；输入售价、成本、平台/履约/广告/退货费用，输出单位利润、break-even 和价格情景；默认费率须按当前账单核验。
+- [profit-margin-calculator-walmart](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/profit-margin-calculator/profit-margin-calculator-walmart/SKILL.md)：用途：计算 Walmart 利润；输入售价、成本、平台/履约/广告/退货费用，输出单位利润、break-even 和价格情景；默认费率须按当前账单核验。
+- [public-status-page](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/public-status-page/SKILL.md)：用途：规划公开状态页；输入服务、组件、SLA 和事件流程，输出状态/事件沟通、订阅和复盘模板。
+- [restock-alert](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/restock-alert/SKILL.md)：用途：设计补货提醒；输入库存、需求、交期和订阅，输出阈值、提醒与恢复销售流程。
+- [amazon-review-checker](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/amazon-review-checker/SKILL.md)：用途：检查 Amazon 评论真实性风险；输入评论、时间、购买/卖家线索，输出异常模式、证据和人工复核点；“真实性分数”是作者启发式。
+- [ebay-review-checker](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/ebay-review-checker/SKILL.md)：用途：检查 eBay 评论真实性风险；输入评论、时间、购买/卖家线索，输出异常模式、证据和人工复核点；“真实性分数”是作者启发式。
+- [walmart-review-checker](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-checker/walmart-review-checker/SKILL.md)：用途：检查 Walmart 评论真实性风险；输入评论、时间、购买/卖家线索，输出异常模式、证据和人工复核点；“真实性分数”是作者启发式。
+- [review-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/review-monitoring/SKILL.md)：用途：持续监控评论；输入品牌、商品、平台和阈值，输出负评提醒、主题、竞争观察与回应流程。
+- [sales-tracking-tool](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/sales-tracking-tool/SKILL.md)：用途：跟踪销售；输入订单、渠道、成本和时间窗，输出 KPI、趋势、异常和仪表盘需求。
+- [share-of-shelf](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/share-of-shelf/SKILL.md)：用途：分析数字货架份额；输入搜索、类目和展示资料，输出可见性、位置、内容/价格缺口和行动。
+- [shopify-ab-testing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-ab-testing/SKILL.md)：用途：设计 Shopify 实验；输入假设、页面、流量和指标，输出控制/变体、统计、QA 和记录。
+- [shopify-analytics-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-analytics-guide/SKILL.md)：用途：设计 Shopify 分析；输入订单、客户、渠道和问题，输出仪表盘、cohort、LTV、报表和解释框架。
+- [shopify-app-recommendations](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-app-recommendations/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-blog-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-blog-strategy/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-cart-abandonment](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-cart-abandonment/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-checkout-customization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-checkout-customization/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-conversion-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-conversion-optimization/SKILL.md)：用途：优化 Shopify 转化；输入商品页、结账、信任/移动端/速度与行为资料，输出摩擦诊断和测试路线。
+- [shopify-dropshipping](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-dropshipping/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-email-flows](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-email-flows/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-facebook-instagram-shop](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-facebook-instagram-shop/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-google-channel](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-google-channel/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-international](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-international/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-inventory-management](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-inventory-management/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-landing-page-builder](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-landing-page-builder/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-loyalty-program](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-loyalty-program/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-marketing/SKILL.md)：用途：制定 Shopify DTC 增长；输入店铺、客户、利润、渠道和现状，输出 SEO、邮件、付费、CRO、留存和 90 天计划。
+- [shopify-migration](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-migration/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-page-speed](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-page-speed/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-product-photography-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-product-photography-guide/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-seo](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-seo/SKILL.md)：用途：审计 Shopify SEO；输入店铺、产品/集合/博客页和技术现状，输出技术、页面、schema、内链和内容改进。
+- [shopify-speed-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-speed-optimization/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-store-setup](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-store-setup/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-subscription-setup](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-subscription-setup/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-tax-compliance](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-tax-compliance/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-theme-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-theme-optimization/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-upsell-cross-sell](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-upsell-cross-sell/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shopify-wholesale-channel](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shopify-wholesale-channel/SKILL.md)：用途：规划 Shopify 对应设置/运营；输入店铺、商品、当前配置和目标，输出检查表、优先行动、时间线与 KPI。此为通用 Beta 框架，不能替代后台/政策核验。
+- [shoppable-video](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/shoppable-video/SKILL.md)：用途：规划可购物视频；输入商品、内容、标签和渠道，输出短视频/直播、商品标记、漏斗与衡量。
+- [social-media-monitor](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/social-media-monitor/SKILL.md)：用途：监测社媒；输入关键词、品牌、竞品和渠道，输出提及、情绪、活动、预警和优先行动。
+- [supply-chain-optimization-amazon](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-amazon/SKILL.md)：用途：优化 Amazon 供应链；输入 SKU、库存、交期、履约、费用和需求，输出补货、现金/库存/履约诊断；费率/政策需实时核验。
+- [supply-chain-optimization-shopify](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-shopify/SKILL.md)：用途：优化 Shopify 供应链；输入 SKU、库存、交期、履约、费用和需求，输出补货、现金/库存/履约诊断；费率/政策需实时核验。
+- [supply-chain-optimization-tiktok](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-tiktok/SKILL.md)：用途：优化 TikTok Shop 供应链；输入 SKU、库存、交期、履约、费用和需求，输出补货、现金/库存/履约诊断；费率/政策需实时核验。
+- [supply-chain-optimization-walmart](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/supply-chain-optimization/supply-chain-optimization-walmart/SKILL.md)：用途：优化 Walmart 供应链；输入 SKU、库存、交期、履约、费用和需求，输出补货、现金/库存/履约诊断；费率/政策需实时核验。
+- [synthetic-monitoring](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/synthetic-monitoring/SKILL.md)：用途：合成监控关键旅程；输入 URL/流程、区域和阈值，输出可用性、性能、失败证据和告警。
+- [tiktok-creator-marketplace](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-creator-marketplace/SKILL.md)：用途：用 TikTok Creator Marketplace 合作；输入目标、创作者条件、权益和预算，输出筛选、合同、审批、指标和关系管理。
+- [tiktok-influencer-marketing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-influencer-marketing/SKILL.md)：用途：规划 TikTok 创作者营销；输入产品、受众、候选和预算，输出 vetting、brief、合作、UGC 和 ROI 跟踪。
+- [tiktok-live-selling](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-live-selling/SKILL.md)：用途：规划 TikTok Live；输入商品、主持、时间和目标，输出节目、互动、展示和复盘。
+- [tiktok-shop-ads](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-ads/SKILL.md)：用途：规划 TikTok Shop 广告；输入商品、创意、预算、利润和目标，输出广告类型、结构、出价、测试与报告。
+- [tiktok-shop-affiliate-program](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-affiliate-program/SKILL.md)：用途：规划 TikTok Shop 联盟；输入商品、佣金、创作者和样品，输出招募、分层、跟踪和绩效方案。
+- [tiktok-shop-analytics](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-analytics/SKILL.md)：用途：分析 TikTok Shop 业绩；输入手工提供的视频、直播、联盟、广告和销售资料，输出报告、漏斗、异常和行动。
+- [tiktok-shop-branding](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-branding/SKILL.md)：用途：建设 TikTok Shop 品牌；输入定位、受众、产品和内容，输出身份、支柱、语气、故事、社区与衡量。
+- [tiktok-shop-compliance](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-compliance/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-content-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-content-strategy/SKILL.md)：用途：制定 TikTok Shop 内容；输入商品、受众、素材和目标，输出格式、hook、日历、标签、测试与 KPI。
+- [tiktok-shop-conversion](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-conversion/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-creator-management](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-creator-management/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-cross-border](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-cross-border/SKILL.md)：用途：评估 TikTok Shop 跨境；输入市场、商品、履约、税务、支付和本地化，输出矩阵与路线；规则须实时核验。
+- [tiktok-shop-customer-service](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-customer-service/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-fulfillment](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-fulfillment/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-inventory](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-inventory/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-listing-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-listing-optimization/SKILL.md)：用途：优化 TikTok Shop listing；输入商品、标题、描述、图片、视频、属性和关键词，输出搜索/转化改进。
+- [tiktok-shop-pricing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-pricing/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-product-research](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-product-research/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-promotions](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-promotions/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-returns](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-returns/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-reviews](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-reviews/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-seller-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-seller-guide/SKILL.md)：用途：梳理 TikTok Shop 卖家经营；输入店铺阶段、商品和目标，输出 listing、内容、直播、联盟和增长路线。
+- [tiktok-shop-shipping](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-shipping/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [tiktok-shop-trending-products](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/tiktok-shop-trending-products/SKILL.md)：用途：规划 TikTok Shop 对应主题；输入店铺、商品、目标与约束，输出状态、优先行动、时间线与 KPI。此为通用 Beta 模板，不含实时店铺数据或操作。
+- [visual-regression-testing](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/visual-regression-testing/SKILL.md)：用途：监测视觉回归；输入页面、基线、视窗和阈值，输出截图差异、优先级和处理。
+- [walmart-advertising-strategy](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-advertising-strategy/SKILL.md)：用途：规划 Walmart Connect；输入商品、预算、利润和目标，输出广告结构、出价、分配和 ROAS 检查。
+- [walmart-listing-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-listing-optimization/SKILL.md)：用途：优化 Walmart listing；输入商品页、属性、媒体和词，输出内容质量、搜索、富媒体和属性改进。
+- [walmart-price-tracker](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-price-tracker/SKILL.md)：用途：跟踪 Walmart 价格；输入商品、卖家、MAP/价格和历史，输出变化、异常与应对。
+- [walmart-seller-guide](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-seller-guide/SKILL.md)：用途：梳理 Walmart 运营；输入卖家阶段、商品和履约，输出申请、listing、WFS、Connect 和服务路线。
+- [walmart-seller-tools](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/walmart-seller-tools/SKILL.md)：用途：选择 Walmart 工具；输入任务、预算和工作量，输出工具类别、评估条件和采用顺序。
+- [warehouse-optimization](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/warehouse-optimization/SKILL.md)：用途：优化仓库库存；输入库存、销量、交期、库位和成本，输出 ABC、安全库存、补货点、周转/DOI 与履约方案。
+- [woocommerce-seo](https://github.com/nexscope-ai/eCommerce-Skills/blob/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e/woocommerce-seo/SKILL.md)：用途：审计 WooCommerce SEO；输入站点、商品/类目、schema、速度和内容，输出技术、页面、结构化数据和内链改进。
+
+## Corey Haines 学习索引（50 份）
+
+- [ab-testing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ab-testing/SKILL.md)：用途：设计 A/B 实验；输入基线、假设、流量与风险，输出预注册测试、主/次/护栏指标、样本和学习记录。
+- [ad-creative](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ad-creative/SKILL.md)：用途：生成或迭代广告创意；输入真实品牌/评价/广告语料，输出有来源链的概念、文案、格式与测试路线。
+- [ads](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ads/SKILL.md)：用途：规划或审查投放；输入账户、目标、利润与归因证据，输出平台结构、创意/受众假设和可回滚建议；未知保持未知。
+- [ai-seo](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md)：用途：诊断 AI 搜索可见性；输入品牌、站点和实测问题，输出可抓取性、内容、权威/外部存在的缺口与监测。
+- [analytics](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/SKILL.md)：用途：建立决策导向追踪；输入业务问题、漏斗和系统，输出事件、属性、UTM、验证和隐私计划。
+- [aso](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/aso/SKILL.md)：用途：审计商店列表；输入 App Store/Google Play 页面与竞品，输出关键词、视觉、评分/评论和转化优先项；分数是作者框架。
+- [attribution](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/attribution/SKILL.md)：用途：解释或设计归因；输入渠道、身份、转化和收入，输出模型局限、第一方采集、三角验证与置信缺口。
+- [churn-prevention](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/churn-prevention/SKILL.md)：用途：防流失；输入取消、使用、付款信号，输出挽留路径、健康分层、dunning 和透明退出流程。
+- [co-marketing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/co-marketing/SKILL.md)：用途：设计联合营销；输入伙伴、受众重叠和资源，输出评分、合作形式、活动、协议与衡量。
+- [cold-email](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/cold-email/SKILL.md)：用途：写 B2B 冷邮件；输入真实信号、角色和单一请求，输出个性化首封与跟进，不虚构事实。
+- [community-marketing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/community-marketing/SKILL.md)：用途：建设或运用社区；输入成员价值、平台和阶段，输出启动、治理、倡导和健康指标。
+- [competitor-profiling](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/competitor-profiling/SKILL.md)：用途：建立竞品档案；输入带日期的页面/SEO/评论材料，输出事实、来源、推断和置信度分开的比较。
+- [competitors](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/competitors/SKILL.md)：用途：规划比较/替代页；输入真实替代品、标准与产品事实，输出诚实页面结构、资料源与更新机制。
+- [content-strategy](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md)：用途：制定内容策略；输入客户语言、需求/分发证据与阶段，输出支柱、买家阶段、优先级和分发节奏。
+- [copy-editing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copy-editing/SKILL.md)：用途：修改既有文案；输入原稿、受众和证据，输出清晰、声音、证明、具体性与风险的多轮修改。
+- [copywriting](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/copywriting/SKILL.md)：用途：写营销页面；输入 VOC、价值、页面类型和 CTA，输出利益表述、页面模块和行动文案。
+- [cro](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/cro/SKILL.md)：用途：诊断页面转化；输入页面、漏斗、研究和约束，输出价值、证明、异议、摩擦和测试优先级。
+- [customer-research](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/SKILL.md)：用途：综合客户研究；输入资产、公开材料或一手访谈，输出 JTBD、痛点、触发、原话、替代和置信度。
+- [directory-submissions](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/directory-submissions/SKILL.md)：用途：准备目录分发；输入目标页、资产与候选，输出分层名单、定位文案与跟踪表；未做外部提交。
+- [emails](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/emails/SKILL.md)：用途：设计生命周期邮件；输入阶段、受众、价值与许可，输出单一任务的序列、触发、文案和指标。
+- [events](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/events/SKILL.md)：用途：规划活动营销；输入角色、受众和目标，输出会前/中/后内容、活动组合和管道衡量。
+- [free-tools](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/free-tools/SKILL.md)：用途：评估获客免费工具；输入痛点、相邻产品与 SEO 机会，输出 MVP、门槛、分发和评分卡；未构建。
+- [image](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/image/SKILL.md)：用途：规划营销图片；输入用途、品牌和渠道，输出工具/提示/设计/优化建议；模型能力和价格需另验。
+- [influencer-marketing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/influencer-marketing/SKILL.md)：用途：设计创作者合作；输入受众、候选、预算和权益，输出筛选、交易、brief、披露和归因。
+- [launch](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/launch/SKILL.md)：用途：规划发布；输入发布内容、受众和证据，输出 ORB、发布门槛、阶段传播和复盘。
+- [lead-magnets](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/SKILL.md)：用途：设计 lead magnet；输入受众阶段、价值与交付，输出资产、门槛、交付、分发、指标与测试。
+- [marketing-council](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-council/SKILL.md)：用途：用多视角审视营销问题；输入证据化决策材料，输出分歧、假设和综合建议，不伪造真人背书。
+- [marketing-ideas](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-ideas/SKILL.md)：用途：按阶段/预算/时机检索点子；输入产品语境，输出可筛选想法；作者数量主张不是效果证明。
+- [marketing-loops](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-loops/SKILL.md)：用途：设计受控循环；输入信号、阈值、状态和人审边界，输出节奏、条件、自检、去重、停止和产物。
+- [marketing-plan](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-plan/SKILL.md)：用途：制作营销计划；输入产品、市场、目标、预算和现状，输出 AARRR/fCMO 结构、动作与衡量；计划不等于执行。
+- [marketing-psychology](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/marketing-psychology/SKILL.md)：用途：把心理模型转成伦理化假设；输入场景与用户任务，输出可检验模型选择，非效果保证。
+- [offers](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/offers/SKILL.md)：用途：构造或诊断 offer；输入受众、价值、摩擦与证据，输出价值方程、组成项和单杠杆改进。
+- [onboarding](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/onboarding/SKILL.md)：用途：优化首次价值；输入激活路径、事件和摩擦，输出 MPTV、步骤、触发、实验与指标。
+- [paywalls](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/paywalls/SKILL.md)：用途：设计升级墙；输入价值时刻、方案与受众，输出触发、时机、信息、退出与收入质量测试。
+- [popups](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/popups/SKILL.md)：用途：优化弹窗；输入页面、价值、触发与设备，输出时机、可访问性、移动端和测试。
+- [pricing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing/SKILL.md)：用途：制定定价/包装假设；输入价值指标、客户、成本和证据，输出价格轴、tier、研究与渐进 rollout。
+- [product-marketing](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing/SKILL.md)：用途：沉淀产品营销上下文；输入定位、受众、替代与证据，输出版本化资料、审阅与变更记录；本次未写项目。
+- [programmatic-seo](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/programmatic-seo/SKILL.md)：用途：设计规模化 SEO 页；输入专有数据、意图、模板与质量边界，输出页型、数据、内链、索引与质量检查。
+- [prospecting](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/prospecting/SKILL.md)：用途：建立合规线索池；输入 ICP、许可来源和资格，输出证据化候选、评分和下一步；不批量抓取个人资料。
+- [public-relations](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/public-relations/SKILL.md)：用途：规划公关；输入真实故事、证据与媒体匹配，输出新闻价值、媒体材料、pitch 与衡量。
+- [referrals](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/referrals/SKILL.md)：用途：设计推荐/联盟增长；输入满意时刻、奖励和追踪能力，输出循环、奖励、反作弊和衡量。
+- [revops](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/SKILL.md)：用途：设计收入运营；输入事实源、生命周期和销售流程，输出 MQL、评分、路由、SLA、卫生与仪表盘。
+- [sales-enablement](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/sales-enablement/SKILL.md)：用途：做销售赋能；输入买方、价值、异议和证据，输出 deck、one-pager、ROI、demo、case、proposal 和 playbook。
+- [schema](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/schema/SKILL.md)：用途：规划结构化数据；输入页面事实和实体关系，输出 JSON-LD 类型/属性/图、验证与实施清单，必须与可见事实一致。
+- [seo-audit](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/SKILL.md)：用途：做证据型 SEO 审计；输入可观测页面/导出，输出技术、国际化、页面和内容缺口及优先修复。
+- [signup](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/signup/SKILL.md)：用途：优化注册；输入表单、价值和事件，输出字段、登录、多步、错误/移动端与衡量测试。
+- [site-architecture](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/site-architecture/SKILL.md)：用途：规划站点结构；输入页面、用户任务和内容，输出 URL、导航、面包屑、ASCII/Mermaid sitemap 和优先级。
+- [sms](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/sms/SKILL.md)：用途：设计 SMS/MMS；输入同意、号码、分群和业务场景，输出注册/合规检查、序列、文案和指标；未发送。
+- [social](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/social/SKILL.md)：用途：规划社媒；输入平台、受众、支柱和资产，输出 hook、复用、日历、互动与聆听；未发帖。
+- [video](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/video/SKILL.md)：用途：规划视频；输入目标、素材和渠道，输出制作路径、脚本和质量要求；工具事实需实时核验。

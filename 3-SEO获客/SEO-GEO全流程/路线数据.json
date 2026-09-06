@@ -1,0 +1,504 @@
+[
+  {
+    "id": "direction",
+    "title": "先确认顾客要办什么事",
+    "phase": "回看基础",
+    "step": 1,
+    "owner": "direction-validator",
+    "trigger": "新产品或需求判断出现新证据；已有网站只补影响当前决定的缺口。",
+    "inputs": "用户原话、当前替代品、网站承诺、付费理由。",
+    "actions": [
+      "把人群、发生场景、想完成的任务写成一句话。",
+      "比较现有替代方案哪里不方便；指出本产品交得出的结果。",
+      "选一个最危险的假设，设计能观察使用或付费意愿的验证。"
+    ],
+    "output": "客户任务与价值承诺卡。",
+    "check": "区分真实行为、访谈表达和自己的猜测；网站已建好不等于需求已成立。",
+    "next": "词与页面；已建站则带着未知项进入上线准备。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "keywords",
+    "title": "让顾客搜的话找到对应页面",
+    "phase": "回看基础",
+    "step": 1,
+    "owner": "vertical-keyword-loop",
+    "trigger": "尚未锁定目标词；已锁定时核对现有承接页，不重新扩词。",
+    "inputs": "参考站、用户提供的Semrush证据、已有词表和页面。",
+    "actions": [
+      "按现有选词方法核对参考站与证据。",
+      "把搜索词翻译成用户任务，合并同意图的词。",
+      "已有短名单交页面规划；缺数据留缺口，不编搜索量。"
+    ],
+    "output": "词—意图—目标页面对应表。",
+    "check": "每个词能说明谁搜、想得到什么；一个任务不拆成一堆重复页。",
+    "next": "页面brief。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "brief",
+    "title": "检查网站有没有把承诺兑现",
+    "phase": "现在准备",
+    "step": 2,
+    "owner": "seo-site-blueprint",
+    "trigger": "页面已做好、准备上线；或要新增、重写一个页面。",
+    "inputs": "现有页面、目标用户任务、产品能力、公开与会员内容边界。",
+    "actions": [
+      "列首页、任务页、价格页、帮助页及账户页各自职责。",
+      "逐页走输入到结果，核对并撰写可上线正文：说明、真实示例、来源、限制和下一步；已有好内容保留。",
+      "新页先证明独有用途；改旧页保留有效内容和URL价值。"
+    ],
+    "output": "页面brief、可上线文案与仍需工程补齐的任务清单。",
+    "check": "首次访问的人能看懂并完成任务；不靠硬字数或堆关键词判质量。",
+    "next": "文案事实核对后，进入支付权益与上线技术检查。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "payment",
+    "title": "把付钱和会员权益接成一条线",
+    "phase": "现在准备",
+    "step": 5,
+    "owner": "seo-readiness-audit",
+    "trigger": "付费产品已有会员系统但还没接支付；改变套餐或收费方式时重查。",
+    "inputs": "套餐、价格/币种、收费周期、权益、退款取消口径、选定支付服务。",
+    "actions": [
+      "列出未付费、付款处理中、已付费、失败、取消和退款对应的权益。",
+      "准备与实际服务一致的价格说明、服务条款、隐私及退款/取消政策；按目标地区和选定支付服务当前要求核查，不套用通用法律结论。",
+      "把订单、服务端支付确认、用户账户和权益的对应关系交工程实现。",
+      "在测试环境检查成功、失败、重复通知、延迟通知和取消退款后的结果。"
+    ],
+    "output": "支付与会员权益交接单、测试记录。",
+    "check": "跳回成功页不等于收到钱；订单、支付记录与实际权益能对上。真实收款另有授权和验证。",
+    "next": "域名上线与正式环境复查。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing/SKILL.md",
+    "tools": "调用选定支付服务对应的已安装skill并查其当前官方文档；代码、webhook、密钥在产品仓处理。",
+    "keywords": "支付 payment 会员 订阅 webhook 收款"
+  },
+  {
+    "id": "domain",
+    "title": "让网站有正式地址并稳定开门",
+    "phase": "现在准备",
+    "step": 2,
+    "owner": "seo-readiness-audit",
+    "trigger": "准备买域名、首次部署或更换域名。",
+    "inputs": "域名候选、部署平台、DNS归属、登录回调/发信/支付回调所需地址。",
+    "actions": [
+      "先确认主要域名及HTTPS、主机名跳转与正式环境配置。",
+      "核对登录、邮件链接、支付回调、资源地址是否仍指向测试环境。",
+      "保留回退办法并在正式域名复走关键任务。"
+    ],
+    "output": "域名与部署交接清单、正式URL及复查结果。",
+    "check": "首页能打开之外，登录和核心任务也要完成；私有数据须由权限控制保护。",
+    "next": "搜索就绪检查与测量。",
+    "source": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "tools": "先查产品仓的部署方法；购买域名、修改DNS与部署由对应授权动作承接，本地图不执行。",
+    "keywords": ""
+  },
+  {
+    "id": "technical",
+    "title": "让搜索引擎进得来、看得懂",
+    "phase": "现在准备",
+    "step": 3,
+    "owner": "seo-readiness-audit",
+    "trigger": "准备上线、刚上线、未收录或索引异常。",
+    "inputs": "正式/预览URL、公开页面清单、初始HTML、浏览器页面和站点地图。",
+    "actions": [
+      "先查访问状态和公开/私有页面边界，再比较初始HTML与渲染后的关键内容。",
+      "核对robots、noindex、canonical、sitemap和内链是否表达一致的页面角色。",
+      "逐条写问题、证据、影响、修复与确定程度；工具没读到的内容标未知。"
+    ],
+    "output": "按阻塞程度排序的审计单。",
+    "check": "能复现每个问题；修复后用同一URL回查。不把robots/noindex当登录保护。",
+    "next": "首批抓取和索引观察。",
+    "source": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill/blob/69199160e18372bc5cdf9ddec20ccb9fb1b509f1/SKILL.md",
+    "tools": "浏览器和HTTP检查取证；大量页面才选批量抓取，不能用一次工具失败判网站故障。",
+    "keywords": ""
+  },
+  {
+    "id": "performance",
+    "title": "检查速度、图片和页面标记",
+    "phase": "现在准备",
+    "step": 3,
+    "owner": "seo-readiness-audit",
+    "trigger": "上线前检查关键页面；体验变慢或新增重要页型时再查。",
+    "inputs": "代表页面、手机体验、图片资源、与页面内容相符的结构化数据。",
+    "actions": [
+      "观察首屏、关键内容出现和操作响应，定位大图或阻塞资源。",
+      "检查图片尺寸、格式、用途描述及必要可访问性。",
+      "只为符合条件的真实内容添加结构化数据，并验证标记。"
+    ],
+    "output": "体验问题与页面标记修复单。",
+    "check": "实验室测试和真实用户数据分开；标记通过不保证获得特殊搜索展示。",
+    "next": "正式上线后复测与持续观察。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/SKILL.md",
+    "tools": "性能工具负责测量，产品仓负责修复；没有现场数据时明确只有实验室结果。",
+    "keywords": "性能 速度 图片 Schema CWV"
+  },
+  {
+    "id": "measurement",
+    "title": "上线前先装好记账本",
+    "phase": "现在准备",
+    "step": 6,
+    "owner": "product-growth-review",
+    "trigger": "准备上线或开始一个新渠道；不能等数据丢了才设计记录。",
+    "inputs": "用户任务路径、订单/会员模型、分析工具与数据使用约束。",
+    "actions": [
+      "先写要做的决定，再倒推访问、开始、完成、注册、付款等必要事件。",
+      "上线前明确收集用途、必要字段、适用的同意机制与许可记录；区分账户通知和营销许可，未来发信不能倒填历史同意。",
+      "定义每个事件什么时候触发、怎样去重、用什么口径统计。",
+      "在测试环境沿真实路径触发，核对事件、订单和会员记录，排除内部测试。"
+    ],
+    "output": "事件表、来源参数规范、上线基线。",
+    "check": "能从数据回答哪一环掉人；缺采集不当作零使用。避免采集无关个人信息。",
+    "next": "上线观察与增长复盘。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/SKILL.md",
+    "tools": "方法设计现在完成，实际埋点和数据持久化交产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "indexing",
+    "title": "看新店有没有被搜索发现",
+    "phase": "上线之后",
+    "step": 3,
+    "owner": "seo-readiness-audit",
+    "trigger": "正式域名已可访问，开始积累搜索数据。",
+    "inputs": "站点所有权、代表URL、sitemap和搜索平台检查结果。",
+    "actions": [
+      "验证站点归属，检查代表页是否可抓取、可索引。",
+      "把未发现、已抓取未索引、已索引但无展示分开记录。",
+      "有技术阻塞先修；没有足够数据时继续观察，不急着换方向。"
+    ],
+    "output": "URL索引状态与下一次检查安排。",
+    "check": "提交sitemap或请求索引不等于已收录；以实际检查状态为准。",
+    "next": "已收录后看查询、点击及任务完成。",
+    "source": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "distribution",
+    "title": "找到第一批真正需要的人",
+    "phase": "上线之后",
+    "step": 4,
+    "owner": "distribution-link-loop",
+    "trigger": "可访问的任务页已经能兑现承诺，准备找首批用户。",
+    "inputs": "产品任务、适合的人群/社区、可展示结果、渠道规则。",
+    "actions": [
+      "找与用户任务匹配的社区、目录、测评或合作机会。",
+      "准备真实示例与一段具体介绍，小批检查渠道质量。",
+      "逐项记录是否提交、是否上线、链接和带来的合资格访问及反馈。"
+    ],
+    "output": "渠道机会与结果记录。",
+    "check": "发送和上线是两件事；点赞不当作需求证明；不群发陌生私信。",
+    "next": "回读真实使用；发现页面问题回产品改进。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/launch/SKILL.md",
+    "tools": "外部提交、发信和合作支出按授权执行；先完成材料准备。",
+    "keywords": ""
+  },
+  {
+    "id": "geo",
+    "title": "让AI找到可核查的产品事实",
+    "phase": "上线之后",
+    "step": 3,
+    "owner": "geo-source-loop",
+    "trigger": "核心公开页面可用；准备研究目标用户会向AI问什么。",
+    "inputs": "真实问题组、产品事实、已有答案和引用来源。",
+    "actions": [
+      "固定问题、平台、日期及观察条件，记录答案和来源。",
+      "把被检索、被引用、被提及、被推荐分开，不用一个数字混称效果。",
+      "补能帮助用户的说明、示例和可核查事实，寻找真实第三方介绍，再复测。"
+    ],
+    "output": "问题—来源—事实缺口—行动表。",
+    "check": "保留原始答案与可复读来源；一次出现不代表稳定推荐或因果效果。",
+    "next": "补自有页面或进入第三方分发，再回增长复盘。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "GEO AI SEO 引用 推荐"
+  },
+  {
+    "id": "refresh",
+    "title": "让已有内容越用越好",
+    "phase": "上线之后",
+    "step": 3,
+    "owner": "product-growth-review",
+    "trigger": "已有查询、点击或用户反馈；内容过时或意图不匹配。",
+    "inputs": "GSC/行为数据、现有页面、用户反馈、最近变更。",
+    "actions": [
+      "先看已有页面能否补好，再决定是否新建。",
+      "根据真实问题补例子、步骤或结果，保留有用内容。",
+      "记录改动与观察窗口，比较相关页面和用户完成情况。"
+    ],
+    "output": "一次内容改进及前后对照。",
+    "check": "展示增加不直接等于收入增加；不把季节变化全归功于改稿。",
+    "next": "重新审计改动页，再回看效果。 进入“把这一轮变成一个清楚的决定”，由证据决定加码、再测、收窄或归档。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "conversion",
+    "title": "让来的人更容易完成和付费",
+    "phase": "上线之后",
+    "step": 5,
+    "owner": "product-growth-review",
+    "trigger": "已有访问但开始、完成、注册或付费某一环偏弱。",
+    "inputs": "漏斗数据、用户反馈、页面和收费承诺。",
+    "actions": [
+      "找最早掉人的位置，检查操作摩擦、结果价值和信任。",
+      "提出一个改变及预期信号，固定主要指标和不希望变坏的指标。",
+      "流量足够再设计对照试验；不足时做可用性观察，不假装统计显著。"
+    ],
+    "output": "转化或定价实验卡。",
+    "check": "比较用户结果与退款/留存等后续信号，不只看按钮点击。",
+    "next": "按证据保留、撤回或做下一轮。 进入“把这一轮变成一个清楚的决定”，由证据决定加码、再测、收窄或归档。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ab-testing/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "retention",
+    "title": "帮助用户回来，把流失原因找清楚",
+    "phase": "条件出现",
+    "step": 6,
+    "owner": "product-growth-review",
+    "trigger": "已有注册用户、重复任务或订阅；上线前先准备事件与状态。",
+    "inputs": "用户生命周期、使用频率、取消/付款失败原因、可联系许可。",
+    "actions": [
+      "分清没体验到价值、任务已完成不需再用、价格问题和支付失败。",
+      "按原因设计引导、提醒、取消反馈或付款恢复流程。",
+      "提供退出方式；检查抑制名单、频次及成功后停止提醒。"
+    ],
+    "output": "用户分群与挽回流程、衡量口径。",
+    "check": "分开自愿流失与扣款失败；看持续使用和实际恢复收入，避免只算打开率。",
+    "next": "邮件/短信执行与留存复盘。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/churn-prevention/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "留存 流失挽回 churn retention winback"
+  },
+  {
+    "id": "messaging",
+    "title": "把邮件和短信变成适时帮助",
+    "phase": "条件出现",
+    "step": 4,
+    "owner": "product-growth-review",
+    "trigger": "有获得许可的联系人和明确触发事件；先做好内容与触发设计。",
+    "inputs": "触发事件、联系人许可、模板、发信工具、退订/抑制状态。",
+    "actions": [
+      "区分账户交易通知和营销消息，按地区与渠道核实当前规则。",
+      "按欢迎、未完成任务、回访、支付失败等目的设计一条最小序列。",
+      "测试触发、去重、退订、停止发送和实际送达，再小批执行。"
+    ],
+    "output": "消息序列、触发/停止条件、发送验证单。",
+    "check": "排程不是送达；打开不是任务完成；退订与成功转换应终止不适用消息。",
+    "next": "回看任务完成、留存和退订反馈。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/emails/SKILL.md",
+    "tools": "邮件/短信服务接入和事件实现进产品仓；短信规则与成本单独核查，不能照抄邮件配置。",
+    "keywords": "邮件 短信 SMS email 营销自动化"
+  },
+  {
+    "id": "ads",
+    "title": "用小实验判断买流量值不值",
+    "phase": "条件出现",
+    "step": 4,
+    "owner": "distribution-link-loop",
+    "trigger": "准备使用付费渠道；着陆页可用、转化可记录，并已决定实验预算。",
+    "inputs": "用户人群、单次结果价值、成本口径、素材、预算与停止条件。",
+    "actions": [
+      "写清人群、承诺和目标动作，确认落地页能兑现。",
+      "先完成账户/追踪/素材检查，再在授权预算内做有限实验。",
+      "比较有效转化成本和后续用户质量，排除重复归因。"
+    ],
+    "output": "广告实验计划及预算/停止记录。",
+    "check": "平台报告不等于增量收入；样本少时保留不确定性，不自动加预算。",
+    "next": "增长复盘决定改素材、改页面或停止。 进入“把这一轮变成一个清楚的决定”，由证据决定加码、再测、收窄或归档。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ad-creative/SKILL.md",
+    "tools": "投放平台规则和费用执行时查官方资料；本次只沉淀方法，不开广告。",
+    "keywords": "广告 paid ads PPC 投放"
+  },
+  {
+    "id": "creators",
+    "title": "让合适的创作者介绍产品",
+    "phase": "条件出现",
+    "step": 4,
+    "owner": "distribution-link-loop",
+    "trigger": "准备通过创作者触达匹配人群，已有可展示产品和合作目标。",
+    "inputs": "受众匹配证据、内容样本、交付物、费用/权益与追踪方式。",
+    "actions": [
+      "按受众和内容可信度筛选，不只看粉丝数。",
+      "写明演示任务、真实可说的主张、披露/使用权、交付和修改安排。",
+      "审核事实，按授权发布；记录触达、有效使用、成本及不确定性。"
+    ],
+    "output": "合作brief与成果复盘。",
+    "check": "真实使用与粉丝规模分开；素材通过审核不等于已发布。",
+    "next": "复盘合作是否值得继续。 进入“把这一轮变成一个清楚的决定”，由证据决定加码、再测、收窄或归档。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/influencer-marketing/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "创作者 influencer UGC KOL 网红合作"
+  },
+  {
+    "id": "languages",
+    "title": "给另一种语言的顾客开门",
+    "phase": "条件出现",
+    "step": 3,
+    "owner": "seo-site-blueprint",
+    "trigger": "决定服务第二种语言或国家；先做小规模完整用户路径。",
+    "inputs": "目标市场需求、可维护的翻译能力、URL方案、产品/支付/客服支持。",
+    "actions": [
+      "确认搜索意图和产品交付适合该市场，翻译整个关键任务而非仅文章。",
+      "规划语言URL、切换入口和各版本对应关系。",
+      "核对hreflang互指与canonical等信号，抽查本地语言内容和实际任务。"
+    ],
+    "output": "语言版本计划与上线抽检单。",
+    "check": "不要把未完成翻译页批量公开；语言标记不能代替本地化质量。",
+    "next": "进入上线审计，并按语言分别观察。",
+    "source": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "多语言 国际化 本地化 hreflang international localization"
+  },
+  {
+    "id": "pseo",
+    "title": "用数据制作许多有独特用处的页面",
+    "phase": "条件出现",
+    "step": 3,
+    "owner": "seo-site-blueprint",
+    "trigger": "有大量不同任务及可靠数据，计划通过模板生成页面。",
+    "inputs": "需求分组、合法可维护的数据、模板、页面独有信息和更新机制。",
+    "actions": [
+      "先用少量代表样本证明每页能提供独有结果。",
+      "规定缺数据、重复、过时页面的生成/索引/下线处理。",
+      "抽检内容、链接和任务完成；看索引与用户反馈再决定扩量。"
+    ],
+    "output": "模板与数据质量规则、小批试运行计划。",
+    "check": "换地名或关键词不等于独有价值；批量生产数量不能当成功指标。",
+    "next": "技术审计与按批次复盘，出问题先停扩量。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/programmatic-seo/SKILL.md",
+    "tools": "生成器、数据库和自动化发布在产品仓实现；先写规则和样本，不整套装作者脚本。",
+    "keywords": "程序化SEO 程序化 SEO pSEO programmatic scaled pages"
+  },
+  {
+    "id": "drift",
+    "title": "网站改动时留照片，出问题能倒查",
+    "phase": "条件出现",
+    "step": 6,
+    "owner": "product-growth-review",
+    "trigger": "首次上线建立基线；改版、迁域名、批量改标题或流量异常时比较。",
+    "inputs": "关键URL、页面状态、发布版本、变更日期、搜索与行为基线。",
+    "actions": [
+      "保存标题、canonical、索引设置、关键内容和内链等可比较状态。",
+      "改版前列旧URL到新URL映射和回退方案，改后验证跳转与链接。",
+      "异常时对照页面差异和流量变化，同时保留需求/季节等其他解释。"
+    ],
+    "output": "页面状态快照、变更与复测记录。",
+    "check": "时间先后只能提供线索，不能直接证明因果；没有旧快照不能编造。",
+    "next": "修回归交产品仓；效果判断回增长复盘。",
+    "source": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-drift/SKILL.md",
+    "tools": "小站先存文件；需要持续大批比较时再验证数据库/爬虫工具。",
+    "keywords": "快照 迁移 drift migration redirect"
+  },
+  {
+    "id": "commerce",
+    "title": "如果以后卖商品，走电商专门路线",
+    "phase": "专项方法",
+    "step": 5,
+    "owner": "direction-validator",
+    "trigger": "产品形态变成商品交易、商城或进入电商平台。",
+    "inputs": "商品/类目、库存变体、价格毛利、配送退款、平台规则。",
+    "actions": [
+      "把类目页和商品页分别对应浏览选择与具体购买任务。",
+      "核对变体URL、筛选页索引、库存/价格与页面信息一致。",
+      "把购物车到付款及履约退换一起验证，再看利润而非只看销售额。"
+    ],
+    "output": "电商页面与交易方法清单。",
+    "check": "平台Beta模板是参考；库存、费用和政策需要当前核实。",
+    "next": "产品工程与电商专项复盘。",
+    "source": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/skills/seo-ecommerce/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "电商 ecommerce 商城 商品"
+  },
+  {
+    "id": "service",
+    "title": "如果替别人做SEO，先把服务边界说清楚",
+    "phase": "专项方法",
+    "step": 4,
+    "owner": "direction-validator",
+    "trigger": "开始承接SEO服务或审计客户，而非只经营自己的产品。",
+    "inputs": "客户目标、可用数据、服务范围、交付周期与责任。",
+    "actions": [
+      "用证据说明当前问题，分开发现、修复服务与长期观察。",
+      "明确交付物、谁提供数据、谁修代码、何种变化算范围增加。",
+      "报告限制与下一步，不承诺固定排名或收入。"
+    ],
+    "output": "服务范围与交付提案。",
+    "check": "销售承诺不能高于可核验能力；报价不是收益保证。",
+    "next": "审计、执行交接和客户复盘。",
+    "source": "https://github.com/zubair-trabzada/geo-seo-claude/blob/0a1bb52aba7b05e732c686743f4fa23de8121fa1/skills/geo-proposal/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "team",
+    "title": "多人协作时，让交接不掉东西",
+    "phase": "专项方法",
+    "step": 6,
+    "owner": "direction-validator",
+    "trigger": "多人/多个助手共同处理同一站点或反复交接。",
+    "inputs": "任务负责人、版本、证据、依赖、修改权限和未解决项。",
+    "actions": [
+      "每项交付绑定对象、版本、证据和下一位负责人。",
+      "共享同一事实记录，明确谁能写入，避免重复执行。",
+      "交接时检查接手者能否复现问题，保持方法质量评分与业务结果分离。"
+    ],
+    "output": "责任与交接记录。",
+    "check": "不把作者复杂registry整套当成必须安装的系统；只采用解决实际交接问题的规则。",
+    "next": "回到对应工作环节执行与复查。",
+    "source": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/888dd38edbd43e7eaeeb4ba053d6c290fb21b89d/README.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": ""
+  },
+  {
+    "id": "tools",
+    "title": "程序工具怎么接进来",
+    "phase": "专项方法",
+    "step": 2,
+    "owner": "treg-research",
+    "trigger": "人工检查不足，或任务必须取得现场数据。",
+    "inputs": "待回答的问题、URL/数据范围、已有能力、账号成本与输出要求。",
+    "actions": [
+      "先选所需能力：抓取、渲染、性能、数据接口、状态比较或报表。",
+      "检查现有工具能否提供证据；新工具先用一个样本验证准确性与成本。",
+      "记录输入、版本、限制与可复查输出；工具不可用时列缺口并给承接动作。"
+    ],
+    "output": "工具选择与最小样本验证单。",
+    "check": "说明书提到接口不等于已连接；程序跑完不等于结论可靠。",
+    "next": "把证据交回审计/研究/复盘入口。",
+    "source": "https://github.com/AgriciDaniel/codex-seo/blob/97c59bcdac3c9538bf0e3ae456c1e73aa387f85a/README.md",
+    "tools": "工程接入在产品仓；方法与选择条件现在保存。",
+    "keywords": ""
+  },
+  {
+    "id": "review",
+    "title": "把这一轮变成一个清楚的决定",
+    "phase": "上线之后",
+    "step": 6,
+    "owner": "product-growth-review",
+    "trigger": "进入预设观察节点，或出现需要立即处理的故障。",
+    "inputs": "国家语言口径、搜索/使用/收入基线、一次调整记录和观察窗口。",
+    "actions": [
+      "先定位最早失效环节：访问索引、展示点击、任务完成、付费或留存。",
+      "区分即时故障修复和商业方向判断，一次围绕一个瓶颈调整。",
+      "按现行方法完成观察与复盘，明确加码、再测、收窄、继续观察或归档，并交回对应入口。"
+    ],
+    "output": "带证据和下一负责入口的复盘决定。",
+    "check": "现行默认观察窗8–12周；短期无排名不淘汰。完整窗口内连续两轮针对性调整仍无可解释信号，且无新证据时才考虑归档；这是本地启发式，不是所有站点的成效定律。",
+    "next": "页面问题回brief，索引问题回technical，渠道问题回distribution；需要收窄或新方向时回direction，不因短期排名重开选词。",
+    "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/SKILL.md",
+    "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
+    "keywords": "复盘 增长 收窄 归档 停止"
+  }
+]
