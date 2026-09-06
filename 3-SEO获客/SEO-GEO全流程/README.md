@@ -33,7 +33,7 @@
 
 ## 正式方法与学习副本
 
-知识笔记服务学习；可调用方法以mono的overseas skill为准。此轮候选正在独立工作面实现，未合并分发前不能称为已激活。本页面不依赖候选worktree或/tmp。
+知识笔记服务学习；可调用方法以mono的overseas skill为准。此轮方法已通过 PR #444 合入 mono main，并完成本项目11个入口的同步；详见[交付记录](../../docs/plans/2026-09-06-seo-full-route-delivery.md)。本页面不依赖候选worktree或/tmp。
 
 ## 官方校核与证据边界
 
