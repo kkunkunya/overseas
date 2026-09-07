@@ -4,7 +4,7 @@
 
 仓库归属从 `git remote -v` 推断——`gh` 在 clone 内运行时自动识别，零配置。
 
-> **本项目说明**：当前知识库主要用 issue 记录**学习任务**（整理某步笔记、精读某篇原文、补方法论、修 README 失效链接）。下方 PR / sub-issue / wayfinder 段是适配层，供未来做产品引入代码工程 skill（`code-review` / `to-tickets` / `wayfinder`）时用，现阶段可忽略。
+> **本项目说明**：本库跟踪学习资料、通用方法与路线图任务。产品接入、代码修复、数据采集和发布检查的父票及执行子票归具体产品仓；PR、子票和依赖适配同样用于本库的方法交付。跨仓命令显式加 `--repo owner/repo`。
 
 ## Issue 操作
 
@@ -71,3 +71,17 @@ map 是索引：resolution detail 只住 child 的 comment，map 只保留 gist 
 - **"link as a native sub-issue" / "wire a native blocking edge"**（`to-tickets`）→ `gh issue create --parent` / `--blocked-by`，或 `gh issue edit --add-sub-issue` / `--add-blocked-by`；不支持就用 body 的 `## Parent` / `## Blocked by` 段兜底。见上"Sub-issue 与依赖关系"段。
 - **"map / child / blocking / frontier / claim / resolve"**（`wayfinder`）→ 见上 `Wayfinding operations`；原生关系不可用时使用 task-list/body fallback。
 - **"the spec for this change"**（`code-review` 的 Spec 轴）→ 从 commit / PR 的 issue 引用（`Closes #<n>` / `Part of #<n>` / `Refs #<n>`）找到驱动 issue，读其正文与评论作为 spec。**只到 issue 这一层**——不要回溯 issue 之前的 discussion / 对话记录，那是未收敛的噪声。都没找到就问用户 spec 在哪；用户说没有，Spec 轴报 "no spec available"。
+
+## 当前产品交棒
+
+2026-09-07，Kun 指定 online-tarot 为首个执行项目，原产品规范和执行票已原生迁移，评论历史与依赖保留：
+
+| 原 overseas 票 | online-tarot 当前票 |
+| --- | --- |
+| #6 总规范 | [#72](https://github.com/kkunkunya/online-tarot/issues/72) |
+| #8 环境核对 | [#73](https://github.com/kkunkunya/online-tarot/issues/73) |
+| #9 工具初始化 | [#74](https://github.com/kkunkunya/online-tarot/issues/74) |
+| #10 修复复测 | [#75](https://github.com/kkunkunya/online-tarot/issues/75) |
+| #11 数据复盘 | [#76](https://github.com/kkunkunya/online-tarot/issues/76) |
+
+执行进度以产品仓票单为准；迁移不表示接入已完成。本库 #7/#13 是已交付的通用方法工作，不重建同一组产品执行票。
