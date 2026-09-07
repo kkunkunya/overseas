@@ -58,7 +58,7 @@
     "next": "文案事实核对后，进入支付权益与上线技术检查；已有团队可直接进入对应专项，不重做需求立项。",
     "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/content-strategy/SKILL.md",
     "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
-    "keywords": ""
+    "keywords": "内容 交接 writer reviewer 多语言 pSEO GSC AI"
   },
   {
     "id": "payment",
@@ -200,7 +200,7 @@
     "next": "任务页和授权就绪后进入执行；执行后回读真实使用，发现页面问题回产品改进。",
     "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/launch/SKILL.md",
     "tools": "外部提交、发信和合作支出按授权执行；先完成材料准备。",
-    "keywords": ""
+    "keywords": "渠道 准备 素材 授权 分发"
   },
   {
     "id": "geo",
@@ -220,7 +220,7 @@
     "next": "自有页有可访问/抓取/索引阻塞时回技术审计；否则补自有页面或进入第三方分发，再回增长复盘。",
     "source": "https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md",
     "tools": "先使用已有资料和工具；需要采集或写代码时交具体产品仓。",
-    "keywords": "GEO AI SEO 引用 推荐"
+    "keywords": "GEO AI SEO 引用 推荐 基线 来源 准备"
   },
   {
     "id": "refresh",
