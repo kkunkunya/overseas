@@ -1,6 +1,6 @@
 # ADR-0015: 参考站先行选词，交付付费站清单与核心/长尾词
 
-- status: accepted
+- status: superseded by ADR-0016
 - date: 2026-08-23
 
 ## 背景

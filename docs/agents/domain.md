@@ -5,9 +5,13 @@ engineering skill 探索代码库时，按本文件读项目的领域文档。�
 ## 探索前读这些
 
 - 根目录 **`CONTEXT.md`**（出海术语词典：出海 SaaS、目录站、躺赚、复利、SEO、外链、AITDK、SimilarWeb 等）。
-- **`docs/adr/`**——读触及你即将改动区域的 ADR。
+- **`docs/adr/`**——读触及你即将改动区域的 ADR（默认活跃集）。
 
 这些文件**不存在时，静默继续**。别指出缺失、别建议预先创建。`CONTEXT.md` 与 ADR 由 `domain-modeling` skill 在术语 / 决策真正谈拢时惰性创建。
+
+## 活跃集与历史集
+
+ADR 索引分两层：**活跃集**（proposed/accepted）与**历史集**（superseded/deprecated）。探索默认只读活跃集；历史集只在追溯「这条决策为何被取代」时读。CONTEXT.md 或 AGENTS.md 里还指着已 superseded ADR 的引用，换成现行 ADR 或「取代」表述。
 
 ## 格式与创建：归 domain-modeling
 
