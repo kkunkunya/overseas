@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "gefei": {
+      "type": "http",
+      "url": "https://seo.web.cafe/api/mcp",
+      "headers": {
+        "Authorization": "${GEFEI_AUTHORIZATION}"
+      }
+    },
+    "webcafe-newwords": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": ["/Users/kunkun/.local/libexec/office-newwords-mcp/bridge.mjs", "webcafe"]
+    }
+  }
+}

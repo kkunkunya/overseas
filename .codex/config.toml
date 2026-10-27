@@ -1,0 +1,12 @@
+# Project MCP for overseas (Codex reads this only because the project is trusted in ~/.codex/config.toml).
+# Key values live in .mcp.local/ (gitignored) and reach Codex as the env var GEFEI_AUTHORIZATION.
+
+[mcp_servers.gefei]
+url = "https://seo.web.cafe/api/mcp"
+env_http_headers = { Authorization = "GEFEI_AUTHORIZATION" }
+
+[mcp_servers.webcafe-newwords]
+command = "/opt/homebrew/bin/node"
+args = ["/Users/kunkun/.local/libexec/office-newwords-mcp/bridge.mjs", "webcafe"]
+startup_timeout_sec = 40
+tool_timeout_sec = 35

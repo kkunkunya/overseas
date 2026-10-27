@@ -5,3 +5,7 @@
 # Local project integration metadata (may contain credential references)
 .pi/skills/treg-research/.secret/
 .pi/skills/treg-research/treg.json
+
+# Local MCP key values (GEFEI_AUTHORIZATION etc.): never commit
+.mcp.local/
+.claude/settings.local.json

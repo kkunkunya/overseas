@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "gefei": {
+      "type": "remote",
+      "url": "https://seo.web.cafe/api/mcp",
+      "enabled": true,
+      "headers": {
+        "Authorization": "{env:GEFEI_AUTHORIZATION}"
+      }
+    },
+    "webcafe-newwords": {
+      "type": "local",
+      "command": ["/opt/homebrew/bin/node", "/Users/kunkun/.local/libexec/office-newwords-mcp/bridge.mjs", "webcafe"],
+      "enabled": true,
+      "timeout": 35000
+    }
+  }
+}
