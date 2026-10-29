@@ -18,7 +18,7 @@ Kun 有两个相关仓库：
 
 1. **知识库 `overseas/` 存「为什么 + 方法论」**：赫兹原文、二手笔记（如 `2-建站开发/上线即量化-...md`）、领域术语（`CONTEXT.md`）、决策记录（`docs/adr/`）、skill 创建指示（`docs/agents/skill-spec-*.md`）。纯 markdown，不存可执行 skill 真身。
 
-2. **产品项目仓库存「怎么执行」**：工程性 skill 真身放 `<产品>/.pi/skills/<name>/`，由该项目的 `sync-project-skills` 分发到 `.agents/skills/` 投影。运行时只认产品仓库内的 skill 路径。
+2. **产品项目仓库存「怎么执行」**：工程性 skill 真身放 `<产品>/.agents/skills/<name>/`（`.claude/skills` 软链到它）。运行时只认产品仓库内的 skill 路径。
 
 3. **创建指示可在知识库暂存**：跨产品的通用方法论衍生的 skill 创建指示（`docs/agents/skill-spec-*.md`）留在知识库，作为「为什么这么做 + 规格单」；执行 agent 据此到产品项目仓库创建真身。指示文档本身是 markdown，不是运行时依赖。
 
@@ -33,7 +33,8 @@ Kun 有两个相关仓库：
 
 ## 后果
 
-- 新建工程性 skill 时先问「这是工程性还是知识类」：工程性 → 产品仓库 `.pi/skills/`；知识类 → 知识库对应步骤目录。
-- 知识库不再出现**工程性** skill 真身；出海方法 skill 的导入投影由 ADR-0017 允许。
-- `validation-instrument` 的创建指示 `docs/agents/skill-spec-validation-instrument.md` 留本库，真身落 `oversea-project/amigurumi-pricing-calculator/.pi/skills/validation-instrument/`。
+- 新建工程性 skill 时先问「这是工程性还是知识类」：工程性 → 产品仓库 `.agents/skills/`；知识类 → 知识库对应步骤目录。
+- 知识库不再出现**工程性** skill 真身；出海方法 skill 放哪见 CONTEXT「出海方法 skill」（ADR-0017 已被 mono ADR-0126 取代）。
+- `validation-instrument` 的创建指示 `docs/agents/skill-spec-validation-instrument.md` 留本库，真身落 `oversea-project/amigurumi-pricing-calculator/` 产品仓（当时写的路径是 `.pi/skills/validation-instrument/`）。
+- 2026-10-29（DENE-2759）：`.pi/skills` 加 `sync-project-skills` 的投影做法已废，技能目录统一为 `.agents/skills/`。
 - 若某 skill 既是通用方法论又跨多产品复用，评估是否升级为 global skill（`scope: global`，进 `~/.agents/skills/`），不在两个产品仓库各放一份。

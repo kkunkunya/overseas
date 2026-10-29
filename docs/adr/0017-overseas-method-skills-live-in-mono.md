@@ -1,7 +1,11 @@
 # ADR-0017: 出海方法 skill 真身在 kun-agent-mono，本库只导入
 
-- status: accepted
+- status: superseded by kun-agent-mono ADR-0126
 - date: 2026-08-25
+
+## 被取代（2026-10-29）
+
+mono 已没有 `skills/overseas/`，`.pi/skills` 导入也没了。现在跨出海站复用的方法技能在 mono 能力包 `skills/packs/overseas-site/`，由 mono `pack-links.py` 链进本库 `.agents/skills/`（不进本库 git）；本库自己的项目技能真身在 `.agents/skills/`。下文按 2026-08-25 原样保留。（DENE-2758、DENE-2759）
 
 ## 背景
 

@@ -396,16 +396,16 @@ _Avoid_: 因材料完整或「差一点就能做」自动恢复旧合同；把 r
 
 ## 仓库分工
 
-**出海方法 skill**: 选方向、选词、页面蓝图、分发与复盘的可复用判断。真身在 kun-agent-mono `skills/overseas/`；本库用 `docs/agents/skills-domain.md` 声明 `overseas` 后导入软链。`seo-site-blueprint` 负责交付正文/事实台账，或具名内容 writer 与事实 reviewer 的可恢复交接；后二者是角色，不新增入口或 skill。改方法去 mono，不在本库再写一份本地实体。见 ADR-0017。
-_Avoid_: 把 `.pi/skills/<name>` 当可编辑真身；把方法 skill 写进某个产品仓库；为单次选词结果新建 skill
+**出海方法 skill**: 选方向、选词、页面蓝图、分发与复盘的可复用判断。分两处放：跨出海站复用的选词、分发、复盘与外部取证（`vertical-keyword-loop`、`distribution-link-loop`、`product-growth-review`、`treg-research`）真身在 kun-agent-mono 能力包 `skills/packs/overseas-site/`，由 mono `pack-links.py` 软链进本库 `.agents/skills/`、不进本库 git；本库自己的项目技能（`seo-site`、`product-definition`、`overseas-merchant-payment`）真身就在 `.agents/skills/`。`seo-site` 负责交付正文/事实台账，或具名内容 writer 与事实 reviewer 的可恢复交接；后二者是角色，不新增入口或 skill。改能力包里的方法去 mono，不在本库再写一份。见 mono ADR-0126（取代 ADR-0017）。
+_Avoid_: 沿 `.agents/skills/` 里的能力包软链直接改 mono 原件；把方法 skill 写进某个产品仓库；为单次选词结果新建 skill
 
-**工程性 skill**: 承载建站、埋点、读数判定等执行动作的 skill——随具体产品项目走，真身落在产品项目仓库（如 `oversea-project/<项目>/.pi/skills/<name>/`），由该项目的 `sync-project-skills` 分发；本知识库只存方法原则笔记与创建指示。
-_Avoid_: 把工程性 skill 真身写进本知识库或 mono 的 `skills/overseas/`；把执行类 skill 和知识类原则混在同一仓库
+**工程性 skill**: 承载建站、埋点、读数判定等执行动作的 skill——随具体产品项目走，真身落在产品项目仓库（如 `oversea-project/<项目>/.agents/skills/<name>/`，`.claude/skills` 软链到它）；本知识库只存方法原则笔记与创建指示。
+_Avoid_: 把工程性 skill 真身写进本知识库或 mono 能力包；把执行类 skill 和知识类原则混在同一仓库
 
 **知识类笔记**: 二手提炼的原则、方法论、原文摘要——归本知识库 `overseas/` 对应步骤目录（如 `2-建站开发/`）。它是查阅素材，不是可执行产物；执行 agent 据此到产品项目创建工程性 skill。
 _Avoid_: 在产品项目仓库里重复存知识类原则笔记；把可执行 skill 当成知识类笔记留在本库
 
-**两仓分工**: 知识库 `overseas/` 存「为什么 + 方法论」，产品项目仓库存「怎么执行」；出海方法 skill 另有第三落点 kun-agent-mono（ADR-0017）。工程性 skill 的创建指示可暂存本库 `docs/agents/`，真身与运行时投影归产品项目。见 ADR-0003。
+**两仓分工**: 知识库 `overseas/` 存「为什么 + 方法论」，产品项目仓库存「怎么执行」；出海方法 skill 一部分在本库 `.agents/skills/`，跨站复用的在 kun-agent-mono 能力包（mono ADR-0126）。工程性 skill 的创建指示可暂存本库 `docs/agents/`，真身归产品项目。见 ADR-0003。
 _Avoid_: 跨仓库随意落盘导致知识库混进产品代码、方法 skill 在本库与 mono 各改一份
 
 ## 待决项（proposed）

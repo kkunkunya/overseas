@@ -1,5 +1,5 @@
-# 出海知识库方法领域。导入器只认下方 kebab-case 行。
-# overseas skill 从 kun-agent-mono `skills/overseas/` 导入，由 import-project-skills.py 链到 .agents / .claude / .grok / .pi。
+# 出海知识库技能来源。
+# 项目技能真身在本库 .agents/skills/（.claude/skills 软链到它）；跨出海站复用的方法技能在 kun-agent-mono 能力包 skills/packs/overseas-site/，由 mono registry.yaml 的 projects.overseas.packs 选用，pack-links.py 链进 .agents/skills/ 并写进 .git/info/exclude（mono ADR-0126）。
 # 人审流程图：仓库根目录 overseas-skill-map.html。
 # frontend / engineering / deploy 在独立产品仓库声明，不在本库装。
-overseas
+general

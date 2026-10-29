@@ -1,0 +1,202 @@
+<!doctype html>
+<!--
+  SEO / GEO 中文讲解页模板（seo-site）。
+  用法：每轮站内 SEO / GEO 改动完工体检后复制一份，替换所有 {{…}}，删掉不适用的节点和这些注释。
+  - 说明用中文；顾客看的示例文案保持原语言（套 class="en"）。
+  - 状态四色固定含义：done=已上线，rule=已写进规则/技能但未落站，todo=进行中，gap=缺口（建议，等人拍板）。
+  - 第 4 节体检表照项目里那份 E-E-A-T 体检表抄当天分数；看不到的写 ?，不按「已写好未上线」给分。
+  - 第 6、7 节从 seo-site/references/source-library.md 挑本轮实际用到的行，不整表复制。
+  - 每条事实写明出处；没核实的写进第 8 节「证据边界」。
+  交付：作为附件发到对应任务评论里。
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{项目名}} · SEO / GEO 讲解：{{本轮主题}}</title>
+<style>
+:root{
+  --ink:#1d1a16;--ink2:#5a534a;--line:#e3ddd2;--paper:#faf7f1;--card:#fff;
+  --gold:#9a7a3a;--gold-bg:#f6eedc;
+  --done:#2f7a4f;--done-bg:#e3f2e8;
+  --rule:#2f5f8f;--rule-bg:#e3edf7;
+  --todo:#a0582a;--todo-bg:#fbe9dc;
+  --gap:#8a2f3a;--gap-bg:#f7e1e4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 24px 80px}
+h1{font-size:28px;line-height:1.3;margin:0 0 8px}
+h2{font-size:21px;margin:56px 0 12px;padding-top:12px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:24px 0 8px}
+p{margin:8px 0}
+.sub{color:var(--ink2)}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.toc a{font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;background:var(--card)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:12px 0}
+.callout{background:var(--gold-bg);border-color:#e6d6b0}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f3efe6;font-weight:600}
+code{font:12.5px ui-monospace,Menlo,monospace;background:#f1ece2;padding:1px 5px;border-radius:4px}
+.en{font-family:Georgia,"Times New Roman",serif;font-style:italic;color:#3d3a35}
+.tag{display:inline-block;font-size:12px;line-height:1.6;padding:0 8px;border-radius:999px;white-space:nowrap}
+.t-done{background:var(--done-bg);color:var(--done)}
+.t-rule{background:var(--rule-bg);color:var(--rule)}
+.t-todo{background:var(--todo-bg);color:var(--todo)}
+.t-gap{background:var(--gap-bg);color:var(--gap)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;margin:8px 0 16px}
+.rings{position:relative;width:360px;max-width:100%;aspect-ratio:1;margin:8px auto}
+.ring{position:absolute;border-radius:50%;display:flex;align-items:flex-start;justify-content:center;text-align:center;font-size:13px}
+.r1{inset:0;background:#efe6d3}
+.r2{inset:12%;background:#e6d8bb}
+.r3{inset:24%;background:#d9c59c}
+.r4{inset:37%;background:#3b2f1c;color:#fff;align-items:center;font-size:15px}
+.ring span{margin-top:10px;font-weight:600}
+.r4 span{margin:0}
+.eeat-row{display:grid;grid-template-columns:380px 1fr;gap:24px;align-items:center}
+.arch{display:grid;grid-template-columns:1fr 40px 1fr;align-items:stretch}
+.arrow{display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--gold)}
+.side{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.side h4{margin:0 0 10px;font-size:14px;color:var(--ink2);font-weight:600}
+.layer{border:1px dashed var(--line);border-radius:8px;padding:8px;margin:8px 0}
+.layer>.lt{font-size:12px;color:var(--ink2);margin-bottom:6px}
+.nodes{display:flex;flex-wrap:wrap;gap:6px}
+.node{font-size:12.5px;padding:4px 8px;border-radius:6px;border:1px solid var(--line);background:#fbfaf7}
+.node.done{border-color:#9cc9ad;background:var(--done-bg)}
+.node.rule{border-color:#a7c3e0;background:var(--rule-bg)}
+.node.todo{border-color:#e8b896;background:var(--todo-bg)}
+.node.gap{border-color:#dba3ab;background:var(--gap-bg);border-style:dashed}
+.node.old{color:#8a8378;text-decoration:line-through}
+.score td.s{text-align:center;font-weight:600}
+.s0{color:var(--gap)}.s1{color:var(--todo)}.s2{color:var(--done)}
+small,.small{font-size:12.5px;color:var(--ink2)}
+a{color:#7a5a1e}
+@media(max-width:860px){.eeat-row,.arch{grid-template-columns:1fr}.arch .arrow{transform:rotate(90deg);height:40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>{{本轮主题：一句话说这轮 SEO / GEO 改了什么}}</h1>
+<p class="sub">{{项目名}}（{{域名}}）· {{YYYY-MM-DD}} · {{任务号}} · 说明用中文，顾客看的示例保持原文。数据来自 {{取证来源：当天线上抓取 / 分支 / 报告}}；没核实的地方写在第 8 节。</p>
+
+<div class="toc">
+  <a href="#s1">1 · 这轮在做什么</a><a href="#s2">2 · E-E-A-T 速览</a><a href="#s3">3 · 架构前后对比</a>
+  <a href="#s4">4 · E-E-A-T 体检表</a><a href="#s5">5 · 文案改前改后</a><a href="#s6">6 · 资源清单</a>
+  <a href="#s7">7 · 参考的 skill</a><a href="#s8">8 · 边界与下一步</a>
+</div>
+
+<div class="box callout">
+<b>一句话结论：</b>{{结论：这轮补了哪一维信任、还缺什么、哪些已上线哪些没上线}}
+</div>
+
+<h2 id="s1">1 · 这轮在做什么</h2>
+<div class="box">
+  <p>{{用人话说这轮的目标、涉及哪些页、和上一轮的关系。先复述对方的理解，再补充需要纠偏的一两点。}}</p>
+</div>
+
+<h2 id="s2">2 · E-E-A-T 速览</h2>
+<!-- 新读者保留整节；对方已熟悉时只留同心圆和「放到本站上」一列。 -->
+<p>E-E-A-T 是 Google 质量评估员手册里的四个维度，都在回答：<b>凭什么信你？</b>它不是一个排名分数，只能把信号一项项做实；Trust 在中心。</p>
+<div class="eeat-row">
+  <div class="rings" aria-label="E-E-A-T 同心圆，Trust 在中心">
+    <div class="ring r1"><span>Experience 亲身经验</span></div>
+    <div class="ring r2"><span>Expertise 专业</span></div>
+    <div class="ring r3"><span>Authoritativeness 权威</span></div>
+    <div class="ring r4"><span>Trust<br>信任</span></div>
+  </div>
+  <table>
+    <tr><th style="width:150px">维度</th><th>它问的是</th><th>放到本站上</th></tr>
+    <tr><td><b>Experience</b></td><td>真的用过、做过吗？</td><td>{{本站的示范结果 / 一手素材}}</td></tr>
+    <tr><td><b>Expertise</b></td><td>懂不懂这个领域？</td><td>{{本站的事实准确性 / 方法说明}}</td></tr>
+    <tr><td><b>Authoritativeness</b></td><td>别人认不认你？</td><td>{{站外提及、目录、AI 引用；只能在站外挣}}</td></tr>
+    <tr><td><b>Trust</b>（核心）</td><td>诚实、安全、可靠吗？</td><td>{{谁运营、怎么联系、收款退款、AI 声明、边界声明}}</td></tr>
+  </table>
+</div>
+
+<h2 id="s3">3 · 架构前后对比</h2>
+<p>分四层看：顾客看得到的<b>页面层</b>、每页里面的<b>内容层</b>、只给机器看的<b>机器可读层</b>、我们做事用的<b>规则层</b>（技能）。每个节点标状态色；E-E-A-T 维度写在层标题后面。</p>
+<div class="legend">
+  <span class="tag t-done">已上线</span><span class="tag t-rule">已写进规则，还没落站</span><span class="tag t-todo">进行中</span><span class="tag t-gap">缺口（建议，等拍板）</span>
+</div>
+
+<!-- 下面四个 h3 各复制一组 .arch。节点示例：<span class="node done">/</span> <span class="node gap">/about</span> <span class="node old">删掉的段落</span> -->
+<h3>3.1 页面层：有哪些页、谁能被收录</h3>
+<div class="arch">
+  <div class="side"><h4>改前</h4>
+    <div class="layer"><div class="lt">任务页（可索引）</div><div class="nodes"><span class="node done">{{URL}}</span></div></div>
+    <div class="layer"><div class="lt">信任页</div><div class="nodes"><span class="node done">{{URL}}</span></div></div>
+  </div>
+  <div class="arrow">→</div>
+  <div class="side"><h4>改后</h4>
+    <div class="layer"><div class="lt">任务页（可索引）</div><div class="nodes"><span class="node done">{{URL}}</span></div></div>
+    <div class="layer"><div class="lt">信任页 ← Trust</div><div class="nodes"><span class="node gap">{{About / 方法说明}}</span></div></div>
+  </div>
+</div>
+
+<h3>3.2 内容层：页内正文与 FAQ</h3>
+<div class="arch">
+  <div class="side"><h4>改前</h4><div class="layer"><div class="lt">{{页 URL}}：H2 列表</div><div class="nodes"><span class="node old">{{旧 H2}}</span></div></div></div>
+  <div class="arrow">→</div>
+  <div class="side"><h4>改后</h4><div class="layer"><div class="lt">{{页 URL}}：H2 = 用户问法</div><div class="nodes"><span class="node rule">{{新 H2 · 首句即答}}</span></div></div></div>
+</div>
+
+<h3>3.3 机器可读层：结构化数据与抓取</h3>
+<div class="arch">
+  <div class="side"><h4>改前</h4><div class="layer"><div class="lt">Schema / sitemap / robots</div><div class="nodes"><span class="node done">{{Organization …}}</span></div></div></div>
+  <div class="arrow">→</div>
+  <div class="side"><h4>改后</h4><div class="layer"><div class="lt">Schema / sitemap / robots</div><div class="nodes"><span class="node rule">{{+ WebSite …}}</span><span class="node gap">{{sameAs：站外主页建好再加}}</span></div></div></div>
+</div>
+
+<h3>3.4 规则层：我们的技能</h3>
+<div class="arch">
+  <div class="side"><h4>改前</h4><div class="layer"><div class="lt">技能</div><div class="nodes"><span class="node rule">{{seo-site …}}</span></div></div></div>
+  <div class="arrow">→</div>
+  <div class="side"><h4>改后</h4><div class="layer"><div class="lt">技能</div><div class="nodes"><span class="node rule">{{本轮新增或修改的规则}}</span></div></div></div>
+</div>
+
+<h2 id="s4">4 · E-E-A-T 体检表</h2>
+<p class="small">0 = 没有，1 = 有一部分，2 = 做实了，? = 没法测。只按当天线上能看到的打分。分数格加 class s0 / s1 / s2 上色。</p>
+<table class="score">
+  <tr><th style="width:110px">维度</th><th>信号</th><th style="width:60px">改前</th><th style="width:60px">现在</th><th>下一步（owner）</th></tr>
+  <tr><td>Trust</td><td>{{信号}}</td><td class="s s0">0</td><td class="s s2">2</td><td>{{动作 · 任务号}}</td></tr>
+  <tr><td>Expertise</td><td>{{信号}}</td><td class="s s1">1</td><td class="s s1">1</td><td>{{动作}}</td></tr>
+  <tr><td>Experience</td><td>{{信号}}</td><td class="s s1">1</td><td class="s s1">1</td><td>{{动作}}</td></tr>
+  <tr><td>Authority</td><td>{{信号}}</td><td class="s">?</td><td class="s">?</td><td>{{distribution-link-loop}}</td></tr>
+</table>
+
+<h2 id="s5">5 · 文案改前改后（节选）</h2>
+<table>
+  <tr><th>改前</th><th>改后</th><th>作用（维度 / GEO）</th></tr>
+  <tr><td class="en">{{旧句}}</td><td class="en">{{新句}}</td><td>{{例：首句即答，实体写全 · Expertise}}</td></tr>
+</table>
+
+<h2 id="s6">6 · 资源清单</h2>
+<!-- 从 source-library.md 挑本轮实际用到的行；新来源先写进资源库再引用。 -->
+<table>
+  <tr><th>类别</th><th>来源</th><th>一句话收获</th><th>核对日</th></tr>
+  <tr><td>官方</td><td><a href="{{URL}}">{{标题}}</a></td><td>{{精髓}}</td><td>{{YYYY-MM-DD}}</td></tr>
+  <tr><td>研究 / 第三方</td><td><a href="{{URL}}">{{标题}}</a></td><td>{{精髓（第三方，未经官方确认）}}</td><td>{{YYYY-MM-DD}}</td></tr>
+  <tr><td>对标站</td><td><a href="{{URL}}">{{站}}</a></td><td>{{学到什么}}</td><td>{{YYYY-MM-DD}}</td></tr>
+</table>
+
+<h2 id="s7">7 · 参考的 skill：精髓与用法</h2>
+<table>
+  <tr><th>skill</th><th>来源</th><th>精髓</th><th>融进了我们哪里</th><th>没照抄的</th></tr>
+  <tr><td>{{名}}</td><td><a href="{{URL}}">{{仓库}}</a></td><td>{{精髓}}</td><td>{{规则文件 · 节}}</td><td>{{原因}}</td></tr>
+</table>
+
+<h2 id="s8">8 · 边界与下一步</h2>
+<div class="box">
+  <p><b>证据边界：</b>{{哪些是线上实测、哪些是已写好未上线、哪些来自第三方、哪些还没测（如 AI 引擎实际引用）}}</p>
+</div>
+<table>
+  <tr><th>#</th><th>做什么</th><th>维度</th><th>状态</th></tr>
+  <tr><td>1</td><td>{{先 Trust，最后 Authority}}</td><td>Trust</td><td><span class="tag t-todo">{{任务号}}</span></td></tr>
+</table>
+<p class="small">下一轮 SEO / GEO 改动按同样结构更新：资源 → 改动 → 架构前后 → 体检表。</p>
+
+</div>
+</body>
+</html>
