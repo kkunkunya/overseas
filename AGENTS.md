@@ -8,7 +8,7 @@
 
 - 查资料从 `README.md` 和对应步骤 `_本步导航.md` 进入；新笔记归入1–6步并更新本步导航，保留作者、出处和适用阶段。
 - 全流程看 `overseas-skill-map.html`，路线数据与来源索引在 `3-SEO获客/SEO-GEO全流程/`。地图说明启动条件，不是产品实时状态或效果证明。
-- 可复用方法真身在 kun-agent-mono `skills/overseas/`；本库 `.agents/skills/` 仅为导入投影，不能沿软链直接修改 live 源。方法在 mono 独立工作面改、验收合并后导入，见 ADR-0017。
+- 本库项目技能真身在 `.agents/skills/`（`.claude/skills` 是指向它的软链）。跨出海站复用的方法技能真身在 kun-agent-mono 能力包 `skills/packs/overseas-site/`，由 mono `pack-links.py` 软链进 `.agents/skills/`、不进本库 git；不能沿软链直接改，到 mono 独立工作面改、合并后自动链进来。见 mono ADR-0126（取代 ADR-0017）。
 - 工具安装与接入、抓取/性能/快照、埋点、修复复测、发布及运行证据均归具体产品仓；产品执行票也在产品仓跟踪。本库只保留通用方法和交棒链接，见 `docs/agents/issue-tracker.md`。
 - 不知道出海下一步时用 `ask-overseas`；精确触发、准备态、证据要求与交接以当前正式 Skill 为准，不在本提示词复制另一套路由表。正文制作归 `seo-site-blueprint` 的交付或具名交接。
 
@@ -42,4 +42,4 @@
 单 context（single-context）——根目录一个 `CONTEXT.md` + `docs/adr/`，由 domain-modeling 惰性创建。见 `docs/agents/domain.md`。
 
 ### Skills domain
-本库声明 `overseas` 方法领域；真身在 kun-agent-mono `skills/overseas/`，本库只导入软链。见 `docs/agents/skills-domain.md` 与 ADR-0017。
+本库项目技能在 `.agents/skills/`；跨站方法技能来自 mono 能力包 `overseas-site`（mono `registry.yaml` 的 `projects.overseas.packs` 选用），由 `pack-links.py` 链进来。见 `docs/agents/skills-domain.md`。
